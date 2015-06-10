@@ -15331,10 +15331,17 @@ img#logo-footer {
 }
 .widget-container {
   background: white none repeat scroll 0% 0%;
-  padding: 12.5px;
+  padding-top: 0;
+  padding-bottom: 25px;
   -webkit-box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 0.15);
   box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 0.15);
+}
+.widget-container #portrait {
+  margin-bottom: 25px;
+}
+.widget-container #link-list {
+  padding-left: 30px;
 }
 .penulis {
   margin-top: 0;
