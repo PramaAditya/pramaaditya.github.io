@@ -15325,6 +15325,7 @@ img#logo-footer {
 .header-section {
   height: 375px;
   background-size: cover;
+  background-position: bottom;
 }
 .content-column.first {
   margin-top: -125px;
