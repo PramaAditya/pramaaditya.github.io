@@ -15271,6 +15271,9 @@ img#logo-footer {
 .list-unstyled {
   margin-bottom: 0;
 }
+.post:not(.first) {
+  margin-top: 25px;
+}
 .tanggal-small {
   font-weight: 700;
   font-style: italic;
@@ -15297,8 +15300,9 @@ img#logo-footer {
 }
 .article-section {
   padding-top: 25px;
-  background-image: url(../img/small_steps.png);
+  background-image: url(../img/pattern.png);
   background-color: white;
+  padding-bottom: 50px;
 }
 .article-section .content-column {
   background-color: white;
@@ -15327,7 +15331,7 @@ img#logo-footer {
   background-size: cover;
   background-position: bottom;
 }
-.content-column.first {
+.first .content-column {
   margin-top: -125px;
 }
 .widget-container {
