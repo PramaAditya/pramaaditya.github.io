@@ -20,6 +20,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/facebook_comment.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/facebook_comment.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/footer.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -29,11 +38,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/google_anal.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/google_anal.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/head.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_includes\/head.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_includes\/image.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/image.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -175,6 +202,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/batmans.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189537,
+		"inputAbbreviatedPath": "\/_site\/img\/batmans.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/batmans.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/contact-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -234,7 +272,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 250815,
+		"initialSize": 315594,
 		"inputAbbreviatedPath": "\/_site\/img\/post-bg-03.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/post-bg-03.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -281,6 +319,17 @@
 		"initialSize": 115144,
 		"inputAbbreviatedPath": "\/_site\/img\/post-sample-image.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/post-sample-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/superman-comic-book-characters-photo-u22.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192661,
+		"inputAbbreviatedPath": "\/_site\/img\/superman-comic-book-characters-photo-u22.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/superman-comic-book-characters-photo-u22.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -436,6 +485,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/batmans.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189537,
+		"inputAbbreviatedPath": "\/img\/batmans.jpg",
+		"outputAbbreviatedPath": "\/img\/batmans.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/contact-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -443,6 +503,17 @@
 		"initialSize": 290070,
 		"inputAbbreviatedPath": "\/img\/contact-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/contact-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/fullcolor.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192661,
+		"inputAbbreviatedPath": "\/img\/fullcolor.jpg",
+		"outputAbbreviatedPath": "\/img\/fullcolor.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -495,7 +566,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 250815,
+		"initialSize": 83122,
 		"inputAbbreviatedPath": "\/img\/post-bg-03.jpg",
 		"outputAbbreviatedPath": "\/img\/post-bg-03.jpg",
 		"outputPathIsOutsideProject": 0,
