@@ -11,6 +11,12 @@
   color: white;
   text-decoration: none;
 }
+.share-page {
+  margin-top: 1em;
+}
+.share-page a {
+  text-decoration: none;
+}
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -408,3 +414,4 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+/*# sourceMappingURL=clean-blog.css.map */
