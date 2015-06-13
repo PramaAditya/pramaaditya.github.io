@@ -16,6 +16,13 @@
 }
 .share-page a {
   text-decoration: none;
+  color: white;
+}
+.share-page a .fa-inverse {
+  color: #0085a1;
+}
+.share-page a .fa-inverse:hover {
+  color: white;
 }
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
