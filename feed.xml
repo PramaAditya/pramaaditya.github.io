@@ -5,8 +5,8 @@
     <description>Tulis menulis isi pikiran Vran</description>
     <link>http://vranbor.github.io/</link>
     <atom:link href="http://vranbor.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 13 Jun 2015 22:37:48 +0700</pubDate>
-    <lastBuildDate>Sat, 13 Jun 2015 22:37:48 +0700</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2015 22:51:34 +0700</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2015 22:51:34 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -53,54 +53,6 @@
         <pubDate>Sat, 13 Jun 2015 20:00:00 +0700</pubDate>
         <link>http://vranbor.github.io/2015/06/13/lean-canvas/</link>
         <guid isPermaLink="true">http://vranbor.github.io/2015/06/13/lean-canvas/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Lean for Comic</title>
-        <description>&lt;!-- _includes/image.html --&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    
-        &lt;img src=&quot;http://vranbor.github.io/img/lean-canvas.jpg&quot; alt=&quot;Lean Canvas&quot; /&gt;
-    
-    
-        &lt;p class=&quot;image-caption&quot;&gt;Lean Canvas on Progress&lt;/p&gt;
-    
-    
-&lt;/div&gt;
-
-&lt;p&gt;Berikut adalah Lean Canvas untuk komik yang ingin saya buat. Ada beberapa tantangan dalam pembuatan Lean Canvas ini. Tantangan pertama adalah bagaimana cara mendifinisakan masalah yang mampu divalidasi, untuk komik! Karena secara formal, industri kreatif tidak membuat produk berdasarkan masalah, sehingga sangat sulit mencari referensi untuk mendefiniskannya. Untungnya selama membaca/mendengar buku &lt;a href=&quot;http://www.audible.com/pd/Arts-Entertainment/Superheroes-Audiobook/B00FM89B64/ref=a_search_c4_1_1_srTtl?qid=1433937571&amp;amp;sr=1-1&quot;&gt;Superheroes!&lt;/a&gt; yang berisi sejarah pembuatan pahlawan super Amerika. Di dalamnya diceritakan alasan bisnis dari penciptaan karakter-karakter superhero dari DC dan Marvel.&lt;/p&gt;
-
-&lt;p&gt;Dari sana saya mencoba mendefinisikan masalah yang ingin kami validasi adalah:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tidak ada superhero ikonik milik Indonesia&lt;/li&gt;
-  &lt;li&gt;Kurang adanya komik Indonesia yang membawa tema sains&lt;/li&gt;
-  &lt;li&gt;Tidak ada tokoh komik yang menjadi kompas moral bagi anak-anak di Indonesia&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Perlu diingat bahwa Lean Canvas ini merupakan iterasi pertama sehingga isinya masih sangat minim, terlebih karena saya dan Meka belum tahu bagaimana keadaan industri komik di Indonesia, baik komik lokal maupun komik luar. Dapat dilihat bahwa Unique Value Proposition masih saya kosongkan, ini karena kami masih belum memiliki plot sama sekali!&lt;/p&gt;
-
-&lt;p&gt;Namun ada beberapa hal menarik lain dari Lean Canvas yang ingin saya bahas.&lt;/p&gt;
-
-&lt;h3 id=&quot;going-digital&quot;&gt;Going Digital&lt;/h3&gt;
-&lt;p&gt;Saya ingin merilis komik kami sebagai komik Digital, ada beberapa alasan kenapa kami ingin melakukannya:
-* Biaya lebih murah
-* Target &lt;em&gt;early adopters&lt;/em&gt; kami adalah mahasiswa, yang mayoritas membaca komik lewat &lt;em&gt;Scanlation&lt;/em&gt;, sehingga tidak asing dengan komik digital
-* Potensi animasi pada komik digital, seperti pada komik &lt;em&gt;proof of concept&lt;/em&gt; oleh Mark Waid, &lt;a href=&quot;http://markwaid.com/digital/free-digital-comic-luther/&quot;&gt;“Luther”&lt;/a&gt;, &lt;a href=&quot;https://comicstore.marvel.com/Free-Infinite-Comics/page/2743&quot;&gt;Marvel Infinte&lt;/a&gt; dan komik &lt;a href=&quot;http://www.bottom-of-the-ninth.com/&quot;&gt;“Bottom of The Ninth”&lt;/a&gt; karya Ryan Woodward.&lt;/p&gt;
-
-&lt;h3 id=&quot;pay-what-you-want&quot;&gt;Pay What You Want&lt;/h3&gt;
-&lt;p&gt;Kami juga ingin mencoba menggunakan metode “Pay What You Want”, dimana calon pembaca dapat membayar berapapun yang mereka mau bahkan &lt;strong&gt;gratis sekalipun&lt;/strong&gt;. Metode ini terkenal oleh kesuksesan band Radiohead yang merilis albumnya, Rainbow, di web, dengan sistem pay what you want. Dari &lt;a href=&quot;http://www.whatpricedidyouchoose.com/survey_results&quot;&gt;survey&lt;/a&gt; yang dilakukan pada 5000 responden, ditemukan bahwa rata-rata bayaran per &lt;em&gt;download&lt;/em&gt; adalah sebesar £3.88/&lt;em&gt;download&lt;/em&gt;. Saat ini saya masih meneliti lagi faktor apa yang dapat membuat metode PWYW paling feasible untuk dilakukan.&lt;/p&gt;
-
-&lt;p&gt;Kami juga mencoba untuk mendapatkan &lt;em&gt;revenue&lt;/em&gt; dari merchandise, secepat mungkin, dengan menggunakan momentum &lt;em&gt;referral&lt;/em&gt; dari metode PWYW.&lt;/p&gt;
-
-&lt;h2 id=&quot;penutup&quot;&gt;Penutup&lt;/h2&gt;
-&lt;p&gt;Namun tentu kedua hal diatas tidak akan berarti apabila komik yang dijual tidak memiliki kualitas cerita dan visual yang bagus.  Oleh karena itu semua &lt;em&gt;feedback&lt;/em&gt; dan masukan sangat berarti bagi kami.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 13 Jun 2015 20:00:00 +0700</pubDate>
-        <link>http://vranbor.github.io/2015/06/13/2015-06-13-lean-canvas/</link>
-        <guid isPermaLink="true">http://vranbor.github.io/2015/06/13/2015-06-13-lean-canvas/</guid>
         
         
       </item>
