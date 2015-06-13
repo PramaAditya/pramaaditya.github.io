@@ -137,6 +137,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/2015\/06\/13\/2015-06-13-lean-canvas\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2015\/06\/13\/2015-06-13-lean-canvas\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_site\/2015\/06\/13\/lean-canvas\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/2015\/06\/13\/lean-canvas\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/2015\/06\/13\/manga-v-komik\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -213,6 +231,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bg-digital-comic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124683,
+		"inputAbbreviatedPath": "\/_site\/img\/bg-digital-comic.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/bg-digital-comic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/contact-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -224,6 +253,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/fullcolor.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192661,
+		"inputAbbreviatedPath": "\/_site\/img\/fullcolor.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/fullcolor.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/home-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -231,6 +271,28 @@
 		"initialSize": 437490,
 		"inputAbbreviatedPath": "\/_site\/img\/home-bg.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/home-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/lean-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 246465,
+		"inputAbbreviatedPath": "\/_site\/img\/lean-bg.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/lean-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/lean-canvas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202170,
+		"inputAbbreviatedPath": "\/_site\/img\/lean-canvas.jpg",
+		"outputAbbreviatedPath": "\/_site\/img\/lean-canvas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -319,17 +381,6 @@
 		"initialSize": 115144,
 		"inputAbbreviatedPath": "\/_site\/img\/post-sample-image.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/post-sample-image.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/superman-comic-book-characters-photo-u22.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 192661,
-		"inputAbbreviatedPath": "\/_site\/img\/superman-comic-book-characters-photo-u22.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/superman-comic-book-characters-photo-u22.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -496,6 +547,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bg-digital-comic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124683,
+		"inputAbbreviatedPath": "\/img\/bg-digital-comic.jpg",
+		"outputAbbreviatedPath": "\/img\/bg-digital-comic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/contact-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -525,6 +587,28 @@
 		"initialSize": 437490,
 		"inputAbbreviatedPath": "\/img\/home-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/home-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lean-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 246465,
+		"inputAbbreviatedPath": "\/img\/lean-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/lean-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/lean-canvas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208144,
+		"inputAbbreviatedPath": "\/img\/lean-canvas.jpg",
+		"outputAbbreviatedPath": "\/img\/lean-canvas.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
