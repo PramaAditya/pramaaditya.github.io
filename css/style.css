@@ -1,4 +1,4 @@
-body {
+body#orbit {
     padding: 0;
     font-size: 16px;
     line-height: 25.875px;
@@ -6,17 +6,17 @@ body {
     margin: 0px 0px 0px 0%;
 }
 
-div.wrapper {
+article.markdown-body div.wrapper {
     width: 62%;
     margin: 0 auto;
     padding: 50px 0;
 }
 
-div.pad {
+article.markdown-body div.pad {
     padding-left: 2em;
 }
 
-p {
+article.markdown-body p {
     font-size: 1em;
     line-height: 2em;
     font-family: "Libre Baskerville";
@@ -36,6 +36,16 @@ article.markdown-body {
 
 article.markdown-body ul {
     padding: 0px 0px 0px 1em;
+    list-style: none!important;
+    
+}
+article.markdown-body ul li{
+	padding-left: 1em;
+}
+article.markdown-body ul li:before {
+ content: "\0BB \020";
+ float: left;
+ margin-left: -1em;
 }
 
 article.markdown-body p.subtitle {
