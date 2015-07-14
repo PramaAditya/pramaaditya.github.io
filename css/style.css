@@ -88,3 +88,8 @@ em {
 	 font-style: italic;
 }
 
+img#logo {
+   max-width: 100%;
+   width: 200px;
+   float: right;
+}
