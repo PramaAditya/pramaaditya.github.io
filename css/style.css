@@ -48,6 +48,12 @@ article.markdown-body ul li:before {
  margin-left: -1em;
 }
 
+article.markdown-body #home:before {
+ content: "\0BB \020";
+ float: left;
+ margin-right: .2em; 
+}
+
 article.markdown-body p.subtitle {
     font-size: 1em;
     line-height: 1em;
