@@ -6,10 +6,53 @@ body#orbit {
     margin: 0px 0px 0px 0%;
 }
 
-article.markdown-body div.wrapper {
-    width: 62%;
-    margin: 0 auto;
-    padding: 50px 0;
+#signup_form{
+    position: fixed;
+    float: right;
+    top: 30%;
+    right: 1.5em;
+}
+
+#signup_title{
+    font-family: "Economica";
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+    line-height: 1.25em !important;
+    margin-bottom: 0.25em!important;
+}
+
+#signup_subtitle{
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 0 1em 0!important;
+}
+
+#signup_label{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#mc-embedded-subscribe{
+    background-color: red!important;
+    font-family: "Economica";
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+hr.end {
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+article.markdown-body {
+    margin: 0px 22em 0px 8em;
 }
 
 article.markdown-body div.pad {
@@ -23,15 +66,6 @@ article.markdown-body p {
     font-weight: 400;
     font-style: normal;
     margin: 0px 0px 0.5em 0px;
-}
-
-hr.end {
-    line-height: 2em;
-    margin-bottom: 2em;
-}
-
-article.markdown-body {
-    padding: 0px 15em;
 }
 
 article.markdown-body ul {
@@ -108,8 +142,9 @@ article.markdown-body em {
 
 article.markdown-body img#logo {
     max-width: 100%;
-    width: 180px;
+    width: 120px;
     float: right;
+    margin-right: 1em;
 }
 @media only screen and (max-width: 1100px) {
     article.markdown-body {
