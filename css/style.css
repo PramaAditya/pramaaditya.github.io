@@ -1,0 +1,90 @@
+body {
+	 padding: 0;
+	 font-size: 16px;
+	 line-height: 25.875px;
+	 font-family: 'HelveticaNeueETW01-55Rg';
+	 margin: 0px 0px 0px 0%;
+}
+
+div.wrapper {
+	 width: 62%;
+	 margin: 0 auto;
+	 padding: 50px 0;
+}
+
+div.pad{
+	padding-left: 2em;
+}
+
+p {
+	 font-size: 1em;
+	 line-height: 2em;
+	 font-family: "Libre Baskerville";
+	 font-weight: 400;
+	 font-style: normal;
+	 margin: 0px 0px 0.5em 0px;
+}
+
+hr.end{
+	line-height: 2em;
+	margin-bottom: 2em;
+}
+
+article.markdown-body {
+	 padding: 0px 15em;
+}
+
+ul {
+	 padding: 0px 0px 0px 1em;
+}
+
+p.subtitle {
+	 font-size: 1em;
+	 line-height: 1em;
+	 margin: 0px 0px 1em 0px;
+}
+
+h1 {
+	 font-family: "Economica";
+	 font-weight: 700;
+	 font-style: normal;
+	 font-size: 2em;
+	 line-height: 1.25em;
+	 text-transform: uppercase;
+	 border-width: 0px 0px 1px 0px;
+	 border-style: solid;
+	 margin: 0.25em 0px 0.5em 0px;
+}
+
+h1.title {
+	 font-size: 3em;
+	 line-height: 2em;
+	 font-family: 'Abril Fatface', cursive;
+	 font-weight: 400;
+	 font-style: normal;
+	 margin: 12px 0px 0px 0px;
+	 border-width: 0px;
+}
+
+h2 {
+	 line-height: 2em;
+font-family: 'Abril Fatface', cursive;	 font-weight: 400;
+	 font-style: normal;
+	 font-size: 1.5em;
+}
+
+h3 {
+font-family: 'Abril Fatface', cursive;	 font-weight: 400;
+	 font-style: normal;
+	 font-size: 1em;
+	 line-height: 2em;
+}
+
+strong {
+	 font-weight: 700;
+}
+
+em {
+	 font-style: italic;
+}
+
