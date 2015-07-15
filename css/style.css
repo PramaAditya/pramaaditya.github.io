@@ -155,9 +155,8 @@ article.markdown-body img#logo {
         margin: 0px 2em !important;
     }
     #signup_form{
-    display: none;
-    }
-    #signup_form_mobile{
+        position: inherit;
+        float: left;
         display: block;
         margin: 0px 2em !important;
     }
