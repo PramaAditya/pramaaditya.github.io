@@ -156,7 +156,6 @@ article.markdown-body img#logo {
     }
     #signup_form{
         position: inherit;
-        float: left;
         display: block;
         margin: 0px 2em !important;
     }
