@@ -19,6 +19,13 @@ body#orbit {
 #meta-update{
     border-left: 1px solid black;
 }
+#meta-update-mobile{
+    display: none;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family: "Economica";
+    font-weight: 700;
+}
 #orbit_nav li a{
     vertical-align: center;
     border-radius: 0;
@@ -137,12 +144,12 @@ article.markdown-body h1 {
 }
 
 article.markdown-body #the-end, article.markdown-body h1.title {
-    font-size: 3em;
+    font-size: 6em;
     line-height: 1.25em;
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
     font-style: normal;
-    margin: -0.25em 0px .5em 0px;
+    margin: -0.25em 0px 0em 0px;
     border-width: 0px;
 }
 
@@ -177,11 +184,20 @@ article.markdown-body img#logo {
     float: right;
     margin-right: 1em;
 }
+@media only screen and (max-width: 1000px) {
+    #meta-update{
+        display: none;
+    }
+    #meta-update-mobile{
+        display: block;
+    }
+}
 @media only screen and (max-width: 768px) {
     article.markdown-body {
         margin: 0px 2em !important;
         padding-top: 5.5em;
     }
+
     #orbit_nav {
         padding-left: 0;
     }
