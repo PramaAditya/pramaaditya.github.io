@@ -74,6 +74,8 @@
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Economica:700|Libre+Baskerville:400,700,400italic|Abril+Fatface' rel='stylesheet' type='text/css'>
 
+    <!-- JQUERY -->
+    <script type="text/javascript" src="/js/simple-expand.min.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -84,7 +86,7 @@
 </head>
 
 
-<body id="orbit">
+<body id="orbit" data-spy="scroll" data-target="#navbar">
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -95,19 +97,30 @@
   ga('send', 'pageview');
 
 </script>
-	
-  <article class="markdown-body">
-  
-  <!-- <p id="home"><a href="http://vranbor.github.io">HOME</a></p> -->
-  <em>
+	<div id="navbar">
+    <ul id="orbit_nav" class="nav nav-pills">
+      <li role="presentation"><a href="http://vranbor.github.io"><strong><span class="glyphicon glyphicon-home" aria-hidden="true"></span></strong></a></li>
+      <li role="presentation"><a href="#premis">Premis</a></li>
+      <li role="presentation"><a href="#tone"><em>Tone</em></a></li>
+      <li role="presentation"><a href="#latar-belakang">Latar Belakang</a></li>
+      <li role="presentation"><a href="#karakter">Karakter</a></li>
+      <li role="presentation"><a href="#the-story"><em>The Story</em></a></li>
+      <li role="presentation"><a href="#format"><em>Format</em></a></li>
+      <li role="presentation"><a href="#authors-note"><em>Author's Note</em></a></li>
+      <li role="presentation" id="meta-update"><a href="">
                     <span class="meta smaller"> Diperbarui pada 
-                    15
+                    16
                     Juli
                       
                     2015
                     ,
-                    5:30 WIB</span>
-</em>
+                    8:6 WIB</span>
+</a></li>
+    </ul>
+  </div>
+  <article class="markdown-body">
+  
+  <!-- <p id="home"><a href="http://vranbor.github.io">HOME</a></p> -->
     <img id="logo" src="../img/orbit.png" alt="orbit"/>
 
 <h1 class="title">
@@ -147,7 +160,7 @@ Orbit
 <p>Karena Novita berasal dari keluarga yang miskin serta sifatnya yang disiplin dan kaku menyebabkan dirinya sering kesal dengan Helmy yang seenaknya dan tidak disiplin.</p>
 <p>Setelah Helmy menjalani latihan dengan JAGER dan diperbolehkan keluar dengan pengawasan, Novita diperintahkan untuk menjadi penanggung jawab atas Helmy. Untuk menjaga identitas Helmy saat menggunakan kekuatannya, Novita memberikan seragam JAGER yang dimodifikasi sebagai kostum untuk Helmy.</p>
 <h1 id="the-story"><em>The Story</em></h1>
-<p>Cerita kita dimulai pada <strong>Januari 2016</strong>. Protagonis kita, bernama Helmy, terbangun di atas ranjang rumah sakit di Florida. Di samping kasurnya di melihat ada kedua orang tuanya yang terbang ke Amerika untuk mendampinginya. Dokter memberitahukan bahwa Helmy diselamatkan dari kapsul darurat pesawat ulang alik SpaceAce di samudra Pasifik. Pesawat SpaceAce yang dia tumpangi mengalami kecelakaan akibat anomali kosmik misterius yang menewaskan seluruh awak kapal.</p>
+<p>Cerita kita dimulai pada <strong>Januari 2016</strong>. Protagonis kita, bernama Helmy, terbangun di atas ranjang rumah sakit di Florida. Di samping kasurnya di melihat ada kedua orang tuanya yang terbang ke Amerika untuk mendampinginya. Dokter memberitahukan bahwa Helmy baru saja bangun dari koma setelah diselamatkan dari kapsul darurat pesawat ulang alik SpaceAce di Samudra Pasifik. Pesawat SpaceAce yang dia tumpangi mengalami kecelakaan akibat anomali kosmik misterius yang menewaskan seluruh awak kapal.</p>
 <div class="pad">
 
 <hr />
@@ -161,7 +174,7 @@ Orbit
 <p>Di saat yang sama, pintu kabin secara otomatis tertutup meninggalkan penumpang lain dan pilot di kabin penumpang, menyisakan Helmy sendirian di kabin pilot. Lalu kabin tersebut memisahkan diri dari badan pesawat dan meluncur ke arah Bumi. Kapsul darurat ini berhasil mendarat di tengah lautan pasifik. Helmy adalah satu-satunya penumpang yang selamat dari kecelakaan ini.</p>
 <hr class="end"/>
 </div>
-<p>Setelah bangun dari koma dan lalu dirawat selama beberapa hari, Helmy pulang ke Jakarta didampingi kedua orang tua nya. Di Indonesia dia disambut oleh banyak wartawan dan media yang menginginkan wawancara eksklusif atas apa yang terjadi di pesawat itu. Namun kecelakaan tersebut meninggalkan trauma pada Helmy. Sebelumnya Helmy pasti akan langsung mengambil kesempatan untuk diwawancara agar eksis, kini dia tidak ingin membicarakan apapun tentang kecelakaan itu.</p>
+<p>Setelah bangun dari koma dan lalu dirawat serta direhabilitasi selama beberapa bulan di Amerika, Helmy pulang ke Jakarta didampingi kedua orang tua nya. Di Indonesia dia disambut oleh banyak wartawan dan media yang menginginkan wawancara eksklusif atas apa yang terjadi di pesawat itu. Namun kecelakaan tersebut meninggalkan trauma pada Helmy. Sebelumnya Helmy pasti akan langsung mengambil kesempatan untuk diwawancara agar eksis, kini dia tidak ingin membicarakan apapun tentang kecelakaan itu.</p>
 <p>Sesampainya di rumah, Helmy langsung masuk ke kamarnya untuk tidur.</p>
 <p>Saat pagi hari tiba, Helmy terbangun dalam keadaan melayang diatas kasurnya! Dalam keadaan panik, Helmy berteriak minta tolong. Ketika ibunya hendak membuka pintu, Helmy kembali jatuh ke tanah. Helmy dengan terbata-bata mengatakan bahwa dia baru saja terbang, tapi ibunya menganggap itu hanyalah halusinasi dari trauma kecelakaan SpaceAce. Namun Helmy yakin bahwa dirinya baru saja terbang, karena sensasinya tanpa gravitasi yang dia tahu betul dari pergi ke luar angkasa.</p>
 <p>Siang harinya, Helmy sendirian di rumah karena kedua orang tua nya harus pergi bekerja. Di rumah dia mencoba kembali untuk terbang. Dan dia berhasil! Helmy bisa melayang! Berbekal latihan <em>zero gravity</em> dari program SpaceAce, Helmy mencoba bernavigasi di dalam rumah layaknya astronot di pesawat ulang alik. Dengan eksperimentasi sederhana, Helmy menemukan bahwa dirinya bisa merubah efek gaya gravitasi pada dirinya dan benda yang dia sentuh, memungkinkannya mengangkat benda yang sangat berat.</p>
@@ -173,7 +186,12 @@ Orbit
 <p>Untuk bisa bersaing, komik yang kita buat adalah komik digital, tapi bukan web-comic. Komik nya akan berformat PDF dan bisa di download oleh pembaca.</p>
 <p>Untuk memaksimalkan potensi sebagai komik digital, komik ini akan berorientasi <em>landscape</em> seperti The Private Eye, Injustice dan lini Marvel Infinite. Walaupun begitu layoutnya masih memungkinkan untuk dibuat menjadi portrait untuk di cetak dengan menaruh 2 halaman landscape menjadi 1 halaman portrait, seperti yang dilakukan komik Injustice.</p>
 <h1 id="the-end"><em>The End</em></h1>
-<p><em>Summary</em> yang gw buat baru mencakup arc pertama yang kira-kira memakan 2-4 chapter. Seperti yang udah dijelasin di bagian Tone, di arc pertama ini Orbit masih seorang <em>Street-Level superhero</em>. Gw merasa level ini cukup aman sebagai <em>entry-point</em> buat superhero baru. Kalau ternyata kurang cocok, maka Orbit bisa &quot;naik level&quot; dengan JAGER sebagai <em>plot device</em> nya</p>
+<h1 id="authors-note"><em>Author's Note</em></h1>
+<p><em>Summary</em> yang gw buat baru mencakup arc pertama yang kira-kira memakan 2-4 chapter. Seperti yang udah dijelasin di bagian Tone, di arc pertama ini Orbit masih seorang <em>Street-Level superhero</em>. Gw merasa level ini cukup aman sebagai <em>entry-point</em> buat superhero baru. Kalau ternyata kurang cocok, maka Orbit bisa &quot;naik level&quot; dengan JAGER sebagai <em>plot device</em> nya.</p>
+<p>Filosofi gw dalam membuat komik ini dan universe di dalamnya adalah gw harus buat cerita <em>Science Fiction</em> yang bagian sains nya seakurat mungkin dengan sains di dunia asli. Bagian fiksinya baru gw masukin di &quot;lubang-lubang&quot; yang sains belum ketahui. Contohnya kekuatannya si Orbit</p>
+<p>Frase kekuatan &quot;manipulasi gravitasi&quot; sebenarnya gw pakai untuk <em>simplicity sake</em>. Tapi sebenarnya kemampuan dari Orbit ini adalah: <em>warping space and time at will</em>. Sains belum tahu pasti apa penyebab <em>space and time</em> bisa melengkung apabila diberi massa atau energi, disitu gw masukin fiksinya dalam bentuk kekuatan si Orbit yang bisa manipulasi <em>space and time</em>.</p>
+<p>Filosofi ini gw pegang teguh karena tujuan akhir gw adalah ingin mengedukasi dan menginspirasi pembaca komik ini akan kehebatan sains dan alam semesta, dan juga seberapa banyak hal yang tidak kita ketahui tentang alam semesta. Bikin pinter anak-anak Indonesia lah 😄</p>
+<p>Walaupun begitu pasti tetep ada beberapa <em>law of physics</em> yang gw langgar demi <a href="http://tvtropes.org/pmwiki/pmwiki.php/Main/RuleOfCool">Rule of Cool</a> 😝</p>
 
 
     <hr>
@@ -266,6 +284,10 @@ Orbit
 
 <!-- Custom Theme JavaScript -->
 <script src="/js/clean-blog.min.js "></script>
+
+  <script type="text/javascript">
+  $('body').scrollspy({ target: '#navbar' })
+  </script>  
 
 </body>
 
