@@ -7,26 +7,29 @@ body#orbit {
     position: relative;
 }
 
-#orbit_nav{
+#orbit_nav {
     display: inline-block;
     text-align: center;
     position: fixed;
     padding-left: 5em;
     background-color: white;
     width: 100%;
+    z-index: 100;
 }
 
-#meta-update{
+#meta-update {
     border-left: 1px solid black;
 }
-#meta-update-mobile{
+
+#meta-update-mobile {
     display: none;
     font-size: 1em;
     line-height: 1.5em;
     font-family: "Economica";
     font-weight: 700;
 }
-#orbit_nav li a{
+
+#orbit_nav li a {
     vertical-align: center;
     border-radius: 0;
     font-size: 1em;
@@ -34,21 +37,51 @@ body#orbit {
     font-family: "Economica";
     font-weight: 700;
 }
-#orbit_nav li.active a{
+
+#orbit_nav li.active a {
     background-color: red;
 }
 
-#signup_form_mobile{
+#signup_form_mobile {
     display: none;
 }
-#signup_form{
+
+#signup_form {
     position: fixed;
     float: right;
-    top: 22%;
+    top: 10%;
     right: 1.5em;
 }
 
-#signup_title{
+.button {
+    clear: both;
+    background-color: #AAA;
+    border: 0px none;
+    border-radius: 4px;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    margin: 0px 5px 10px 0px;
+    padding: 0px 22px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+    font-family: "Economica";
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+#nanti-aja{
+    margin-left: 16px;
+}
+
+#signup_title {
     font-family: "Economica";
     font-weight: 700;
     font-style: normal;
@@ -59,7 +92,7 @@ body#orbit {
     color: red;
 }
 
-#signup_subtitle{
+.signup_subtitle {
     font-size: 1em;
     line-height: 1.5em;
     font-family: "Libre Baskerville";
@@ -68,19 +101,20 @@ body#orbit {
     margin: 0 0 1em 0!important;
 }
 
-#signup_label{
+.signup_label {
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
     font-style: normal;
 }
 
-#mc-embedded-subscribe{
+#mc-embedded-subscribe {
     background-color: red!important;
-    font-family: "Economica";
-    font-weight: 700;
-    font-style: normal;
-    text-transform: uppercase;
 }
+
+span.asterisk, .indicates-required{
+    display: none!important;
+}
+
 
 hr.end {
     line-height: 2em;
@@ -108,21 +142,22 @@ article.markdown-body p {
 article.markdown-body ul {
     padding: 0px 0px 0px 1em;
     list-style: none!important;
-    
 }
-article.markdown-body ul li{
-	padding-left: 1em;
+
+article.markdown-body ul li {
+    padding-left: 1em;
 }
+
 article.markdown-body ul li:before {
- content: "\0BB \020";
- float: left;
- margin-left: -1em;
+    content: "\0BB \020";
+    float: left;
+    margin-left: -1em;
 }
 
 article.markdown-body #home:before {
- content: "\0BB \020";
- float: left;
- margin-right: .2em; 
+    content: "\0BB \020";
+    float: left;
+    margin-right: .2em;
 }
 
 article.markdown-body p.subtitle {
@@ -143,7 +178,8 @@ article.markdown-body h1 {
     margin: 0.25em 0px 0.5em 0px;
 }
 
-article.markdown-body #the-end, article.markdown-body h1.title {
+article.markdown-body #the-end,
+article.markdown-body h1.title {
     font-size: 6em;
     line-height: 1.25em;
     font-family: 'Abril Fatface', cursive;
@@ -152,7 +188,6 @@ article.markdown-body #the-end, article.markdown-body h1.title {
     margin: -0.25em 0px 0em 0px;
     border-width: 0px;
 }
-
 
 article.markdown-body h2 {
     line-height: 2em;
@@ -184,30 +219,43 @@ article.markdown-body img#logo {
     float: right;
     margin-right: 1em;
 }
+
 @media only screen and (max-width: 1000px) {
-    #meta-update{
+    #meta-update {
         display: none;
     }
-    #meta-update-mobile{
+    #meta-update-mobile {
         display: block;
     }
 }
+
 @media only screen and (max-width: 768px) {
     article.markdown-body {
         margin: 0px 2em !important;
         padding-top: 5.5em;
     }
-
     #orbit_nav {
         padding-left: 0;
     }
-    #signup_form{
+    #signup_form {
         position: inherit;
-        float:none;
+        float: none;
         display: block;
-        margin: 0px 2em !important;
+        margin: 2em 2em !important;
+        
+        z-index: 0;
+        text-align: center;
     }
-    #signup_form_mobile form{
+    #signup_form #signup_title {
+        margin-top: 0!important;
+    }
+    #signup_form_mobile form {
         padding: 0!important;
+    }
+    #signup_form_frame{
+        margin-left: auto;
+        position: relative;
+        border: 1px solid black;
+        padding: 0px 1em;
     }
 }
