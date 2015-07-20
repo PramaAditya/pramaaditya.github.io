@@ -1,3 +1,7 @@
+#myModal .modal-body{
+    text-align: center;
+}
+
 body#orbit {
     padding: 0;
     font-size: 16px;
