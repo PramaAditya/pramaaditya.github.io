@@ -2,6 +2,8 @@
     text-align: center;
 }
 
+
+
 body#orbit {
     padding: 0;
     font-size: 16px;
@@ -55,7 +57,10 @@ body#orbit {
     float: right;
     top: 10%;
     right: 1.5em;
+    width: 19em;
 }
+
+
 
 .button {
     clear: both;
