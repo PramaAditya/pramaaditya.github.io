@@ -66,7 +66,7 @@
     <url>
       <loc>http://vranbor.github.io/feed.xml</loc>
       
-        <lastmod>2015-07-21T18:16:55+07:00</lastmod>
+        <lastmod>2015-07-22T01:45:25+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,7 +81,7 @@
     <url>
       <loc>http://vranbor.github.io/</loc>
       
-        <lastmod>2015-07-21T18:16:55+07:00</lastmod>
+        <lastmod>2015-07-22T01:45:25+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,7 +96,7 @@
     <url>
       <loc>http://vranbor.github.io/orbit/</loc>
       
-        <lastmod>2015-07-21T18:16:55+07:00</lastmod>
+        <lastmod>2015-07-22T01:45:25+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -111,7 +111,7 @@
     <url>
       <loc>http://vranbor.github.io/signup/</loc>
       
-        <lastmod>2015-07-21T18:16:55+07:00</lastmod>
+        <lastmod>2015-07-22T01:45:25+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -122,6 +122,21 @@
     </url>
     
   
+    
+  
+    
+    <url>
+      <loc>http://vranbor.github.io/thankyou/</loc>
+      
+        <lastmod>2015-07-22T01:45:25+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
     
   
 </urlset>

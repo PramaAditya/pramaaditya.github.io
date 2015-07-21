@@ -1,0 +1,25 @@
+#email-widget{
+	border-left: 1px solid #F2F2F2;
+margin-left: -10px;
+padding-left: 10px;
+padding-right: 5px;
+}
+
+#email-widget #signup_title{
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-weight: 300;
+	font-size: 2em !important;
+	line-height: 1em !important;
+}
+
+#email-widget .signup_subtitle{
+	font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-weight: 300;
+	font-size: 1em !important;
+	line-height: auto !important;
+}
+
+#ty_container{
+	margin-top: 2em;
+	padding: 1em;
+}
