@@ -3,6 +3,9 @@
     
     <head>
         <meta charset="utf-8">
+        <title>BOCA</title>
+        <meta name="description" content="Enabling your futsal court to the next level">
+        <meta author="Prama Aditya Putra">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
         <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -11,9 +14,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
     
-    <body>
+    <body data-target="#navbar-ex-collapse">
         <div class="cover">
-            <div class="nav navbar navbar-inverse">
+            <div class="nav navbar" id="top-bar">
                 <div class="container">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
@@ -22,18 +25,18 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand"><img height="20" alt="Brand" src="img/nav_logo.png"></a>
+                        <a class="navbar-brand" href="#beranda"><img height="20" alt="Brand" src="img/nav_logo.png"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active">
-                                <a href="#">Home</a>
-                            </li>
                             <li>
                                 <a href="#apa-itu-boca">Apa itu BOCA?</a>
                             </li>
                             <li>
                                 <a href="#fitur">Fitur</a>
+                            </li>
+                            <li>
+                                <a href="#kontak-kami">Hubungi Kami</a>
                             </li>
                             <li>
                                 <a href="#tentang-kami">Tentang Kami</a>
@@ -45,12 +48,13 @@
                     </div>
                 </div>
             </div>
-            <div class="cover-image" style="background-image : url('img/home_bg.jpg')"></div>
+            <div class="cover-image" style="background-image : url('img/home_bg.jpg')"
+            id="beranda"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <img src="img/header_logo.png" class="center-block img-responsive">
-                        <h2 class="text-center text-inverse meh" contenteditable="true">Enabling your futsal court to the next level</h2>
+                        <h2 class="text-center text-inverse meh">Enabling your futsal court to the next level</h2>
                         <br>
                         <br>
                         <a href="#kontak-kami" class="btn btn-lg btn-primary call-to-action"><b>Gratis</b> untuk 1 bulan pertama</a>
@@ -247,6 +251,31 @@
                 </div>
             </div>
         </footer>
+        <script>
+            $('body').scrollspy({ target: '#navbar-ex-collapse' })
+                                                      $(window).scroll(function() {
+                                                if ($(this).scrollTop() > 1){  
+                                                    $('#top-bar').addClass("scroll");
+                                                  }
+                                                  else{
+                                                    $('#top-bar').removeClass("scroll");
+                                                  }
+                                                });
+                                              $(function() {
+                                          $('a[href*=#]:not([href=#])').click(function() {
+                                            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                                              var target = $(this.hash);
+                                              target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                                              if (target.length) {
+                                                $('html,body').animate({
+                                                  scrollTop: target.offset().top
+                                                }, 1000);
+                                                return false;
+                                              }
+                                            }
+                                          });
+                                        });
+        </script>
     </body>
 
 </html>

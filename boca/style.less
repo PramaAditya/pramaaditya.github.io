@@ -14,6 +14,10 @@
  * }
 */
 
+body {
+  position: relative;
+}
+
 @font-face {
   font-family: Bariol;
   src: url(fonts/Bariol_Regular.otf);
@@ -38,8 +42,23 @@
   font-weight: bold;
 }
 
-.navbar{
+.navbar {
   z-index: 100;
+}
+
+#top-bar {
+  &.scroll {
+    background-color: white!important;
+  }
+  transition: all 0.4s ease;
+  position: fixed;
+  border-radius: 0!important;
+  .active {
+    background-color: @brand-info!important;
+    a {
+      color: white;
+    }
+  }
 }
 
 //
@@ -321,7 +340,7 @@ monospace;
 //
 //##
 // Basics of a navbar
-@navbar-height : 80px;
+@navbar-height : 50px;
 @navbar-margin-bottom : @line-height-computed;
 @navbar-border-radius : @border-radius-base;
 @navbar-padding-horizontal : floor((@grid-gutter-width / 2));
@@ -788,7 +807,6 @@ monospace;
 }
 
 .call-to-action {
-  font-size: 3em;
   padding: .5em 1em;
 }
 
