@@ -258,6 +258,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/boca\/img\/header_logo copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64588,
+		"inputAbbreviatedPath": "\/_site\/boca\/img\/header_logo copy.png",
+		"outputAbbreviatedPath": "\/_site\/boca\/img\/header_logo copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/boca\/img\/header_logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -354,15 +365,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/css\/bootstrap.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/css\/clean-blog.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/css\/clean-blog.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -832,7 +834,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 315594,
+		"initialSize": 566853,
 		"inputAbbreviatedPath": "\/_site\/img\/post-bg-03.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/post-bg-03.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1023,6 +1025,17 @@
 		"initialSize": 359170,
 		"inputAbbreviatedPath": "\/boca\/img\/fitur.png",
 		"outputAbbreviatedPath": "\/boca\/img\/fitur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/boca\/img\/header_logo copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64588,
+		"inputAbbreviatedPath": "\/boca\/img\/header_logo copy.png",
+		"outputAbbreviatedPath": "\/boca\/img\/header_logo copy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
