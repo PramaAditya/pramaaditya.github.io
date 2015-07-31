@@ -3,10 +3,10 @@
   <channel>
     <title>Vran&#39;s Blog</title>
     <description>Tulis menulis isi pikiran Vran</description>
-    <link>http://vranbor.github.io/</link>
-    <atom:link href="http://vranbor.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 31 Jul 2015 15:31:21 +0700</pubDate>
-    <lastBuildDate>Fri, 31 Jul 2015 15:31:21 +0700</lastBuildDate>
+    <link>http://vranbor.com/</link>
+    <atom:link href="http://vranbor.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 31 Jul 2015 15:35:31 +0700</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2015 15:35:31 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -14,7 +14,7 @@
         <description>&lt;!-- _includes/image.html --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://vranbor.github.io/img/lean-canvas.jpg&quot; alt=&quot;Lean Canvas&quot; /&gt;
+        &lt;img src=&quot;http://vranbor.com/img/lean-canvas.jpg&quot; alt=&quot;Lean Canvas&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;Lean Canvas on Progress&lt;/p&gt;
@@ -54,8 +54,8 @@
 &lt;p&gt;Namun tentu kedua hal diatas tidak akan berarti apabila komik yang dijual tidak memiliki kualitas cerita dan visual yang bagus.  Oleh karena itu semua &lt;em&gt;feedback&lt;/em&gt; dan masukan sangat berarti bagi kami.&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Jun 2015 20:00:00 +0700</pubDate>
-        <link>http://vranbor.github.io/2015/06/13/lean-canvas/</link>
-        <guid isPermaLink="true">http://vranbor.github.io/2015/06/13/lean-canvas/</guid>
+        <link>http://vranbor.com/2015/06/13/lean-canvas/</link>
+        <guid isPermaLink="true">http://vranbor.com/2015/06/13/lean-canvas/</guid>
         
         
       </item>
@@ -74,7 +74,7 @@
 &lt;!-- _includes/image.html --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://vranbor.github.io/img/batmans.jpg&quot; alt=&quot;Berbagai Batman&quot; /&gt;
+        &lt;img src=&quot;http://vranbor.com/img/batmans.jpg&quot; alt=&quot;Berbagai Batman&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;Gambar Batman yang tidak konsisten&lt;/p&gt;
@@ -95,7 +95,7 @@
 &lt;!-- _includes/image.html --&gt;
 &lt;div class=&quot;image-wrapper&quot;&gt;
     
-        &lt;img src=&quot;http://vranbor.github.io/img/fullcolor.jpg&quot; alt=&quot;Komik Amerika yang berwarna&quot; /&gt;
+        &lt;img src=&quot;http://vranbor.com/img/fullcolor.jpg&quot; alt=&quot;Komik Amerika yang berwarna&quot; /&gt;
     
     
         &lt;p class=&quot;image-caption&quot;&gt;Komik Amerika yang berwarna&lt;/p&gt;
@@ -126,8 +126,8 @@
 &lt;p&gt;Saya merasa bahwa saat ini di Indonesia mayoritas komikus menggunakan gaya Manga, baik dalam gaya gambar dan metode produksinya (one man team). Menurut saya, metode produksi komik barat yang menekankan pada kolaborasi perlu digunakan di Indonesia untuk membuat komik dengan kualitas bagus dan cepat. Penggunaan seniman dan penulis berbeda pada suatu judul juga mempermudah masuknya seniman dan penulis baru ke dunia perkomikan, dibandingkan keadaan saat ini dimana penulis dan seniman komik baru harus membuat serial komik sendiri untuk masuk ke industri komik Indonesia. Saya yakin dengan metode produksi komik barat  industri komik Indonesia akan lebih cepat berkembang.&lt;/p&gt;
 </description>
         <pubDate>Sat, 13 Jun 2015 19:00:00 +0700</pubDate>
-        <link>http://vranbor.github.io/2015/06/13/manga-v-komik/</link>
-        <guid isPermaLink="true">http://vranbor.github.io/2015/06/13/manga-v-komik/</guid>
+        <link>http://vranbor.com/2015/06/13/manga-v-komik/</link>
+        <guid isPermaLink="true">http://vranbor.com/2015/06/13/manga-v-komik/</guid>
         
         
       </item>
@@ -147,8 +147,8 @@
 &lt;p&gt;Next time: Lean Canvas untuk komik?&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jun 2015 19:00:00 +0700</pubDate>
-        <link>http://vranbor.github.io/2015/06/12/sour/</link>
-        <guid isPermaLink="true">http://vranbor.github.io/2015/06/12/sour/</guid>
+        <link>http://vranbor.com/2015/06/12/sour/</link>
+        <guid isPermaLink="true">http://vranbor.com/2015/06/12/sour/</guid>
         
         
       </item>
@@ -186,8 +186,8 @@
 &lt;p&gt;Ide komik ini awalnya berasal dari teman saya Mekaputra. Awalnya saya kurang tertarik untuk membuat komik karena asumsi saya bahwa tidak ada pasar di Indonesia. Namun setelah membaca buku Running Lean saya mulai tertarik untuk mencoba menerapkan prinsip Lean dalam membuat sebuah komik. Dan dimulailah petualangan saya dan Mekaputra dalam membuat komik, &lt;em&gt;the Lean way&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Wed, 10 Jun 2015 19:00:00 +0700</pubDate>
-        <link>http://vranbor.github.io/2015/06/10/lean/</link>
-        <guid isPermaLink="true">http://vranbor.github.io/2015/06/10/lean/</guid>
+        <link>http://vranbor.com/2015/06/10/lean/</link>
+        <guid isPermaLink="true">http://vranbor.com/2015/06/10/lean/</guid>
         
         
       </item>
