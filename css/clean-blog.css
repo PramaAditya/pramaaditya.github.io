@@ -1,19 +1,37 @@
+.post-heading h1,
+.post-heading .subheading,
+.post-heading .meta,
+.post-heading .meta-smaller {
+  display: inline-block;
+}
 #email-widget {
-  margin-left: -10px;
   padding-left: 10px;
   padding-right: 5px;
+  padding: 1em;
+  background-color: #ecd078;
 }
 #email-widget #signup_title {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: 300;
   font-size: 2em !important;
   line-height: 1em !important;
+  margin-top: 0;
+  color: #c02942;
 }
 #email-widget .signup_subtitle {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: 300;
   font-size: 1em !important;
   line-height: auto !important;
+}
+#email-widget .signup_label {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-weight: 700;
+  color: #53777a;
+}
+#email-widget .button {
+  background-color: #53777a !important;
+  border-radius: 0!important;
 }
 #ty_container {
   margin-top: 2em;
@@ -26,15 +44,25 @@
   margin: 0 auto;
 }
 .image-wrapper .image-caption {
-  color: #c8c8c8;
+  color: #aeaeae;
   margin-top: .2em;
   margin-bottom: 0;
 }
 .image-wrapper .image-courtesy {
-  color: #eeeeee;
+  color: #d5d5d5;
   font-size: 10px;
   font-style: italic;
   margin-top: 0;
+}
+.image-wrapper .image-courtesy a {
+  background-color: rgba(255, 255, 255, 0);
+  color: inherit;
+  text-decoration: underline;
+}
+.image-wrapper .image-courtesy a:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: #eaa598;
+  text-decoration: underline;
 }
 .post a {
   color: white;
