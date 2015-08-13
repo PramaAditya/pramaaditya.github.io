@@ -31,11 +31,11 @@ canvas {
 }
 
 .particles-js {
-  -webkit-animation-duration: 5s;
-  -moz-animation-duration: 5s;
-  -ms-animation-duration: 5s;
-  -o-animation-duration: 5s;
-  animation-duration: 5s;
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  -ms-animation-duration: 8s;
+  -o-animation-duration: 8s;
+  animation-duration: 8s;
 }
 
 .subox {
@@ -109,7 +109,7 @@ canvas {
   position: absolute;
   top:0;
   width: 100%;
-  height: 50%;
+  height: 45%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -138,6 +138,12 @@ canvas {
   letter-spacing: 2.2px;
   // font-size: 18px;
   font-weight: 700!important;
+}
+
+.subox{
+  .mc-field-group{
+    margin-bottom: 5px;
+  }
 }
 
 @media (min-width: @screen-md) {
@@ -178,11 +184,19 @@ canvas {
   background: none!important;
   color: white;
   text-align: center;
-  border-top: none;
   border-radius: 0;
+  border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: solid 3px white;
+  padding: 0;
+  margin-top: 1em;
+  width: 80%
+  
+}
+
+.btn-style{
+  border-radius: 10px;
 }
 
 .sinopsis {
@@ -218,7 +232,7 @@ canvas {
 @gray-lighter : lighten(@gray-base,
 93.5%); // #eee
 @brand-primary : #9a0216;
-@brand-success : #5cb85c;
+@brand-success : darken(#5cb85c, 10%);
 @brand-info : #cfb53b;
 @brand-warning : #f0ad4e;
 @brand-danger : #d9534f;
@@ -294,7 +308,7 @@ monospace;
 @padding-xs-horizontal : 5px;
 @line-height-large : 1.3333333; // extra decimals for Win 8.1 Chrome
 @line-height-small : 1.5;
-@border-radius-base : 0px;
+@border-radius-base : 25px;//0px;
 @border-radius-large : 6px;
 @border-radius-small : 3px;
 //** Global color for active items (e.g., navs or dropdowns).
