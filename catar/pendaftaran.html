@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Bootstrap Wizard by Creative Tim</title>
+
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+
+  <link href="css/style.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <!--   Big container   -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+
+          <!--      Wizard container        -->
+          <div class="wizard-container">
+            <form action="" method="" class="form-horizontal">
+              <div class="card wizard-card ct-wizard-orange" id="wizard">
+
+                <!--        You can switch "ct-wizard-orange"  with one of the next bright colors: "ct-wizard-blue", "ct-wizard-green", "ct-wizard-orange", "ct-wizard-red"             -->
+
+                <div class="wizard-header">
+                  <h3>
+                    PENDAFTARAN CALON TARUNA
+                    <br>
+                    <small>Isi data diri anda dibawah</small>
+                  </h3>
+                </div>
+                <ul>
+                  <li><a href="#registrasi" data-toggle="tab">Registrasi</a></li>
+                  <li><a href="#identitas" data-toggle="tab">Identitas</a></li>
+                  <li><a href="#sekolah" data-toggle="tab">Sekolah</a></li>
+                  <li><a href="#ujian" data-toggle="tab">Ujian</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane" id="registrasi">
+                    <div class="row">
+                      <h4 class="info-text">Registrasi</h4>
+                      <div class="col-sm-10 col-sm-offset-1">
+                        <div class="form-group">
+                          <label for="nama" class="col-sm-3 control-label">Nama Lengkap</label>
+                          <div class="col-sm-9">
+                            <input type="email" class="form-control" id="nama" placeholder="co: Prama Aditya">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="ktp" class="col-sm-3 control-label">Nomor KTP</label>
+                          <div class="col-sm-9">
+                            <input type="email" class="form-control" id="ktp" placeholder="co: 000000000000000000">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="email" class="col-sm-3 control-label">Email</label>
+                          <div class="col-sm-9">
+                            <input type="email" class="form-control" id="email" placeholder="co: email@email.com">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="password" class="col-sm-3 control-label">Password</label>
+                          <div class="col-sm-9">
+                            <input type="password" class="form-control" id="password">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="confirmPassword" class="col-sm-3 control-label">Ulangi Password</label>
+                          <div class="col-sm-9">
+                            <input type="confirmPassword" class="form-control" id="password">
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="identitas">
+                    <div class="row">
+                    <h4 class="info-text"> Informasi diri anda </h4>
+                    <div class="col-sm-10 col-sm-offset-1">
+                      <div class="form-group">
+                        <label for="" class="col-sm-3 control-label choice-label">Jenis Kelamin</label>
+                        <div class="col-sm-9">
+                          <div class="col-sm-6">
+                            <div class="choice" data-toggle="wizard-radio">
+                              <input type="radio" name="kelamin" value="pria">
+                              <div class="icon">
+                                <i class="fa fa-male fa-5x"></i>
+                              </div>
+                              <h6>Pria</h6>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="choice" data-toggle="wizard-radio">
+                              <input type="radio" name="kelamin" value="wanita">
+                              <div class="icon">
+                                <i class="fa fa-female fa-5x"></i>
+                              </div>
+                              <h6>Wanita</h6>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="tempat-lahir" class="col-sm-3 control-label">Tempat Lahir</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="tempat-lahir">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="tanggal-lahir" class="col-sm-3 control-label">Tanggal Lahir</label>
+                        <div class="col-sm-8">
+                          <input type="date" class="form-control" id="tanggal-lahir">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="bapak" class="col-sm-3 control-label">Nama Bapak</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="bapak" placeholder="co: Suhardi">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="ibu" class="col-sm-3 control-label">Nama Ibu</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="ibu" placeholder="co: Kartini">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="tinggi" class="col-sm-3 control-label">Tinggi Badan</label>
+                        <div class="col-sm-8">
+                          <div class="input-group">
+                          <input type="number" class="form-control" id="tinggi">
+                          <div class="input-group-addon">cm</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="berat" class="col-sm-3 control-label">Berat Badan</label>
+                        <div class="col-sm-8">
+                          <div class="input-group">
+                          <input type="number" class="form-control" id="berat">
+                          <div class="input-group-addon">kg</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="sekolah">
+                    <h4 class="info-text"> Informasi masa sekolah anda </h4>
+                    <div class="row">
+                      <div class="col-sm-10 col-sm-offset-1">
+                      <div class="form-group">
+                        <label for="provinsi-slta" class="col-sm-3 control-label">Provinsi SLTA</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="provinsi-slta" placeholder="co: Jawa Barat">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="kota-slta" class="col-sm-3 control-label">Kota SLTA</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="kota-slta" placeholder="co: Bandung">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="nama-slta" class="col-sm-3 control-label">Nama Sekolah</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="nama-slta" placeholder="co: SMAN 3">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="JURUSAN-slta" class="col-sm-3 control-label">Jurusan di SLTA</label>
+                        <div class="col-sm-8">
+                          <select class="form-control" id="JURUSAN-slta">
+                          <option value="ipa">IPA</option>
+                          <option value="ips">IPS</option>
+                          <option value="bahasa">Bahasa</option>
+                          <option value="other">Lain-lain</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="uan-matematika" class="col-sm-3 control-label">NUAN/SKHUN Matematika</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="uan-matematika" placeholder="co: 8.9">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <label for="uan-inggris" class="col-sm-3 control-label">NUAN/SKHUN B. Inggris</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="uan-inggris" placeholder="co: 8.9">
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="ujian">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <h4 class="info-text"> Tempat ujian dan pilihan prodi yang anda minati </h4>
+                      </div>
+                      <div class="col-sm-10 col-sm-offset-1">
+                      <div class="form-group">
+                        <label for="kota-ujian" class="col-sm-3 control-label">Kota Ujian</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="kota-ujian">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="lokasi-ujian" class="col-sm-3 control-label">Lokasi Ujian</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="lokasi-ujian">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="prodi" class="col-sm-3 control-label">Pilihan Prodi</label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control" id="prodi">
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="wizard-footer">
+                  <div class="pull-right">
+                    <input type='button' class='btn btn-next btn-fill btn-warning btn-wd btn-sm' name='next' value='Selanjutnya' />
+                    <!-- <button class='btn btn-next btn-fill btn-warning btn-wd btn-sm' name='next'>Selanjutnya<i class="fa fa-chevron-circle-right"></i></button> -->
+                    <input type='button' class='btn btn-finish btn-fill btn-warning btn-wd btn-sm' name='finish' value='Selesai' />
+                    <!-- <button class='btn btn-finish btn-fill btn-warning btn-wd btn-sm' name='finish'><i class="fa fa-flag-checkered"></i>Selesai</button> -->
+                  </div>
+                  <div class="pull-left">
+                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd btn-sm' name='previous' value='Sebelumnya' />
+                    <!-- <button class='btn btn-previous btn-fill btn-default btn-wd btn-sm' name='previous'><i class="fa fa-chevron-circle-left"></i>Sebelumnya</button> -->
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- wizard container -->
+        </div>
+      </div>
+      <!-- end row -->
+    </div>
+    <!--  big container -->
+
+
+
+
+
+
+</body>
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<!--   plugins 	 -->
+<script src="js/jquery.bootstrap.wizard.js" type="text/javascript"></script>
+<script src="js/wizard.js"></script>
+
+</html>
