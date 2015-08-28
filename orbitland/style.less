@@ -1,24 +1,17 @@
-/*!
- * Default theme for Pingendo 
- * Homepage: http://pingendo.com  
- * Copyright 2015 Pingendo 
- * Licensed under MIT 
- * Based on Bootstrap v3.3.4
-*/
-
-
-/* Add custom CSS classes here 
- * 
- * img {
- *   box-shadow : 0px 0px 10px black !important;
- * }
-*/
-
+#logline{
+  font-size: @font-size-base;
+  text-shadow: 1px 1px rgba(2, 2, 2, 0.56);
+  .orbit{
+  text-shadow: 2px 2px rgba(2, 2, 2, 0);
+  }
+}
 canvas {
   display: block;
   vertical-align: bottom;
 }
-
+strong{
+  font-weight: bolder;
+}
 
 /* ---- particles.js container ---- */
 
@@ -51,7 +44,7 @@ canvas {
   animation-delay: 4s;
 }
 
-.sinopsis {
+#logline {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   -ms-animation-duration: 1s;
@@ -107,7 +100,7 @@ canvas {
 
 #particles-js {
   position: absolute;
-  top:0;
+  top: 0;
   width: 100%;
   height: 45%;
   background-repeat: no-repeat;
@@ -120,6 +113,16 @@ canvas {
   padding: 0 13px;
   color: rgba(255, 255, 255, 0);
   background-image: url('orbit.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 70%;
+}
+
+.orbit-black {
+  // background: red;
+  padding: 0 13px;
+  color: rgba(255, 255, 255, 0);
+  background-image: url('orbit-black.png');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 0% 70%;
@@ -140,8 +143,8 @@ canvas {
   font-weight: 700!important;
 }
 
-.subox{
-  .mc-field-group{
+.subox {
+  .mc-field-group {
     margin-bottom: 5px;
   }
 }
@@ -193,16 +196,15 @@ canvas {
   margin-top: 1em;
   width: 80%;
   //line-height:4;
-
 }
 
-.btn-style{
+.btn-style {
   border-radius: 10px;
 }
 
 .sinopsis {
-  color: white;
-  background: rgba(0, 0, 0, 0.8);
+  //color: white;
+  //background: rgba(0, 0, 0, 0.8);
   padding: 3em!important;
 }
 
@@ -233,7 +235,8 @@ canvas {
 @gray-lighter : lighten(@gray-base,
 93.5%); // #eee
 @brand-primary : #9a0216;
-@brand-success : darken(#5cb85c, 10%);
+@brand-success : darken(#5cb85c,
+10%);
 @brand-info : #cfb53b;
 @brand-warning : #f0ad4e;
 @brand-danger : #d9534f;
@@ -269,7 +272,7 @@ Consolas,
 "Courier New",
 monospace;
 @font-family-base : "Open Sans";
-@font-size-base : 10px;
+@font-size-base : 14px;
 @font-size-large : ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small : ceil((@font-size-base * 0.85)); // ~12px
 @font-size-h1 : floor((@font-size-base * 2.6)); // ~36px
@@ -309,7 +312,7 @@ monospace;
 @padding-xs-horizontal : 5px;
 @line-height-large : 1.3333333; // extra decimals for Win 8.1 Chrome
 @line-height-small : 1.5;
-@border-radius-base : 25px;//0px;
+@border-radius-base : 25px; //0px;
 @border-radius-large : 6px;
 @border-radius-small : 3px;
 //** Global color for active items (e.g., navs or dropdowns).
@@ -992,4 +995,12 @@ monospace;
 
 .socmed-row {
   margin: 2em 0 0 0;
+}
+
+.black {}
+
+.logo {}
+
+.padded {
+  padding: 2em;
 }

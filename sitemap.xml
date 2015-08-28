@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://vranbor.com/2015/08/28/komik-digital/</loc>
+      
+        <lastmod>2015-08-28T20:00:00+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://vranbor.com/2015/06/13/lean-canvas/</loc>
       
         <lastmod>2015-06-13T20:00:00+07:00</lastmod>
@@ -66,7 +81,7 @@
     <url>
       <loc>http://vranbor.com/feed.xml</loc>
       
-        <lastmod>2015-08-26T23:19:16+07:00</lastmod>
+        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,7 +96,7 @@
     <url>
       <loc>http://vranbor.com/</loc>
       
-        <lastmod>2015-08-26T23:19:16+07:00</lastmod>
+        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,7 +111,7 @@
     <url>
       <loc>http://vranbor.com/orbit/</loc>
       
-        <lastmod>2015-08-26T23:19:16+07:00</lastmod>
+        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -111,7 +126,7 @@
     <url>
       <loc>http://vranbor.com/signup/</loc>
       
-        <lastmod>2015-08-26T23:19:16+07:00</lastmod>
+        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -128,7 +143,7 @@
     <url>
       <loc>http://vranbor.com/thankyou/</loc>
       
-        <lastmod>2015-08-26T23:19:16+07:00</lastmod>
+        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

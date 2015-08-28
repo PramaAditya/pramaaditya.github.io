@@ -5,9 +5,60 @@
     <description>Comic and IT Geek</description>
     <link>http://vranbor.com/</link>
     <atom:link href="http://vranbor.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Aug 2015 23:19:16 +0700</pubDate>
-    <lastBuildDate>Wed, 26 Aug 2015 23:19:16 +0700</lastBuildDate>
+    <pubDate>Fri, 28 Aug 2015 13:28:23 +0700</pubDate>
+    <lastBuildDate>Fri, 28 Aug 2015 13:28:23 +0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Mau bikin komik? Jangan dicetak!</title>
+        <description>&lt;p&gt;Saat ini saya sedang dalam proses menulis komik superhero Indonesia. &lt;a href=&quot;http://orbitcomic.me&quot;&gt;&lt;strong&gt;Orbit&lt;/strong&gt;&lt;/a&gt;, adalah cerita mengenai seorang anak mahasiswa Jakarta bernama Helmy. Setelah menjadi &lt;em&gt;sole survivor&lt;/em&gt; dari kecelakaan pesawat ulang alik, Helmy mendapatkan kekuatan untuk memanipulasi gravitasi. Termakan rasa bersalah sebagai satu-satunya orang yang selamat (&lt;em&gt;survivor’s guilt&lt;/em&gt;), Helmy menggunakan kekuatannya sebagai Superhero dengan nama &lt;strong&gt;Orbit&lt;/strong&gt;. &lt;strong&gt;Orbit&lt;/strong&gt; direncanakan akan dirilis pada Januari 2016.&lt;/p&gt;
+
+&lt;p&gt;Orbit akan dirilis dalam bentuk komik digital dengan format PDF, CBR dan CBZ. Ada 2 alasan kenapa saya memutuskan untuk merilis komik saya dalam bentuk digital:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Alasan yang &lt;strong&gt;pertama&lt;/strong&gt;, saya membuat komik ini atas dasar kecintaan saya terhadap komik, baik manga maupun komik amerika. Saya biasa membaca komik lewat website &lt;em&gt;scanlation&lt;/em&gt;, sehingga saya jauh lebih sering membaca komik di layar komputer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Alasan yang &lt;strong&gt;kedua&lt;/strong&gt; adalah biaya. Untuk masuk ke dunia industri percetakan tidaklah murah. Keluarga saya sudah banyak makan asam garam soal percetakan. Paman saya, Mo Sidik (sekarang lebih dikenal sebagai &lt;em&gt;Stand Up Comedian&lt;/em&gt;), pernah membuat majalah anak SMA bernama &lt;strong&gt;Grey&lt;/strong&gt;. Produksi Grey berhenti setelah biaya percetakan terbukti terlalu besar untuk ditutupi oleh pemasukan. Harga komik lokal juga terlihat lebih mahal 10-15rb daripada komik Jepang yang notabene harganya ada di kisaran 20rb. Sudah kalah tenar, harga juga lebih mahal, sulit rasanya komik Indonesia bersaing di ranah fisik.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Namun membaca komik di layar komputer bisa jadi &lt;strong&gt;tidak nyaman&lt;/strong&gt;. Hal ini dikarenakan orientasi komik &lt;strong&gt;&lt;em&gt;portrait&lt;/em&gt;&lt;/strong&gt; tidak nyaman untuk dibaca di layar komputer yang notabene berorientasi &lt;em&gt;landscape&lt;/em&gt;. Untuk bisa membaca seluruh tulisan dengan jelas, saya harus memperbesar halaman komik dan hal ini merusak &lt;em&gt;pacing&lt;/em&gt; cerita yang sudah direncanakan sedemikian rupa oleh penulis dan penggambar komik.&lt;/p&gt;
+
+&lt;p&gt;Melihat permasalahan ini, saya memutuskan untuk membuat komik saya dalam halaman &lt;strong&gt;landscape&lt;/strong&gt;. Beberapa penulis dan &lt;em&gt;publisher&lt;/em&gt; besar sudah mulai menggunakan metode ini. Berikut adalah &lt;a href=&quot;http://pipedreamcomics.co.uk/10-of-the-best-landscape-oriented-digital-comics/&quot;&gt;daftar 10 komik yang berorientasi &lt;em&gt;landscape&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Tapi keputusan saya untuk membuat komik dengan format digital kini menghasilkan permasalahan baru: &lt;strong&gt;Pembajakan&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Pembajakan di Indonesia sudah menjadi hal yang cukup wajar. Walaupun mulai ada gerakan untuk mendorong penggunaan produk asli, mayoritas penduduk masih merasa tidak terganggu untuk membajak produk digital. Sebagai penulis, saya khawatir apabila komik saya disebar luaskan secara ilegal sampai-sampai mempengaruhi penjualan secara drastis.&lt;/p&gt;
+
+&lt;p&gt;Salah satu cara mencegah pembajakan adalah dengan menggunakan DRM atau &lt;em&gt;Digital Rights Management&lt;/em&gt;. Di dunia komik, contoh penerapan DRM adalah aplikasi Comixology. Di Comixology, pembaca bisa “membeli” komik digital yang diinginkan dan membacanya di aplikasi tersebut. Saya menulis kata membeli dalam tanda kurung karena pembeli sebenarnya &lt;strong&gt;tidak memiliki&lt;/strong&gt; file komik tersebut, Comixology hanya &lt;strong&gt;memberikan akses&lt;/strong&gt; pada pembeli untuk membaca file komik yang berada di server Comixology.&lt;/p&gt;
+
+&lt;p&gt;Namun masalah dapat muncul apabila Comixology memutuskan untuk menghapus komik tersebut dari &lt;em&gt;database&lt;/em&gt; mereka yang, seperti yang terjadi di &lt;a href=&quot;http://comicbook.com/blog/2013/04/10/comixology-apologizes-for-banning-saga-admits-apple-was-not-involved/&quot;&gt;kasus komik Saga&lt;/a&gt;. Pembeli yang sudah membayar kehilangan akses untuk membaca komik-komik tersebut, walaupun mereka sudah “membeli” komik tersebut secara legal.&lt;/p&gt;
+
+&lt;p&gt;Saya pribadi percaya bahwa ketika saya membeli sesuatu, saya harus mempunyai kepemilikan atas hal tersebut. Sebagai pemilik saya juga sudah seharusnya &lt;strong&gt;bebas&lt;/strong&gt; untuk melakukan apapun yang saya suka dengan barang tersebut selama tidak melanggar hukum. Dengan DRM, Pembeli tidak mepunyai kepemilikan atas komik yang dia beli, dan pembeli tidak bebas untuk memindahkan komiknya ke perangkat lain yang dia miliki dengan cara apapun yang dia inginkan.&lt;/p&gt;
+
+&lt;p&gt;Menurut riset dari Hewlett-Packard, DRM ternyata tidak efektif untuk mencegah penyebaran massal konten digital secara ilegal. DRM cepat atau lambat akan tertembus apabila permintaan memang tinggi. Jadi keberadaan DRM hanyalah mempersulit kostumer legal tanpa mampu mencegah penyebaran massal yang ilegal . Oleh karena itu saya juga memutuskan untuk &lt;strong&gt;tidak menggunakan DRM&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sebagai alternatif saya akan menggunakan metode &lt;strong&gt;&lt;em&gt;watermarking&lt;/em&gt;&lt;/strong&gt;. Dengan metode ini, &lt;em&gt;watermark&lt;/em&gt; (baik terlihat maupun tidak terlihat) yang berisi &lt;strong&gt;data pribadi&lt;/strong&gt; pembeli akan ditaruh di tiap halaman komik, beserta pemberitahuan untuk tidak menjual ulang dan mendistribusikan komik tersebut ke orang lain. Sebelum membeli komik, pembeli akan diminta persetujuannya terlebih dahulu dalam bentuk &lt;em&gt;terms and condition&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Penggunaan data pribadi ini dimaksudkan untuk menjadi &lt;em&gt;detterent&lt;/em&gt; bagi pembeli untuk membagi komik yang berisi data pribadinya ke orang yang tidak dikenal. Sehingga membuat setiap pembeli menjadi &lt;em&gt;gatekeeper&lt;/em&gt; untuk mencegah pembajakan komik, karena konsekuensi menyebar komik miliknya adalah data pribadinya akan tersebar ke orang-orang yang tidak ia kenali.&lt;/p&gt;
+
+&lt;p&gt;Metode &lt;em&gt;watermarking&lt;/em&gt; juga memungkinkan adanya halaman personalisasi dalam komik. Halaman personalisasi tersebut akan berisi paragraf seperti:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Terima kasih [nama pembeli]! Karena telah membeli komik ini secara &lt;strong&gt;legal&lt;/strong&gt;. Dengan membeli komik ini secara legal, [nama pembeli] telah memungkinkan kami untuk terus berkarya dan memajukan industri komik Indonesia.
+Apabila kamu bukan [nama pembeli], silahkan membeli komik kami secara legal di [url]. Bantu kami terus berkarya dan mari kita majukan industri komik Indonesia bersama-sama!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Begitulah rencana saya saat ini dalam membuat komik &lt;a href=&quot;http://orbitcomic.me&quot;&gt;Orbit&lt;/a&gt;. Komik Orbit akan berformat digital (PDF, CBR dan CBZ), berorientasi &lt;em&gt;landscape&lt;/em&gt; dan tanpa DRM. Sebagai gantinya data pribadi pembeli akan di &lt;em&gt;watermark&lt;/em&gt; pada tiap halaman komik untuk mencegah penyebaran massal komik Orbit.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Aug 2015 20:00:00 +0700</pubDate>
+        <link>http://vranbor.com/2015/08/28/komik-digital/</link>
+        <guid isPermaLink="true">http://vranbor.com/2015/08/28/komik-digital/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Lean for Comic</title>
