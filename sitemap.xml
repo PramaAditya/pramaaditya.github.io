@@ -81,7 +81,7 @@
     <url>
       <loc>http://vranbor.com/feed.xml</loc>
       
-        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
+        <lastmod>2015-08-28T13:29:53+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,22 +96,7 @@
     <url>
       <loc>http://vranbor.com/</loc>
       
-        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>http://vranbor.com/orbit/</loc>
-      
-        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
+        <lastmod>2015-08-28T13:29:53+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -126,7 +111,7 @@
     <url>
       <loc>http://vranbor.com/signup/</loc>
       
-        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
+        <lastmod>2015-08-28T13:29:53+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -143,7 +128,7 @@
     <url>
       <loc>http://vranbor.com/thankyou/</loc>
       
-        <lastmod>2015-08-28T13:28:23+07:00</lastmod>
+        <lastmod>2015-08-28T13:29:53+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
