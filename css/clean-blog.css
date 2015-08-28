@@ -1,3 +1,19 @@
+.orbit {
+  padding: 0 13px;
+  color: rgba(255, 255, 255, 0);
+  background-image: url('../img/orbit-white.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 70%;
+}
+.orbit-black {
+  padding: 0 13px;
+  color: rgba(255, 255, 255, 0);
+  background-image: url('../img/orbit-black.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 70%;
+}
 .post-heading h1,
 .post-heading .subheading,
 .post-heading .meta,
