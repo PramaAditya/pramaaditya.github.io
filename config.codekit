@@ -589,6 +589,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/css\/clean-blog.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/css\/clean-blog.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/css\/clean-blog.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1325,6 +1334,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/orbit-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6382,
+		"inputAbbreviatedPath": "\/_site\/img\/orbit-white.png",
+		"outputAbbreviatedPath": "\/_site\/img\/orbit-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/orbit.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1332,17 +1352,6 @@
 		"initialSize": 22573,
 		"inputAbbreviatedPath": "\/_site\/img\/orbit.png",
 		"outputAbbreviatedPath": "\/_site\/img\/orbit.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_site\/img\/orbit0.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6382,
-		"inputAbbreviatedPath": "\/_site\/img\/orbit0.png",
-		"outputAbbreviatedPath": "\/_site\/img\/orbit0.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
