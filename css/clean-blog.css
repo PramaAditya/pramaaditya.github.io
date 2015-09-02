@@ -94,12 +94,16 @@ article {
 .post-container {
   background-color: white;
   margin-top: 0px;
-  padding-left: 60px;
-  padding-right: 60px;
   padding-top: 20px;
   -webkit-box-shadow: -7px -5px 15px -6px rgba(0, 0, 0, 0.65);
   -moz-box-shadow: -7px -5px 15px -6px rgba(0, 0, 0, 0.65);
   box-shadow: -7px -5px 15px -6px rgba(0, 0, 0, 0.65);
+}
+@media only screen and (min-width: 768px) {
+  .post-container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 }
 .post a {
   color: white;
