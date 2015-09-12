@@ -1,15 +1,78 @@
 @import "cover";
 @import "nav-bar";
 @import "font";
-@import "animation";
 @import "section";
 @import "image-hover";
 @import "features";
 @import "button";
 @import "slider";
-@import "settings";
+@import "color";
 @import "foundation";
 @import "font-awesome";
+@import "typo";
+
+input[type="checkbox"] {
+  margin-bottom: 0!important;
+}
+
+.list-unstyled {
+  list-style: none;
+  margin: 0;
+}
+
+#brand-list ul {
+  overflow-y: scroll;
+  height: 160px;
+}
+
+.grid-sizer {
+  width: 25%;
+}
+
+.item {
+  cursor: pointer;
+  width: 25%;
+  padding: 0.3em;
+  margin-bottom: 1em;
+  height: auto;
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0;
+    &:hover {
+      opacity: 0.3;
+    }
+
+  }
+
+
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  .info {
+    text-align: center;
+
+    * {
+      font-size: 0.7rem;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .name {
+      font-weight: bold;
+    }
+
+    .price {
+      font-size: rem-calc(12);
+    }
+  }
+}
 
 // Or selectively include components
 // @import

@@ -1,0 +1,518 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pershoenalize</title>
+  <link rel="stylesheet" href="stylesheets/app.css" />
+  <script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+
+<body>
+  <span class="left-off-canvas-toggle menu-button" href="#"><i class="fa fa-bars"></i></span>
+
+  <div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+
+
+      <!-- Off Canvas Menu -->
+      <aside class="left-off-canvas-menu show-for-small-only">
+        <!-- whatever you want goes here -->
+        <ul>
+          <li><a href="#">Item 1</a></li>
+          ...
+        </ul>
+      </aside>
+      <div class="contain-to-grid fixed show-for-medium-up">
+
+        <nav class="top-bar" data-topbar>
+          <ul class="title-area">
+
+            <li class="name">
+              <h1>
+                <a href="#">
+                </a>
+              </h1>
+            </li>
+            <li class="toggle-topbar menu-icon">
+              <a href="#">
+                <span>menu</span>
+              </a>
+            </li>
+          </ul>
+
+          <section class="top-bar-section">
+            <ul class="left">
+              <li><a href="#">Home</a></li>
+              <li class="active has-dropdown">
+                <a href="#" data-options="align:top">Collection</a>
+                <ul class="dropdown">
+                  <li><a href="#">Collabortion</a></li>
+                  <li><a href="#">Collabortion Lol</a></li>
+                  <li><a href="#">Collabortion mehasdier</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Craftmanship</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+            <ul class="right">
+              <li><a href=""><i class="fa fa-user"></i> Sign In</a></li>
+            </ul>
+          </section>
+        </nav>
+
+      </div>
+      <div id="main-content">
+        <div class="row">
+          <div id="options" class="medium-3 columns show-for-medium-up">
+
+            <!-- <p id="filter-display"></p> -->
+
+            <h6>Brand</h6>
+            <div id="brand-list">
+              <div class="row">
+                <div class="small-1 columns">
+                  <label for="right-label" class="right inline"><i class="fa fa-search fa-2x"></i></label>
+                </div>
+                <div class="small-10 columns">
+                  <input type="text" class="search" id="brand-filter" placeholder="Search for ...">
+                </div>
+              </div>
+              <ul data-filter-group="brand" class="list list-unstyled">
+                <li class="checkbox">
+                  <input id="brand1" type="checkbox" name="brand" value=".brand1">
+                  <label class="brand-name" for="brand1">Brand 1</label>
+                </li>
+                <li class="brand">
+                  <input id="brand2" type="checkbox" name="brand" value=".brand2">
+                  <label class="brand-name" for="brand2">Brand 2</label>
+                </li>
+                <li class="brand">
+                  <input id="brand3" type="checkbox" name="brand" value=".brand3">
+                  <label class="brand-name" for="brand3">Brand 3</label>
+                </li>
+                <li class="brand">
+                  <input id="brand4" type="checkbox" name="brand" value=".brand4">
+                  <label class="brand-name" for="brand4">Brand 4</label>
+                </li>
+                <li class="brand">
+                  <input id="brand5" type="checkbox" name="brand" value=".brand5">
+                  <label class="brand-name" for="brand5">Brand 5</label>
+                </li>
+                <li class="brand">
+                  <input id="brand6" type="checkbox" name="brand" value=".brand6">
+                  <label class="brand-name" for="brand6">Brand 6</label>
+                </li>
+                <li class="brand">
+                  <input id="brand7" type="checkbox" name="brand" value=".brand7">
+                  <label class="brand-name" for="brand7">Brand 7</label>
+                </li>
+                <li class="brand">
+                  <input id="brand8" type="checkbox" name="brand" value=".brand8">
+                  <label class="brand-name" for="brand8">Brand 8</label>
+                </li>
+                <li class="brand">
+                  <input id="brand9" type="checkbox" name="brand" value=".brand9">
+                  <label class="brand-name" for="brand9">Brand 9</label>
+                </li>
+              </ul>
+
+            </div>
+            <hr>
+            <h6>Sort by</h6>
+            <select id="sorter">
+              <option value="" disabled selected>Select your option</option>
+              <option value="popularity">Most Popular</option>
+              <option value="price-descend">Price: High to Low</option>
+              <option value="price-ascend">Price: Low to High</option>
+            </select>
+            <hr>
+            <h6>Color</h6>
+            <ul id="color-filter" data-filter-group="color" class="large-block-grid-4">
+              <li class="color">
+                <input value=".black" id="black" type="checkbox">
+                <label for="black">
+                  <span class="black"></span>
+                </label>
+              </li>
+              <li class="color">
+                <input value=".orange" id="orange" type="checkbox">
+                <label for="orange">
+                  <span class="orange"></span>
+                </label>
+              </li>
+              <li class="color">
+                <input value=".red" id="red" type="checkbox">
+                <label for="red">
+                  <span class="red"></span>
+                </label>
+              </li>
+              <li class="color">
+                <input value=".green" id="green" type="checkbox">
+                <label for="green">
+                  <span class="green"></span>
+                </label>
+              </li>
+              <li class="color">
+                <input value=".pink" id="pink" type="checkbox">
+                <label for="pink">
+                  <span class="pink"></span>
+                </label>
+              </li>
+              <li class="color">
+                <input value=".grey" id="grey" type="checkbox">
+                <label for="grey">
+                  <span class="grey"></span>
+                </label>
+              </li>
+              <li class="color">
+                <input value=".white" id="white" type="checkbox">
+                <label for="white">
+                  <span class="white"></span>
+                </label>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="medium-9 columns">
+
+
+
+
+            <ul id="items" class="list-unstyled">
+              <li class="grid-sizer"></li>
+              <li class="item brand1 red" data-popularity="5" data-price="500000" data-brand="brand1">
+                <div class="overlay"></div>
+                <img src="img/shoes/1.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 500.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand1 orange" data-popularity="1" data-price="100000" data-brand="brand1">
+                <div class="overlay"></div>
+                <img src="img/shoes/3.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 100.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand2 white" data-popularity="2" data-price="200000" data-brand="brand2">
+                <div class="overlay"></div>
+                <img src="img/shoes/2.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 200.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand3 red" data-popularity="3" data-price="300000" data-brand="brand3">
+                <div class="overlay"></div>
+                <img src="img/shoes/4.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 300.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand2 black" data-popularity="2" data-price="200000" data-brand="brand2">
+                <div class="overlay"></div>
+                <img src="img/shoes/3.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 200.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand5 orange" data-popularity="5" data-price="500000" data-brand="brand5">
+                <div class="overlay"></div>
+                <img src="img/shoes/1.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 500.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand7 pink" data-popularity="7" data-price="700000" data-brand="brand7">
+                <div class="overlay"></div>
+                <img src="img/shoes/2.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 700.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand9 green" data-popularity="9" data-price="900000" data-brand="brand9">
+                <div class="overlay"></div>
+                <img src="img/shoes/4.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 900.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand5 green" data-popularity="5" data-price="500000" data-brand="brand5">
+                <div class="overlay"></div>
+                <img src="img/shoes/3.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 500.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand6 green" data-popularity="6" data-price="600000" data-brand="brand6">
+                <div class="overlay"></div>
+                <img src="img/shoes/3.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 600.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand7 white" data-popularity="7" data-price="700000" data-brand="brand7">
+                <div class="overlay"></div>
+                <img src="img/shoes/2.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 700.000</h6>
+                </div>
+              </li>
+
+              <li class="item brand8 white" data-popularity="8" data-price="800000" data-brand="brand8">
+                <div class="overlay"></div>
+                <img src="img/shoes/3.jpg">
+                <div class="info">
+                  <h5 class="name">Name</h5>
+                  <h5 class="brand">Brand</h5>
+                  <h5 class="price">Rp 800.000</h6>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="columns large-12 center">
+            <p>&copy; PERSHOENALIZE 2015</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- close the off-canvas menu -->
+    <a class="exit-off-canvas"></a>
+
+  </div>
+  </div>
+
+
+
+
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="bower_components/fastclick/lib/fastclick.js" charset="utf-8"></script>
+  <script src="bower_components/list.js/dist/list.min.js" charset="utf-8"></script>
+  <script src="bower_components/isotope/dist/isotope.pkgd.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    /*jshint browser:true, undef: true, unused: true, jquery: true */
+
+    var $container;
+    var filters = {};
+
+    $(function() {
+
+      $container = $('#items');
+
+
+      var $filterDisplay = $('#filter-display');
+
+      $container.isotope({
+        getSortData: {
+          popularity: '[data-popularity]',
+          price: '[data-price]',
+        }
+      });
+      // do stuff when checkbox change
+      $('#options').on('change', function(jQEvent) {
+        var $checkbox = $(jQEvent.target);
+        manageCheckbox($checkbox);
+
+        var comboFilter = getComboFilter(filters);
+
+        $container.isotope({
+          filter: comboFilter
+        });
+
+        $filterDisplay.text(comboFilter);
+      });
+
+    });
+
+
+
+
+
+
+    function getComboFilter(filters) {
+      var i = 0;
+      var comboFilters = [];
+      var message = [];
+
+      for (var prop in filters) {
+        message.push(filters[prop].join(' '));
+        var filterGroup = filters[prop];
+        // skip to next filter group if it doesn't have any values
+        if (!filterGroup.length) {
+          continue;
+        }
+        if (i === 0) {
+          // copy to new array
+          comboFilters = filterGroup.slice(0);
+        } else {
+          var filterSelectors = [];
+          // copy to fresh array
+          var groupCombo = comboFilters.slice(0); // [ A, B ]
+          // merge filter Groups
+          for (var k = 0, len3 = filterGroup.length; k < len3; k++) {
+            for (var j = 0, len2 = groupCombo.length; j < len2; j++) {
+              filterSelectors.push(groupCombo[j] + filterGroup[k]); // [ 1, 2 ]
+            }
+
+          }
+          // apply filter selectors to combo filters for next group
+          comboFilters = filterSelectors;
+        }
+        i++;
+      }
+
+      var comboFilter = comboFilters.join(', ');
+      return comboFilter;
+    }
+
+    function manageCheckbox($checkbox) {
+      var checkbox = $checkbox[0];
+
+      var group = $checkbox.parents('.option-set').attr('data-group');
+      // create array for filter group, if not there yet
+      var filterGroup = filters[group];
+      if (!filterGroup) {
+        filterGroup = filters[group] = [];
+      }
+
+      var isAll = $checkbox.hasClass('all');
+      // reset filter group if the all box was checked
+      if (isAll) {
+        delete filters[group];
+        if (!checkbox.checked) {
+          checkbox.checked = 'checked';
+        }
+      }
+      // index of
+      var index = $.inArray(checkbox.value, filterGroup);
+
+      if (checkbox.checked) {
+        var selector = isAll ? 'input' : 'input.all';
+        $checkbox.siblings(selector).removeAttr('checked');
+
+
+        if (!isAll && index === -1) {
+          // add filter to group
+          filters[group].push(checkbox.value);
+        }
+
+      } else if (!isAll) {
+        // remove filter from group
+        filters[group].splice(index, 1);
+        // if unchecked the last box, check the all
+        if (!$checkbox.siblings('[checked]').length) {
+          $checkbox.siblings('input.all').attr('checked', 'checked');
+        }
+      }
+
+    }
+
+    $(document).ready(function() {
+      // var $grid = $('.grid').imagesLoaded(function() {
+      $container.isotope({
+        // options
+        itemSelector: '.item',
+        // layout mode options
+        containerStyle: {
+          position: 'relative',
+          overflow: 'visible'
+        },
+        itemSelector: '.item',
+        percentPosition: true,
+        masonry: {
+          columnWidth: '.grid-sizer'
+        }
+
+
+      });
+      // });
+      var options = {
+        valueNames: ['brand-name']
+      };
+
+      var brandList = new List('brand-list', options);
+
+      //set initial state.
+      $('input:checkbox').change(function() {
+        if (this.checked) {
+          $(this).siblings('label').addClass('checked');
+        } else {
+          $(this).siblings('label').removeClass('checked');
+        }
+        //'unchecked' event code
+      });
+
+      $('#sorter').change(function(){
+        var sort = this.value;
+        console.log(sort);
+        if (sort=='popularity'){
+            $container.isotope({
+              sortBy: 'popularity',
+              sortAscending: false
+            })
+        }
+        else if (sort=='price-ascend') {
+          $container.isotope({
+            sortBy: 'price',
+            sortAscending: true
+          })
+        }
+        else if (sort=='price-descend') {
+          $container.isotope({
+            sortBy: 'price',
+            sortAscending: false
+          })
+        }
+      })
+
+
+    });
+  </script>
+
+</body>
+
+</html>
