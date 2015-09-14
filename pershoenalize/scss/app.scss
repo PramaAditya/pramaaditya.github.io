@@ -20,6 +20,17 @@ input[type="checkbox"] {
   margin: 0;
 }
 
+.sidebar-fixed{
+  overflow-y: scroll;
+  position: fixed;
+  height: 100%;
+  &#options{
+    width: 20%;
+  }
+}
+
+
+
 #brand-list ul {
   overflow-y: scroll;
   height: 160px;

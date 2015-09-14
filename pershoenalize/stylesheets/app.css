@@ -27118,6 +27118,12 @@ h6 {
   font-size: .7rem;
 }
 
+/* line 8, ../scss/_typo.scss */
+p#copyright {
+  font-size: 0.6875rem;
+  margin: 0;
+}
+
 /* line 14, ../scss/app.scss */
 input[type="checkbox"] {
   margin-bottom: 0 !important;
@@ -27130,17 +27136,28 @@ input[type="checkbox"] {
 }
 
 /* line 23, ../scss/app.scss */
-#brand-list ul {
+.sidebar-fixed {
   overflow-y: scroll;
-  height: 170px;
+  position: fixed;
+  height: 100%;
+}
+/* line 27, ../scss/app.scss */
+.sidebar-fixed#options {
+  width: 20%;
 }
 
-/* line 28, ../scss/app.scss */
+/* line 34, ../scss/app.scss */
+#brand-list ul {
+  overflow-y: scroll;
+  height: 160px;
+}
+
+/* line 39, ../scss/app.scss */
 .grid-sizer {
   width: 25%;
 }
 
-/* line 32, ../scss/app.scss */
+/* line 43, ../scss/app.scss */
 .item {
   cursor: pointer;
   width: 25%;
@@ -27148,7 +27165,7 @@ input[type="checkbox"] {
   margin-bottom: 1em;
   height: auto;
 }
-/* line 39, ../scss/app.scss */
+/* line 50, ../scss/app.scss */
 .item .overlay {
   height: 100%;
   width: 100%;
@@ -27156,30 +27173,30 @@ input[type="checkbox"] {
   background-color: black;
   opacity: 0;
 }
-/* line 45, ../scss/app.scss */
+/* line 56, ../scss/app.scss */
 .item .overlay:hover {
   opacity: 0.3;
 }
-/* line 53, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .item img {
   display: block;
   max-width: 100%;
 }
-/* line 58, ../scss/app.scss */
+/* line 69, ../scss/app.scss */
 .item .info {
   text-align: center;
 }
-/* line 61, ../scss/app.scss */
+/* line 72, ../scss/app.scss */
 .item .info * {
   font-size: 0.7rem;
   line-height: 1.5;
   margin: 0;
 }
-/* line 67, ../scss/app.scss */
+/* line 78, ../scss/app.scss */
 .item .info .name {
   font-weight: bold;
 }
-/* line 71, ../scss/app.scss */
+/* line 82, ../scss/app.scss */
 .item .info .price {
   font-size: 0.75rem;
 }
