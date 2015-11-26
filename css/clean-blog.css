@@ -1,5 +1,6 @@
 * {
-  transition: all .25s;
+  -webkit-transition: all .25s;
+          transition: all .25s;
 }
 .post-heading h1,
 .post-heading .subheading,
@@ -39,6 +40,9 @@
 #ty_container {
   margin-top: 2em;
   padding: 1em;
+}
+.center {
+  text-align: center;
 }
 .orbit {
   padding: 0 13px;
@@ -95,8 +99,6 @@ article {
   background-color: white;
   margin-top: 0px;
   padding-top: 20px;
-  -webkit-box-shadow: -7px -5px 15px -6px rgba(0, 0, 0, 0.65);
-  -moz-box-shadow: -7px -5px 15px -6px rgba(0, 0, 0, 0.65);
   box-shadow: -7px -5px 15px -6px rgba(0, 0, 0, 0.65);
 }
 @media only screen and (min-width: 768px) {
@@ -161,6 +163,7 @@ a:focus {
 }
 a img:hover,
 a img:focus {
+  cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
 blockquote {
@@ -216,13 +219,10 @@ hr.small {
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -234,7 +234,6 @@ hr.small {
     background-color: rgba(255, 255, 255, 0.9);
     border-bottom: 1px solid #f2f2f2;
     -webkit-transition: -webkit-transform 0.3s;
-    -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
@@ -254,9 +253,7 @@ hr.small {
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
-    -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
-    -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
 }
@@ -265,8 +262,6 @@ hr.small {
   background-color: #808080;
   background-attachment: scroll;
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 0;
@@ -350,8 +345,18 @@ hr.small {
   }
 }
 .post-preview {
-  background-color: #d95b43;
-  margin-bottom: 2em;
+  padding: 0;
+  max-height: 400px;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-color: #eee #ddd #bbb;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px;
+  margin-bottom: .3em;
 }
 .post-preview:hover {
   background-color: #c02942;
@@ -374,6 +379,8 @@ hr.small {
 }
 .post-preview .post-content {
   padding: 0 1em 0.2em;
+  position: absolute;
+  bottom: 0;
 }
 .post-preview > a {
   color: #404040;
@@ -474,8 +481,6 @@ footer .copyright {
   vertical-align: baseline;
   opacity: 0;
   -webkit-transition: top 0.3s ease, opacity 0.3s ease;
-  -moz-transition: top 0.3s ease, opacity 0.3s ease;
-  -ms-transition: top 0.3s ease, opacity 0.3s ease;
   transition: top 0.3s ease, opacity 0.3s ease;
 }
 .floating-label-form-group::not(:first-child) {
@@ -556,6 +561,10 @@ form .row:first-child .floating-label-form-group {
   text-shadow: none;
   background: #d95b43;
 }
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
 img::selection {
   color: white;
   background: transparent;
@@ -567,3 +576,4 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #d95b43;
 }
+/*# sourceMappingURL=clean-blog.css.map */
