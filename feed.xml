@@ -5,266 +5,9 @@
     <description>I solve business problems by designing great User Experience</description>
     <link>http://pramaaditya.com/</link>
     <atom:link href="http://pramaaditya.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Aug 2016 23:53:14 +0700</pubDate>
-    <lastBuildDate>Sat, 27 Aug 2016 23:53:14 +0700</lastBuildDate>
+    <pubDate>Sun, 28 Aug 2016 00:06:55 +0700</pubDate>
+    <lastBuildDate>Sun, 28 Aug 2016 00:06:55 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>KOMINFO Website Redesign</title>
-        <description>&lt;p&gt;Last April I participated in a website redesign competition held by Indonesia’s
-Ministry of Communications and Information Technology (Menkominfo). Me and my team
-decided to try using some of UX design process in our work. Because the 2 week
-deadline, we could only realise some of the process as follows:&lt;/p&gt;
-
-&lt;h3 id=&quot;step-1-research&quot;&gt;Step 1: Research&lt;/h3&gt;
-
-&lt;p&gt;First we research the initial state of the website. We did it by doing a web
-analytics research via Google Analytics, Alexa and SimilarWeb. We also did a
-user testing in the form of tree testing to validate our information
-architecture redesign.&lt;/p&gt;
-
-&lt;h4 id=&quot;initial-state&quot;&gt;Initial State&lt;/h4&gt;
-
-&lt;p&gt;Before the redesign, the website’s information components can be categorized to:&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*PV-Pk1RTYIbLN2q7RC6qIw.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;The initial state of the ministry’s website&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Navigation Header&lt;/li&gt;
-  &lt;li&gt;News Reel&lt;/li&gt;
-  &lt;li&gt;Closable Slider&lt;/li&gt;
-  &lt;li&gt;Slider/Carousel&lt;/li&gt;
-  &lt;li&gt;Internal Shortcuts&lt;/li&gt;
-  &lt;li&gt;Article (News, Press Release, Announcement, dll)&lt;/li&gt;
-  &lt;li&gt;Live Twitter Feed&lt;/li&gt;
-  &lt;li&gt;The Minister’s Profile&lt;/li&gt;
-  &lt;li&gt;External Shortcuts&lt;/li&gt;
-  &lt;li&gt;Navigation Footer&lt;/li&gt;
-  &lt;li&gt;Footer&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The ministry also gave us a set of rules about the content of the website that
-we must account for&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*mSoD1cx_jCyV-7JnI12u-Q.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;The information that must be included&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;From here, we made assumptions on the &lt;strong&gt;business needs&lt;/strong&gt; of Kominfo&lt;/p&gt;
-
-&lt;h4 id=&quot;web-analytics&quot;&gt;Web Analytics&lt;/h4&gt;
-
-&lt;p&gt;After discovering the needs of the business, we then look for the user’s needs
-by examining reports from the web analytics. 38,20% of traffics come from Google
-and other search engines, making them the main source of traffic to the
-ministry’s website.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*mWwK_2Tss4lIobYRBEbdfw.png&quot; /&gt;
-&lt;/div&gt;
-&lt;h4 id=&quot;keyword-research&quot;&gt;Keyword Research&lt;/h4&gt;
-
-&lt;p&gt;With search engines being the website’s main traffic source we conduct a keyword
-research to discover the purpose of users visiting the website.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*oGIK5Mx8p5p8wjYfVmwLuA.png&quot; /&gt;
-&lt;/div&gt;
-&lt;p&gt;Based on our findings, we then made assumptions on the user’s needs&lt;/p&gt;
-
-&lt;h4 id=&quot;user-research&quot;&gt;User Research&lt;/h4&gt;
-
-&lt;p&gt;To make some user personas, we also looked at the web analytic reports.
-Specifically, the audience interest and the audience demographic&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*sUnC6qHrsZC2qZgbTkpaBw.png&quot; /&gt;
-&lt;/div&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*0VqLhMBb1RdXrA4lSoEXtg.png&quot; /&gt;
-&lt;/div&gt;
-&lt;h4 id=&quot;tree-testing&quot;&gt;Tree Testing&lt;/h4&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*qKCSwtKWdkJ1mhBWWW-wrQ.png&quot; /&gt;
-&lt;/div&gt;
-&lt;p&gt;To test our assumptions that the initial navigation bar is confusing to users,
-we conducted a &lt;a href=&quot;https://www.optimalworkshop.com/treejack&quot;&gt;tree testing&lt;/a&gt; to 7
-respondents.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;From this test, we discovered that 43% of the had to redirect themself to choose
-the right answer. This confirms our assumption that the navigation bar need
-reorganization.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*prc6N6TfPMg0iF4591cgnw.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Results from our tree testing&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;step-2-design&quot;&gt;Step 2: Design&lt;/h3&gt;
-
-&lt;h4 id=&quot;information-design&quot;&gt;Information Design&lt;/h4&gt;
-
-&lt;p&gt;We start by designing the information architecture of the navigation bar.
-Following the UX design process, we conducted a &lt;a href=&quot;https://www.optimalworkshop.com/optimalsort&quot;&gt;card sorting
-test&lt;/a&gt; to determine the best way to
-organize the links.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*wLFvIomGyFJIM2-JNYAbIg.png&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*jrzR1YlIxaG9yjNWj9kzfg.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Card Sorting&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The test‘s output is a Dendrogram that we use to determine the grouping of links
-in the navigation bar.&lt;/p&gt;
-
-&lt;p&gt;To meet both the business and user needs we decided to use 3 big groups and
-making them mega menus.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*M1UiFiAjAifORC_F8LEv6A.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Information architecture for the navigation bar&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We also designed the information architecture for the home page based on the
-business needs and the user needs.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*vT9jy-o9GsENEZaQ3nnmYg.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Information architecture for the home page&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&quot;interaction-design&quot;&gt;Interaction Design&lt;/h4&gt;
-
-&lt;p&gt;We sketched our layout ideas for the mega menus and the home page.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*kBscQPomflJGWoVhaRfsLw.jpeg&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*RRdbbYrXdLpI4dgEa1Xu0w.jpeg&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*Y1l2De_75ok0u2c79Lg1-w.jpeg&quot; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*OlhjEpMvX5a7eirCX4YgyQ.jpeg&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Sketching rancangan mega menu&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;From the information architecture that we made, we designed 2 variations of the
-home page. The designs differs in the placement of the ministry’s profile, which
-is part of the business needs. Both of the designs were tested with A/B Testing
-to 35 respondents. We ended up choosing the second (right) design with 54,3%
-votes.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*04Q1ZFw7JMkF-Groivtb1Q.png&quot; /&gt;
-&lt;/div&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*jjGVnhw56Jnq0foNF7pgCQ.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;2 home page design for A/B Testing&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h4 id=&quot;konsiderasi-usability-dari-carousel&quot;&gt;Konsiderasi Usability dari Carousel&lt;/h4&gt;
-
-&lt;p&gt;After considering the &lt;a href=&quot;http://shouldiuseacarousel.com/&quot;&gt;usability problems&lt;/a&gt; that
-may arise from a carousel, we decided not to use it. Instead we considered some
-alternatives patterns such as overflow, single, equal grid and masonry grid. We
-ended up choosing the masonry grid pattern to replace the main carousel in our
-previous design.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*VPFxIw8ZSbv2lkfzuwvGpA.png&quot; /&gt;
-&lt;/div&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*swwzGMgF3KkN_5l61wY6cA.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Overflow &amp;amp; Single Pattern&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*b1xvtq7Wq_vFaEBa1TEH8Q.png&quot; /&gt;
-&lt;/div&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*trC76W2O5Ju2U_kOcx3B8w.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Equal &amp;amp; Masonry Grid Pattern&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;step-3-visual-design&quot;&gt;Step 3: Visual Design&lt;/h3&gt;
-
-&lt;p&gt;We start by choosing fonts, colors and shapes for the elements in the website.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*nYKULkLOdwF-NAwJOLp5tg.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Style Guide&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We also design the logos for the shortcuts.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*ubzBxp4JCReLpBVTTXjO-A.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Shortcut Logos&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;And the navigation menu&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*HygVsMfR9qirjHq5sp9jdQ.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Navigation Menu&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*kBscQPomflJGWoVhaRfsLw.jpeg&quot; /&gt;
-&lt;/div&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*as8eUq4LMvggf0u5ttoRBg.png&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Mega Menu&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Here you can see the side by side comparison of the wireframe and the visual
-design.&lt;/p&gt;
-
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*jjGVnhw56Jnq0foNF7pgCQ.png&quot; /&gt;
-&lt;/div&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*fvAI5NQmYp1l1oco4hKqjw.jpeg&quot; /&gt;
-&lt;span class=&quot;image-caption&quot;&gt;Home Page&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;final-design&quot;&gt;Final Design&lt;/h3&gt;
-&lt;p&gt;You can see the live version of the design &lt;a href=&quot;/FAPOR&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;closing-words&quot;&gt;Closing Words…&lt;/h3&gt;
-
-&lt;p&gt;Due to time constraint and our inexperience at the time, we ended up not making
-user personas. We also didn’t win the contest. I personally suspect the reason
-is because we violated the rule by using a masonry grid instead of a carousel,
-but we’re not really sure.&lt;/p&gt;
-
-&lt;p&gt;But in the end, this was a great experience for us. This is my first hands-on
-experience doing UX design process and it opened my eyes to the wonders of UX
-design. Doing the research was eye opening and it made so much sense to me.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 22 Nov 2015 00:00:00 +0700</pubDate>
-        <link>http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/</link>
-        <guid isPermaLink="true">http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/</guid>
-        
-        
-      </item>
     
       <item>
         <title>Usability Test on Veritrans’ VT-LINK</title>
@@ -637,6 +380,263 @@ payment in Indonesia could be made much easier ☺&lt;/em&gt;&lt;/p&gt;
         <pubDate>Sat, 07 Nov 2015 00:00:00 +0700</pubDate>
         <link>http://pramaaditya.com/2015/11/07/veritrans-usability-testing/</link>
         <guid isPermaLink="true">http://pramaaditya.com/2015/11/07/veritrans-usability-testing/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>KOMINFO Website Redesign</title>
+        <description>&lt;p&gt;Last April I participated in a website redesign competition held by Indonesia’s
+Ministry of Communications and Information Technology (Menkominfo). Me and my team
+decided to try using some of UX design process in our work. Because the 2 week
+deadline, we could only realise some of the process as follows:&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-research&quot;&gt;Step 1: Research&lt;/h3&gt;
+
+&lt;p&gt;First we research the initial state of the website. We did it by doing a web
+analytics research via Google Analytics, Alexa and SimilarWeb. We also did a
+user testing in the form of tree testing to validate our information
+architecture redesign.&lt;/p&gt;
+
+&lt;h4 id=&quot;initial-state&quot;&gt;Initial State&lt;/h4&gt;
+
+&lt;p&gt;Before the redesign, the website’s information components can be categorized to:&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*PV-Pk1RTYIbLN2q7RC6qIw.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;The initial state of the ministry’s website&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Navigation Header&lt;/li&gt;
+  &lt;li&gt;News Reel&lt;/li&gt;
+  &lt;li&gt;Closable Slider&lt;/li&gt;
+  &lt;li&gt;Slider/Carousel&lt;/li&gt;
+  &lt;li&gt;Internal Shortcuts&lt;/li&gt;
+  &lt;li&gt;Article (News, Press Release, Announcement, dll)&lt;/li&gt;
+  &lt;li&gt;Live Twitter Feed&lt;/li&gt;
+  &lt;li&gt;The Minister’s Profile&lt;/li&gt;
+  &lt;li&gt;External Shortcuts&lt;/li&gt;
+  &lt;li&gt;Navigation Footer&lt;/li&gt;
+  &lt;li&gt;Footer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The ministry also gave us a set of rules about the content of the website that
+we must account for&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*mSoD1cx_jCyV-7JnI12u-Q.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;The information that must be included&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;From here, we made assumptions on the &lt;strong&gt;business needs&lt;/strong&gt; of Kominfo&lt;/p&gt;
+
+&lt;h4 id=&quot;web-analytics&quot;&gt;Web Analytics&lt;/h4&gt;
+
+&lt;p&gt;After discovering the needs of the business, we then look for the user’s needs
+by examining reports from the web analytics. 38,20% of traffics come from Google
+and other search engines, making them the main source of traffic to the
+ministry’s website.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*mWwK_2Tss4lIobYRBEbdfw.png&quot; /&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;keyword-research&quot;&gt;Keyword Research&lt;/h4&gt;
+
+&lt;p&gt;With search engines being the website’s main traffic source we conduct a keyword
+research to discover the purpose of users visiting the website.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*oGIK5Mx8p5p8wjYfVmwLuA.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;Based on our findings, we then made assumptions on the user’s needs&lt;/p&gt;
+
+&lt;h4 id=&quot;user-research&quot;&gt;User Research&lt;/h4&gt;
+
+&lt;p&gt;To make some user personas, we also looked at the web analytic reports.
+Specifically, the audience interest and the audience demographic&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*sUnC6qHrsZC2qZgbTkpaBw.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*0VqLhMBb1RdXrA4lSoEXtg.png&quot; /&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;tree-testing&quot;&gt;Tree Testing&lt;/h4&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*qKCSwtKWdkJ1mhBWWW-wrQ.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;To test our assumptions that the initial navigation bar is confusing to users,
+we conducted a &lt;a href=&quot;https://www.optimalworkshop.com/treejack&quot;&gt;tree testing&lt;/a&gt; to 7
+respondents.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;From this test, we discovered that 43% of the had to redirect themself to choose
+the right answer. This confirms our assumption that the navigation bar need
+reorganization.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*prc6N6TfPMg0iF4591cgnw.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Results from our tree testing&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;step-2-design&quot;&gt;Step 2: Design&lt;/h3&gt;
+
+&lt;h4 id=&quot;information-design&quot;&gt;Information Design&lt;/h4&gt;
+
+&lt;p&gt;We start by designing the information architecture of the navigation bar.
+Following the UX design process, we conducted a &lt;a href=&quot;https://www.optimalworkshop.com/optimalsort&quot;&gt;card sorting
+test&lt;/a&gt; to determine the best way to
+organize the links.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*wLFvIomGyFJIM2-JNYAbIg.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*jrzR1YlIxaG9yjNWj9kzfg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Card Sorting&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The test‘s output is a Dendrogram that we use to determine the grouping of links
+in the navigation bar.&lt;/p&gt;
+
+&lt;p&gt;To meet both the business and user needs we decided to use 3 big groups and
+making them mega menus.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*M1UiFiAjAifORC_F8LEv6A.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Information architecture for the navigation bar&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We also designed the information architecture for the home page based on the
+business needs and the user needs.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*vT9jy-o9GsENEZaQ3nnmYg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Information architecture for the home page&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;interaction-design&quot;&gt;Interaction Design&lt;/h4&gt;
+
+&lt;p&gt;We sketched our layout ideas for the mega menus and the home page.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*kBscQPomflJGWoVhaRfsLw.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*RRdbbYrXdLpI4dgEa1Xu0w.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*Y1l2De_75ok0u2c79Lg1-w.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*OlhjEpMvX5a7eirCX4YgyQ.jpeg&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Sketching rancangan mega menu&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;From the information architecture that we made, we designed 2 variations of the
+home page. The designs differs in the placement of the ministry’s profile, which
+is part of the business needs. Both of the designs were tested with A/B Testing
+to 35 respondents. We ended up choosing the second (right) design with 54,3%
+votes.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*04Q1ZFw7JMkF-Groivtb1Q.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*jjGVnhw56Jnq0foNF7pgCQ.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;2 home page design for A/B Testing&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;konsiderasi-usability-dari-carousel&quot;&gt;Konsiderasi Usability dari Carousel&lt;/h4&gt;
+
+&lt;p&gt;After considering the &lt;a href=&quot;http://shouldiuseacarousel.com/&quot;&gt;usability problems&lt;/a&gt; that
+may arise from a carousel, we decided not to use it. Instead we considered some
+alternatives patterns such as overflow, single, equal grid and masonry grid. We
+ended up choosing the masonry grid pattern to replace the main carousel in our
+previous design.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*VPFxIw8ZSbv2lkfzuwvGpA.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*swwzGMgF3KkN_5l61wY6cA.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Overflow &amp;amp; Single Pattern&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*b1xvtq7Wq_vFaEBa1TEH8Q.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*trC76W2O5Ju2U_kOcx3B8w.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Equal &amp;amp; Masonry Grid Pattern&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;step-3-visual-design&quot;&gt;Step 3: Visual Design&lt;/h3&gt;
+
+&lt;p&gt;We start by choosing fonts, colors and shapes for the elements in the website.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*nYKULkLOdwF-NAwJOLp5tg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Style Guide&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We also design the logos for the shortcuts.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*ubzBxp4JCReLpBVTTXjO-A.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Shortcut Logos&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And the navigation menu&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*HygVsMfR9qirjHq5sp9jdQ.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Navigation Menu&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*kBscQPomflJGWoVhaRfsLw.jpeg&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*as8eUq4LMvggf0u5ttoRBg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Mega Menu&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here you can see the side by side comparison of the wireframe and the visual
+design.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*jjGVnhw56Jnq0foNF7pgCQ.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*fvAI5NQmYp1l1oco4hKqjw.jpeg&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Home Page&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;final-design&quot;&gt;Final Design&lt;/h3&gt;
+&lt;p&gt;You can see the live version of the design &lt;a href=&quot;/FAPOR&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;closing-words&quot;&gt;Closing Words…&lt;/h3&gt;
+
+&lt;p&gt;Due to time constraint and our inexperience at the time, we ended up not making
+user personas. We also didn’t win the contest. I personally suspect the reason
+is because we violated the rule by using a masonry grid instead of a carousel,
+but we’re not really sure.&lt;/p&gt;
+
+&lt;p&gt;But in the end, this was a great experience for us. This is my first hands-on
+experience doing UX design process and it opened my eyes to the wonders of UX
+design. Doing the research was eye opening and it made so much sense to me.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Oct 2015 00:00:00 +0700</pubDate>
+        <link>http://pramaaditya.com/2015/10/22/menkominfo-ux-redesign/</link>
+        <guid isPermaLink="true">http://pramaaditya.com/2015/10/22/menkominfo-ux-redesign/</guid>
         
         
       </item>
