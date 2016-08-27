@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kementerian Komunikasi dan Informatika</title>
+  <link rel="icon" type="image/png" href="img/logo-kominfo-mini.png">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- <link href="css/bootstrap-theme.css" rel="stylesheet"> -->
+  <!-- Pingendo -->
+  <link href="css/pingendo-theme.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jasny-bootstrap.js"></script>
+  <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+  <!-- <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="container-fluid" style="background-image: url('img/I17.jpg'); background-size: 100%;">
+    <div class="wrapper">
+      <div class="kotakwaktu">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <h2 class="title">Under Construction</h2>
+            <h3 class="subtitle">Halaman Website ini sedang dibangun dan akan selesai dalam waktu...</h2>
+          <div class="section" style="background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.5); background-size: 100%; margin-left: -15px; margin-right: -15px">
+            <div class="container">
+              <div id="countdown">    
+              </div>
+            </div>  
+          </div>
+          <form class="form-inline signup" role="form">
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Masukkan alamat email">
+            </div>  
+            <button type="button" class="btn btn-default btn-md btn-accent">Ingatkan Saya!</button>
+          </form>         
+        </div>    
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+            <p class="copyright">Copyright &copy; 2015 - Kementerian Komunikasi dan Informatika</p>
+        </div>
+      </div>    
+    </div>
+  </div>
+</div>
+    <script type="text/javascript">
+    $(document).on('click', '.yamm .dropdown-menu', function(e) {
+      e.stopPropagation()
+    })
+    </script>
+    <script type="text/javascript">
+    $('#countdown').countdown('2016/01/01', function(event) {
+      $(this).html(event.strftime('<div class="hitung-mundur"><h3 class="hitung">%w</h3> <p class="hitung">Minggu</p></div> <div class="hitung-mundur"><h3 class="hitung">%d</h3> <p class="hitung">Hari</p></div> <div class="hitung-mundur"><h3 class="hitung">%H</h3> <p class="hitung">Jam</p></div> <div class="hitung-mundur"><h3 class="hitung">%M</h3> <p class="hitung">Menit</p></div> <div class="hitung-mundur"><h3 class="hitung">%S</h3> <p class="hitung">Detik</p></div>'));
+    });
+    </script>
+</body>
+
+</html>

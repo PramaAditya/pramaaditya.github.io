@@ -1,0 +1,2429 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bs3-gly",
+				"bs3-icon:glyphicon	bs3-icon-glyphicon"
+			],
+			[
+				"fot",
+				"font-style"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"bs3-pa",
+				"bs3-pagination	bs3-pagination"
+			],
+			[
+				"font-si",
+				"font-size-h6"
+			],
+			[
+				"min-h",
+				"min-height"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ce",
+				"center"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"font-s",
+				"font-size-h6"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"inf",
+				"informasi"
+			],
+			[
+				"upp",
+				"uppercase"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"inline-",
+				"inline-block"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"borde",
+				"border-top"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"s",
+				"section"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"lo",
+				"logo"
+			],
+			[
+				"border-botto",
+				"border-bottom-color"
+			],
+			[
+				"broder",
+				"border-color"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"bs3-sear",
+				"bs3-input:search:h	bs3-input-search-h"
+			],
+			[
+				"bs3-se",
+				"bs3-input:search	bs3-input-search"
+			],
+			[
+				"bs3-col",
+				"bs3-col:6	bs3-col-6"
+			],
+			[
+				"up",
+				"uppercase"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"abs",
+				"absolute"
+			],
+			[
+				"bs3-na",
+				"bs3-navbar:basic	bs3-navbar-basic"
+			],
+			[
+				"med",
+				"@media	@media ${1:screen} {\n	${0}\n}"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"border-left",
+				"border-left"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"bs3-icon",
+				"bs3-icon:glyphicon	bs3-icon-glyphicon"
+			],
+			[
+				"bs3-ico",
+				"bs3-icon:glyphicon	bs3-glyphicon"
+			],
+			[
+				"bs3-",
+				"bs3-icon	bs3-icon"
+			],
+			[
+				"tec",
+				"text-decoration"
+			],
+			[
+				"mari",
+				"margin-right"
+			],
+			[
+				"font-fam",
+				"font-family-serif"
+			],
+			[
+				"ita",
+				"italic"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"size",
+				"size"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"warna",
+				"warna-3"
+			],
+			[
+				"border-le",
+				"border-left"
+			],
+			[
+				"nav",
+				"nav	Tag"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"argin",
+				"margin-top"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"bs3",
+				"bs3-col:8	bs3-col-8"
+			],
+			[
+				"border-bot",
+				"border-bottom-color"
+			],
+			[
+				"it",
+				"italic"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"font-fami",
+				"font-family-sans-serif"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"line-height",
+				"line-height"
+			],
+			[
+				"marig",
+				"margin-bottom"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bread",
+				"breadcrumb"
+			],
+			[
+				"warna-",
+				"warna-link-nav-pills"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"Link",
+				"link-color"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"font-family",
+				"font-family-sans-serif"
+			],
+			[
+				"border-bott",
+				"border-bottom-style"
+			],
+			[
+				"trans",
+				"transform	CSS - transform: ;"
+			],
+			[
+				"tra",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"war",
+				"warna-kotak-kecil"
+			],
+			[
+				"line-hegi",
+				"line-height-computed"
+			],
+			[
+				"LINE-hi",
+				"line-height-computed"
+			],
+			[
+				"heig",
+				"height"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"button",
+				"bs3-button	bs3-button"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"rg",
+				"rgba(r,g,b,a)"
+			],
+			[
+				"src",
+				"src=〔attribute〕"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"component-active",
+				"component-active-color"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"color",
+				"color"
+			],
+			[
+				"butt",
+				"button-smallest-radius"
+			],
+			[
+				"advent",
+				"AdventPro-Regular"
+			],
+			[
+				"Offside",
+				"Offside-Regular"
+			],
+			[
+				"Regular",
+				"Regular"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"daf",
+				"daftarNIK"
+			],
+			[
+				"de",
+				"nikDeletedList"
+			],
+			[
+				"nikDel",
+				"nikDeletedList"
+			],
+			[
+				"data",
+				"dataNIK"
+			],
+			[
+				"jumlah",
+				"jumlahNIK"
+			],
+			[
+				"jum",
+				"jumlahNIK"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"li",
+				"liveFilter"
+			],
+			[
+				"Da",
+				"daftarNI"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/less/main.less",
+			"settings":
+			{
+				"buffer_size": 4044,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/less/navigation.less",
+			"settings":
+			{
+				"buffer_size": 8369,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 48113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/kolom-2.html",
+			"settings":
+			{
+				"buffer_size": 36695,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 398.0,
+		"last_filter": "prett",
+		"selected_items":
+		[
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"Prett",
+				"HTMLPrettify"
+			],
+			[
+				"d",
+				"File: Duplicate"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"closa",
+				"File: Close All"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"PRETT",
+				"HTMLPrettify"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"pan",
+				"Pandoc"
+			],
+			[
+				"pand",
+				"Pandoc"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"PAND",
+				"Pandoc"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"cursor",
+				"Snippet: CSS - cursor: pointer;"
+			],
+			[
+				"select ",
+				"Bookmarks: Select Next"
+			],
+			[
+				"animate",
+				"Snippet: CSS - animation-play-state: ;"
+			],
+			[
+				"trans",
+				"Snippet: CSS - transform: ;"
+			],
+			[
+				"keyf",
+				"Snippet: CSS - @keyframes {}"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"new file",
+				"File: New File Relative to Current View"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"togg",
+				"Toggle Comment"
+			],
+			[
+				"toggl",
+				"Toggle Comment"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"tog",
+				"Emmet: Toggle Comment"
+			],
+			[
+				"toggle",
+				"Toggle Comment"
+			],
+			[
+				"new",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"t",
+				"Toggle Comment"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"dupli",
+				"File: Duplicate"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Quick Add"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"Dup",
+				"File: Duplicate"
+			],
+			[
+				"save as",
+				"Project: Save As"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"newfi",
+				"File: New File Relative to Current View"
+			],
+			[
+				"fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"package sett",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"pando",
+				"Pandoc"
+			],
+			[
+				"deete",
+				"File: Delete"
+			],
+			[
+				"file new",
+				"File: New File Relative to Project Root"
+			],
+			[
+				"markdw",
+				"Set Syntax: Markdown"
+			],
+			[
+				"package ma",
+				"Package Control: Remove Package"
+			],
+			[
+				"git stat",
+				"Git: Quick Status"
+			],
+			[
+				"open",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"link",
+				"Snippet: Markdown_link_(mdl)"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"FIND",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"Lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"LOREM",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"HTML",
+				"Snippet: html"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"sass",
+				"Set Syntax: SASS"
+			],
+			[
+				"lip",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"SYNTAX sas",
+				"Set Syntax: SASS"
+			],
+			[
+				"syntac",
+				"Set Syntax: CSS"
+			],
+			[
+				"rename ",
+				"File: Rename"
+			],
+			[
+				"duplica",
+				"File: Duplicate"
+			],
+			[
+				"closea",
+				"File: Close All"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"html ",
+				"Snippet: HTML - Comment"
+			],
+			[
+				"COMME",
+				"Toggle Block Comment"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"codex",
+				"WordPress Codex: Search from Input"
+			],
+			[
+				"sideba",
+				"Snippet: Sidebar Template"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"Ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"align",
+				"Preferences: Alignment File Settings – User"
+			],
+			[
+				"snippet",
+				"Snippet: @import"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"comme",
+				"Toggle Block Comment"
+			],
+			[
+				"comm",
+				"Toggle Block Comment"
+			],
+			[
+				"nav",
+				"Snippet: Zurb Nav Bar"
+			],
+			[
+				"file",
+				"File: New View into File"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"tag",
+				"Package Control: Install Package"
+			],
+			[
+				"snippe",
+				"Snippet: Zurb Foundation - ul Block Grid - Two up"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packagei",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Add Channel"
+			],
+			[
+				"Package Control: l",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 586.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/PramaAditya/Inbox/Working/FAPOR",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less"
+	],
+	"file_history":
+	[
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/style.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/effects/icons/_icon-grow.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/gambar.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/error.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/halaman-kolom.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/notfound.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/error.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/navigation.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/css/bootstrap.css",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/css/bootstrap.css.map",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/js/bootstrap.js",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/effects/icons/_icon-forward.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/shortcut.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/variables.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/fonts.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/modal.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/template.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/main.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/js/wow.min.js",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/navigasi.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/custom-bootstrap-variables.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/kolom-2.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/footer.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/berita.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/landing.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/index.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/buttons.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/css/grayscale.css",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/tanggal.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/berita.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/breadcrumb.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/nav-berita.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/kolom-1.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/header.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/galeri.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/effects/shadow-and-glow-transitions/_grow-shadow.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/header.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/prototype/header/Header.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/effects/2d-transitions/_pop.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/.gitignore",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/footer.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/prototype/footer/Footer.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/kotak.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/twitter.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/under-cs.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/js/domain.js",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/under-cs.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/img/icons/aduan.svg",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/prototype/header/Header-1.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/typography.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/coba-coba.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/kotak.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/kolom-3.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/prototype/galeri/galeri.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/css/tanggal.css",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/utilities.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/kolom-3v2.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/kolom-1v2.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/mixins/grid.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/mixins/grid-framework.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/variables.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/grid.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/prototype/tiga-kolom/tiga-kolom.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/kolom-3.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/navs.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/vertical-rhythm.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/buttons.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/index-3.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/animate/_animate.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover-imports.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/effects/border-transitions/_underline-from-center.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/custom-hover-options.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/hover.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/effects/shadow-and-glow-transitions/_float-shadow.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/effects/2d-transitions/_grow.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/effects/border-transitions/_ripple-out.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/box.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/kotak-2.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/yamm/yamm.less",
+		"/Users/PramaAditya/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/PramaAditya/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/vertical-rhythm.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/ticker.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/kitchensink.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/css/ticker.css",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/mixins.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/hover/effects/background-transitions/_sweep-to-right.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/mixins.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/tables.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/bootstrap/mixins/buttons.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/source/less/lesshat-mixins.less",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/README.md",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/contoh.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/footer-contoh.html",
+		"/Users/PramaAditya/Library/Application Support/Sublime Text 3/Packages/User/Pandoc.sublime-settings",
+		"/Users/PramaAditya/Library/Application Support/Sublime Text 3/Packages/LESS/LESS.sublime-settings",
+		"/Users/PramaAditya/Library/Application Support/Sublime Text 3/Packages/Pandoc/Pandoc.sublime-settings",
+		"/Users/PramaAditya/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/public/coba-coba2.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/meh.html",
+		"/Users/PramaAditya/Downloads/x_GSDK_production_1.3/template.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/WORKFLOW.md",
+		"/Users/PramaAditya/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/PramaAditya/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/prototype/footer/Footer-1.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/index.html",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/prototype/stye.css",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/prototype/index.html",
+		"/Users/PramaAditya/Inbox/Working/Where do visitors go on kominfo.go.id?",
+		"/Users/PramaAditya/Inbox/Working/FAPOR/kominfo.sublime-project",
+		"/Users/PramaAditya/Dropbox/Markdown/Tugas Akhir/Bab III.md",
+		"/Users/PramaAditya/Documents/tabel.html",
+		"/Users/PramaAditya/Documents/tabel html",
+		"/Users/PramaAditya/Documents/Think Before You Post/Untitled Document.md.html",
+		"/Users/PramaAditya/Development/New/myApp/www/templates/tab-friends.html",
+		"/Users/PramaAditya/Development/New/myApp/www/templates/tab-account.html",
+		"/Users/PramaAditya/Development/New/myApp/scss/ionic.app.scss",
+		"/Users/PramaAditya/Downloads/ionic-starter-tabs-top-master-1/index.html",
+		"/Users/PramaAditya/Development/New/myApp/platforms/android/assets/www/templates/friend-detail.html",
+		"/Users/PramaAditya/Development/New/myApp/css/app.css",
+		"/Users/PramaAditya/Development/New/myApp/www/js/controllers.js",
+		"/Users/PramaAditya/Development/New/myApp/www/templates/friend-detail.html",
+		"/Users/PramaAditya/Development/New/myApp/www/css/style.css",
+		"/Users/PramaAditya/Development/New/myApp/www/index.html",
+		"/Applications/MAMP/htdocs/adminsppdportal/resource/style.css",
+		"/Applications/MAMP/htdocs/adminsppdportal1/resource/notifIt.css",
+		"/Applications/MAMP/htdocs/adminsppdportal1/style.css",
+		"/Applications/MAMP/htdocs/adminsppdportal1/fonts/icomoon.svg"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source/",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/public/,,-*.js",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source,/Users/PramaAditya/Inbox/Working/FAPOR/public/,,-*.js",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source,/Users/PramaAditya/Inbox/Working/FAPOR/public/",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source,/Users/PramaAditya/Inbox/Working/FAPOR/public",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source,/Users/PramaAditya/Inbox/Working/FAPOR/source",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source,/Users/PramaAditya/Inbox/Working/FAPOR/public/*.html",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source,/Users/PramaAditya/Inbox/Working/FAPOR/public",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source,/Users/PramaAditya/Inbox/Working/FAPOR/",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source,/Users/PramaAditya/Inbox/Working/FAPOR/source",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source,/Users/PramaAditya/Inbox/Working/FAPOR/public",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source",
+			"",
+			"/Users/PramaAditya/Inbox/Working/FAPOR/source/less",
+			"",
+			"-*.css,-*.scss,-*.js",
+			"-*.css,-*.scss",
+			"",
+			"<open files>",
+			"adminSPPD.php",
+			"<open folders>",
+			"Shortlist.php",
+			"Liverpool.php",
+			"",
+			"/Applications/MAMP/htdocs/sparta/sass",
+			"",
+			"/Applications/MAMP/htdocs/sparta/sass/",
+			".scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"label",
+			"Siaran Pers",
+			"h4",
+			"h2",
+			"ul",
+			"Galeri",
+			"icon-container",
+			"Oswald",
+			"href=\"#\"",
+			"span",
+			"h1",
+			"col-sm-4",
+			"sanksi",
+			"img-responsive",
+			"<img src=\"img/tautan/",
+			"h4",
+			"h1",
+			"jpg",
+			"Fasilitas",
+			"Galeri",
+			"galeri",
+			"Domain .id",
+			"Mendaftarkan Domain .id",
+			"tv",
+			"p",
+			"@warna-title",
+			"tinggi-kotak",
+			"h1",
+			"h3",
+			"<h3",
+			"col-md-6 col-lg-4",
+			"album-container",
+			"h1",
+			"col-lg-6",
+			"<div class=\"container\">\n",
+			"col-lg-6",
+			"col-xs-6",
+			"myNavmenu",
+			"h1",
+			"height",
+			"@warna-overlay",
+			"@warna-overlay:",
+			"h4",
+			"text-primary",
+			"text-inverse",
+			"col-sm-4",
+			"<h2>",
+			"Lato",
+			"\\",
+			"a",
+			"right",
+			";\n",
+			"line-height:",
+			"@font-family-sans-serif",
+			"h1",
+			"   font-family: \"Advent Pro\";\n",
+			"fw",
+			"class=\"judul\"",
+			"judul",
+			".affix {",
+			".affix{",
+			".affix",
+			"ul",
+			"nav",
+			"fadeIn",
+			"Big",
+			"Neque proin turpis torquent semper netus magna",
+			"h3",
+			"placeholder",
+			"alt=\"\" ",
+			"div",
+			"<div class=\"w-thumbnail\">",
+			"auto",
+			"header-placeholder",
+			"bread",
+			".make-row",
+			"font-size:",
+			"active",
+			"warna-navigasi",
+			".column",
+			"line-height: 1.5",
+			"content",
+			"content-container",
+			"grow",
+			"\\",
+			"effects/",
+			"\";",
+			"@import",
+			"@import ",
+			"transform",
+			"    \n",
+			"breadcrumb-section",
+			"min-width",
+			"@line-height-computed",
+			"vertical-rhythm",
+			"accent",
+			"kotak-md-6",
+			"<img src=\"img/sejarah.png\" class=\"img-responsive\">",
+			"\\",
+			"header-placeholder",
+			"padding-",
+			"margin-",
+			"font-size-base",
+			"@font-size-base",
+			"@border-leaf",
+			"border-leaf",
+			"section",
+			"line-height-base",
+			"line-height",
+			"h1",
+			"em",
+			"border",
+			"button",
+			"component-active",
+			"nav-link-hover-bg",
+			"radius",
+			"border-radius-base",
+			"radius",
+			"round",
+			"button",
+			"pingendo",
+			"section",
+			"p",
+			"code",
+			"My Identity",
+			"**Nama Use Case**",
+			"Kartu Nama Digital",
+			"Kartu Nama digital"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"My Info",
+			"Kartu Nama Elektronik",
+			"Kartu Nama elektronik",
+			"Kartu nama elektronik",
+			"kartu nama elektronik",
+			"dataNIK",
+			"daftarNIK",
+			"Shortlist",
+			"player",
+			"<h5>\n						<span data-icon=\"&#xe002\" aria-hidden=\"true\"></span>\n						Yuppy Bear Victorious\n					</h5>",
+			"    $(document).foundation();\n    window.addEventListener('load', function() {\n    FastClick.attach(document.body);\n}, false);\n  </script>",
+			"<script src='js/fastclick.js'></script>\n <script src=\"js/foundation.min.js\"></script> ",
+			"   <li><a href=\"umroh.html\">Syarat</a></li>\n            <li><a href=\"umroh.html\">Itinerary</a></li>\n            <li><a href=\"umroh.html\">Pembimbing</a></li>\n            <li class=\"divider\"></li>\n            <li><a href=\"umroh.html\">Paket</a></li>\n            <li><a href=\"umroh.html\">Jadwal Keberangkatan</a></li>\n            <li class=\"divider\"></li>\n            <li><a href=\"umroh.html\">See all &rarr;</a></li>",
+			"umroh.html",
+			"<a href=\"umroh.html\">Umroh</a>",
+			"<h5 class=\"subheader\"><a href=\"umroh.html\">",
+			"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">",
+			"p",
+			"<li><a href=\"#\">Rangkuman Kajian</a></li>\n            <li><a href=\"#\">Jadwal</a></li>\n            <li><a href=\"#\">Galeri</a></li><li><a href=\"textpage.html\">Artikel</a></li> ",
+			"<li><a href=\"profile.html\">Profile</a></li>",
+			"<h3><a href=\"textpage.html\">Blog Post Title</a></h3>",
+			"<a href=\"textpage.html\"><p><b>Lihat Selengkapnya »</b></p></a>",
+			"<a href=\"home.html\">\n            Yumna Travel\n          </a>\n",
+			"<a href=\"textpage.html\"><b>Lihat Selengkapnya »</b></a>",
+			"<a href=\"textpage.html\">Lihat Selengkapnya »</a>",
+			"panel radius",
+			" ",
+			"big",
+			" \n ",
+			" ",
+			" \n ",
+			" ",
+			" \n ",
+			" ",
+			"big",
+			" ",
+			"big",
+			" ",
+			" \n ",
+			" ",
+			" \n ",
+			" ",
+			" \n ",
+			" ",
+			"big",
+			" ",
+			"big",
+			" \n ",
+			" ",
+			" \n ",
+			" ",
+			"big",
+			" \n ",
+			" ",
+			"big",
+			" ",
+			"big",
+			" ",
+			" \n ",
+			"",
+			" \n ",
+			"big",
+			" \n ",
+			" ",
+			" \n ",
+			"big",
+			" \n big",
+			" \n ",
+			" ",
+			"",
+			"\n",
+			" ",
+			"big",
+			"  ",
+			" ",
+			"",
+			" ",
+			"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+			",",
+			"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+			"",
+			"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+			"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+			"aaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa",
+			"_",
+			"aaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa\naaaaaaaaaaaaaaaaaaaaaaaaa",
+			"",
+			" ",
+			"",
+			"%div\n            %img{:height => \"574\", :src => \"Thumbnail2.png\", :width => \"574\"}/\n            %h1 Extra2\n            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..\n          %div\n            %img{:height => \"574\", :src => \"Thumbnail.png\", :width => \"574\"}/\n            %h1 Extra3\n            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..\n          %div\n            %img{:height => \"574\", :src => \"Thumbnail2.png\", :width => \"574\"}/\n            %h1 Extra4\n            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..\n        / Section.boxes End\n      / #RecentWork End\n      #Blog\n        .title\n          %h1 Blog\n          %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..\n        %section.boxes\n          %div\n            %img{:height => \"574\", :src => \"Thumbnail.png\", :width => \"574\"}/\n            %h1 Stadium Generale 2012\n            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..\n          %div\n            %img{:height => \"574\", :src => \"Thumbnail2.png\", :width => \"574\"}/\n            %h1 Timeline Freebies\n            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..\n          %div\n            %img{:height => \"574\", :src => \"Thumbnail.png\", :width => \"574\"}/\n            %h1 Extra1\n            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..\n          %div\n            %img{:height => \"574\", :src => \"Thumbnail2.png\", :width => \"574\"}/\n            %h1 Extra2\n            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..\n          %div\n            %img{:height => \"574\", :src => \"Thumbnail.png\", :width => \"574\"}/\n            %h1 Extra3\n            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..\n          %div\n            %img{:height => \"574\", :src => \"Thumbnail2.png\", :width => \"574\"}/\n            %h1 Extra4\n            %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla molestie laoreet quam, vitae vulputate mauris fringilla vitae. Maecenas ut scelerisque nisl. Duis sed justo libero, nec molestie quam..",
+			".highlightable"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/less/main.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/less/navigation.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4383,
+								4388
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2005.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48077,
+								48077
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"history_list_is_closing": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 17437.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/kolom-2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8324.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.377659029728,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 116.0
+	},
+	"output.git-pull":
+	{
+		"height": 98.0
+	},
+	"output.git-push":
+	{
+		"height": 98.0
+	},
+	"output.markdown":
+	{
+		"height": 25.0
+	},
+	"pinned_build_system": "",
+	"project": "kominfo.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"halaman",
+				"source/less/halaman-kolom.less"
+			],
+			[
+				"kolom",
+				"public/kolom-2.html"
+			],
+			[
+				"navigas",
+				"source/less/navigation.less"
+			],
+			[
+				"hala",
+				"source/less/halaman-kolom.less"
+			],
+			[
+				"stye",
+				"source/less/style.less"
+			],
+			[
+				"not",
+				"public/notfound.html"
+			],
+			[
+				"halama",
+				"source/less/halaman-kolom.less"
+			],
+			[
+				"naviga",
+				"source/less/navigation.less"
+			],
+			[
+				"err",
+				"source/less/error.less"
+			],
+			[
+				"erro",
+				"public/error.html"
+			],
+			[
+				"boot",
+				"public/css/bootstrap.css.map"
+			],
+			[
+				"boo",
+				"public/css/bootstrap.css"
+			],
+			[
+				"gamb",
+				"source/less/gambar.less"
+			],
+			[
+				"icon-gr",
+				"source/less/hover/effects/icons/_icon-grow.less"
+			],
+			[
+				"icon-fo",
+				"source/less/hover/effects/icons/_icon-forward.less"
+			],
+			[
+				"boots",
+				"public/css/bootstrap.css"
+			],
+			[
+				"shot",
+				"source/less/shortcut.less"
+			],
+			[
+				"main",
+				"source/less/main.less"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"style",
+				"source/less/style.less"
+			],
+			[
+				"tem",
+				"public/template.html"
+			],
+			[
+				"cus",
+				"source/less/custom-bootstrap-variables.less"
+			],
+			[
+				"fonts",
+				"source/less/fonts.less"
+			],
+			[
+				"varb",
+				"source/less/variables.less"
+			],
+			[
+				"gray",
+				"public/css/grayscale.css"
+			],
+			[
+				"butt",
+				"source/less/buttons.less"
+			],
+			[
+				"land",
+				"public/landing.html"
+			],
+			[
+				"bread",
+				"source/less/breadcrumb.less"
+			],
+			[
+				"kolo",
+				"public/kolom-1.html"
+			],
+			[
+				"tangg",
+				"source/less/tanggal.less"
+			],
+			[
+				"nav",
+				"public/nav-berita.html"
+			],
+			[
+				"header",
+				"public/header.html"
+			],
+			[
+				"sty",
+				"source/less/style.less"
+			],
+			[
+				"foot",
+				"public/footer.html"
+			],
+			[
+				"footer",
+				"public/footer.html"
+			],
+			[
+				"grow",
+				"source/less/hover/effects/shadow-and-glow-transitions/_grow-shadow.less"
+			],
+			[
+				"shor",
+				"source/less/shortcut.less"
+			],
+			[
+				"gam",
+				"public/galeri.html"
+			],
+			[
+				"navi",
+				"source/less/navigation.less"
+			],
+			[
+				"head",
+				"prototype/header/Header.less"
+			],
+			[
+				"nav-",
+				"public/nav-berita.html"
+			],
+			[
+				"po",
+				"source/less/hover/effects/2d-transitions/_pop.less"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"footer.le",
+				"source/less/footer.less"
+			],
+			[
+				"foo",
+				"public/footer.html"
+			],
+			[
+				"var",
+				"source/less/variables.less"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"heade",
+				"prototype/header/Header.less"
+			],
+			[
+				"navigasi",
+				"source/less/navigation.less"
+			],
+			[
+				"kotak",
+				"source/less/kotak.less"
+			],
+			[
+				"navigat",
+				"source/less/navigation.less"
+			],
+			[
+				"st",
+				"source/less/style.less"
+			],
+			[
+				"tw",
+				"source/less/twitter.less"
+			],
+			[
+				"in",
+				"public/index.html"
+			],
+			[
+				"short",
+				"source/less/shortcut.less"
+			],
+			[
+				"under",
+				"source/less/under-cs.less"
+			],
+			[
+				"css.map",
+				"public/css/bootstrap.css.map"
+			],
+			[
+				"gambar",
+				"source/less/gambar.less"
+			],
+			[
+				"typ",
+				"source/less/typography.less"
+			],
+			[
+				"galer",
+				"public/galeri.html"
+			],
+			[
+				"navigs",
+				"public/navigasi.html"
+			],
+			[
+				"coba",
+				"public/coba-coba.html"
+			],
+			[
+				"kota",
+				"public/kotak.html"
+			],
+			[
+				"varia",
+				"source/less/variables.less"
+			],
+			[
+				"button",
+				"source/less/buttons.less"
+			],
+			[
+				"cuso",
+				"source/less/custom-bootstrap-variables.less"
+			],
+			[
+				"brea",
+				"source/less/breadcrumb.less"
+			],
+			[
+				"tnagg",
+				"source/less/tanggal.less"
+			],
+			[
+				"tna",
+				"public/css/tanggal.css"
+			],
+			[
+				"styl",
+				"source/less/style.less"
+			],
+			[
+				"custom",
+				"source/less/custom-bootstrap-variables.less"
+			],
+			[
+				"kol",
+				"public/kolom-2.html"
+			],
+			[
+				"ma",
+				"source/less/main.less"
+			],
+			[
+				"halam",
+				"source/less/halaman-kolom.less"
+			],
+			[
+				"font",
+				"source/less/fonts.less"
+			],
+			[
+				"kolom-1",
+				"public/kolom-1.html"
+			],
+			[
+				"t",
+				"source/less/typography.less"
+			],
+			[
+				"kolom-3",
+				"public/kolom-3.html"
+			],
+			[
+				"hea",
+				"public/header.html"
+			],
+			[
+				"vari",
+				"source/less/variables.less"
+			],
+			[
+				"variabe",
+				"source/less/bootstrap/variables.less"
+			],
+			[
+				"gri",
+				"source/less/bootstrap/mixins/grid-framework.less"
+			],
+			[
+				"grid",
+				"source/less/bootstrap/grid.less"
+			],
+			[
+				"templa",
+				"public/template.html"
+			],
+			[
+				"mai",
+				"source/less/main.less"
+			],
+			[
+				"navs",
+				"source/less/bootstrap/navs.less"
+			],
+			[
+				"ver",
+				"source/vertical-rhythm.less"
+			],
+			[
+				"navig",
+				"source/less/navigation.less"
+			],
+			[
+				"variab",
+				"source/less/variables.less"
+			],
+			[
+				"buttons",
+				"source/less/bootstrap/buttons.less"
+			],
+			[
+				"underline",
+				"source/less/hover/effects/border-transitions/_underline-from-center.less"
+			],
+			[
+				"hover",
+				"source/less/hover-imports.less"
+			],
+			[
+				"animate",
+				"source/less/animate/_animate.less"
+			],
+			[
+				"float",
+				"source/less/hover/effects/shadow-and-glow-transitions/_float-shadow.less"
+			],
+			[
+				"ripple",
+				"source/less/hover/effects/border-transitions/_ripple-out.less"
+			],
+			[
+				"vara",
+				"source/less/variables.less"
+			],
+			[
+				"box",
+				"source/less/box.less"
+			],
+			[
+				"",
+				"source/less/custom-bootstrap-variables.less"
+			],
+			[
+				"yamm",
+				"source/less/yamm/yamm.less"
+			],
+			[
+				"templ",
+				"public/template.html"
+			],
+			[
+				"ticker",
+				"public/css/ticker.css"
+			],
+			[
+				"mixi",
+				"source/less/bootstrap/mixins.less"
+			],
+			[
+				"style.less",
+				"source/less/style.less"
+			],
+			[
+				"coba-",
+				"public/coba-coba.html"
+			],
+			[
+				"lis",
+				"protected/views/poin/list.php"
+			],
+			[
+				"_li",
+				"protected/views/poin/_list.php"
+			],
+			[
+				"_lis",
+				"protected/views/poin/_list.php"
+			],
+			[
+				"list",
+				"protected/views/peserta/list.php"
+			],
+			[
+				"char",
+				"protected/extensions/chartpoin/ChartPoinSparta.php"
+			],
+			[
+				"view",
+				"protected/views/peserta/view.php"
+			],
+			[
+				"peser",
+				"protected/controllers/PesertaController.php"
+			],
+			[
+				"poin",
+				"protected/models/Poin.php"
+			],
+			[
+				"post",
+				"protected/controllers/PostController.php"
+			],
+			[
+				"timeline",
+				"protected/components/views/timelineWidget.php"
+			],
+			[
+				"time",
+				"sass/timeline.sass"
+			],
+			[
+				"styleg",
+				"sass/_styleguide.scss"
+			],
+			[
+				"text",
+				"sass/_text-page.scss"
+			],
+			[
+				"inde",
+				"protected/views/admin/index.php"
+			],
+			[
+				"timelinew",
+				"protected/components/views/timelineWidget.php"
+			],
+			[
+				"form",
+				"protected/views/timeline/_form.php"
+			],
+			[
+				"chart",
+				"protected/extensions/chartpoin/ChartPoinSparta.php"
+			],
+			[
+				"site",
+				"protected/controllers/SiteController.php"
+			],
+			[
+				"user",
+				"user-req.txt"
+			],
+			[
+				"setting",
+				"sass/_settings.scss"
+			],
+			[
+				"gadget",
+				"sass/_gadget.scss"
+			],
+			[
+				"styles",
+				"sass/_stylesheet.scss"
+			],
+			[
+				"pese",
+				"protected/controllers/PesertaController.php"
+			],
+			[
+				"peserta",
+				"protected/models/Peserta.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/PramaAditya/gitconfig.sublime-project"
+			],
+			[
+				"vre",
+				"/Users/PramaAditya/Documents/Websites/vrescostudio/vresco.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 93.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

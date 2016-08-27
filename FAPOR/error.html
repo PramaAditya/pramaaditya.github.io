@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kementerian Komunikasi dan Informatika</title>
+  <link rel="icon" type="image/png" href="img/logo-kominfo-mini.png">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- <link href="css/bootstrap-theme.css" rel="stylesheet"> -->
+  <!-- Pingendo -->
+  <link href="css/pingendo-theme.css" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jasny-bootstrap.js"></script>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  <body>
+</head>
+  <header id="header">
+    <div class="kominfo-container">
+      <h3><a href="index.html">Kementerian Komunikasi dan Informatika Republik Indonesia</a>
+      <br>
+      <span class="motto">&ldquo;Menuju Masyarakat Informasi Indonesia&rdquo;</span></h3>
+      <div id="search">
+        <div class="form-group">
+          <div class="col-sm-10">
+            <input type="search" name="meh" id="inputMeh" class="form-control" value="" required="required" title="">
+          </div>
+          <label for="inputMeh" class="col-sm-2 control-label"><span class="glyphicon glyphicon-search"></span></label>
+        </div>
+      </div>
+    </div>
+    <div class="navbar yamm">
+      <ul class="nav navbar-nav">
+        <li class="menu-link"><a href="index.html">Beranda</a></li>
+        <li class="menu-link dropdown yamm">
+          <a href="kolom-3.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Profil 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <div class="yamm-content">
+              <div class="row">
+                <ul class="col-sm-6 list-unstyled">
+                  <h3>Tentang Kami</h3>
+                  <li>
+                    <a href="kolom-1.html">Sejarah</a>
+                  </li>
+                  <li>
+                    <a href="kolom-1.html">Visi dan Misi</a>
+                  </li>
+                  <li>
+                    <a href="kolom-1.html">Tugas dan Fungsi</a>
+                  </li>
+                  <li>
+                    <a href="kolom-1.html">Struktur</a>
+                  </li>
+                  <li>
+                    <a href="kolom-1.html">Organisasi</a>
+                  </li>
+                  <li>
+                    <a href="kolom-1.html">Daftar Menteri</a>
+                  </li>
+                  <li>
+                    <a href="kolom-1.html">Unit Kerja</a>
+                  </li>
+                </ul>
+                <div class="col-sm-6 menteri-column">
+                  <img src="img/rudiantara-round.png" class="img-responsive">
+                  <h3 class="nama-menteri">Rudiantara</h3>
+                  <h4 class="jabatan-menteri">Menkominfo</h4>
+                  <a href="kolom-1.html" class="profil-lengkap">Profil Lengkap</a>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="menu-link dropdown yamm-fw">
+          <a href="berita.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Berita <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <div class="yamm-content">
+              <div class="row">
+                <ul class="col-sm-3 list-unstyled">
+                  <h3>Semua Berita</h3>
+                  <li>
+                    <a href="berita.html">Berita Kementerian</a>
+                  </li>
+                  <li>
+                    <a href="berita.html">Berita Nasional</a>
+                  </li>
+                  <li>
+                    <a href="berita.html">Sorotan Media</a>
+                  </li>
+                  <li>
+                    <a href="berita.html">Siaran Pers</a>
+                  </li>
+                  <li>
+                    <a href="berita.html">Streaming</a>
+                  </li>
+                </ul>
+                <ul class="col-sm-5 list-unstyled">
+                  <h3 id="to-galeri"><a href="galeri.html"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>Galeri</a></h3>
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                      <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <img src="img/galeri/Peresmian01.png">
+                        <div class="carousel-caption">
+                          <h3><a href="galeri.html">PERESMIAN 5 BTS DI PERBATASAN KALIMANTAN TIMUR</a></h3>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="img/galeri/Peresmian02.png">
+                        <div class="carousel-caption">
+                          <h3><a href="galeri.html">PERESMIAN 5 BTS DI DKI JAKARTA</a></h3>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="img/galeri/Peresmian03.png">
+                        <div class="carousel-caption">
+                          <h3><a href="galeri.html">REFORMASI BIROKRASI DI KOMINFO</a></h3>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="img/galeri/HUT_KORPRI2013_3.jpg">
+                        <div class="carousel-caption">
+                          <h3><a href="galeri.html">HUT KORPRI 2013</a></h3>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    </a>
+                  </div>
+                </ul>
+                <ul class="col-sm-4 list-unstyled">
+                  <h3>Agenda</h3>
+                  <a href="kolom-2.html">
+                    <li class="bas-tanggal-container">
+                      <div class="bas-tanggal-kotak">
+                        <div class="bas-tanggal-angka">
+                          26
+                        </div>
+                        <div class="bas-tanggal-bulan">
+                          Mei
+                        </div>
+                      </div>
+                      <div class="bas-berita-container">
+                        <h4>Pekan Informasi Nasional ke-VI di Padang, Sumatera Barat</h4>
+                        <p>Lokasi : GOR H. Agus Salim Padang</p>
+                      </div>
+                    </li>
+                  </a>
+                  <a href="kolom-2.html">
+                    <li class="bas-tanggal-container secondary">
+                      <div class="bas-tanggal-kotak">
+                        <div class="bas-tanggal-angka">
+                          27
+                        </div>
+                        <div class="bas-tanggal-bulan">
+                          Mei
+                        </div>
+                      </div>
+                      <div class="bas-berita-container">
+                        <h4>Rapat Koordinasi Kerja Sama Lintas Daerah Bidang Kominfo Wilayah Indonesia Bagian Timur Tahun 2014</h4>
+                        <p>Tema : Memantapkan pembangunan Komunikasi dan Informatika melalui sinergitas program/kegiatan antara Kementerian Komunikasi dan Informatika dengan Pemerintah Daerah</p>
+                      </div>
+                    </li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="menu-link" id="logo-padding">
+          <a href="index.html"><img id="logo" src="img/logo-kominfo.png"></a>
+        </li>
+        <li class="menu-link dropdown yamm">
+          <a href="kolom-3.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Fasilitas 
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <div class="yamm-content">
+              <div class="row">
+                <ul class="col-sm-5 list-unstyled">
+                  <h3>Layanan</h3>
+                  <li>
+                    <a href="kolom-3.html">Perizinan</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Sertifikasi</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Lelang (LPSE)</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Pengaduan</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Domain ID</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">e-Government</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">e-Business</a>
+                  </li>
+                </ul>
+                <ul class="col-sm-7 list-unstyled">
+                  <h3>Program</h3>
+                  <li>
+                    <a href="kolom-3.html">Pemberdayaan Informatika</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Telematika Pedesaan</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Internet Sehat</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Open Source</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">TV Digital</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Monumen Pers Nasional</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Pekan Informasi Nasional</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Keamanan Informasi</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Palapa Ring</a>
+                  </li>
+                  <li>
+                    <a href="kolom-3.html">Beasiswa</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </li>
+        <li class="menu-link dropdown yamm-fw">
+          <a href="kolom-2.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Publikasi <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <div class="yamm-content">
+              <div class="row">
+                <ul class="col-sm-2 list-unstyled">
+                  <h3>Informasi</h3>
+                  <li>
+                    <a href="kolom-2.html">Statistik</a>
+                  </li>
+                  <li>
+                    <a href="kolom-2.html">Hasil Penelitian</a>
+                  </li>
+                  <li>
+                    <a href="kolom-2.html">Jurnal Ilmiah</a>
+                  </li>
+                  <li>
+                    <a href="kolom-2.html">Sistem Informasi Geografis</a>
+                  </li>
+                  <li>
+                    <a href="kolom-2.html">Perjanjian/MoU</a>
+                  </li>
+                </ul>
+                <ul class="col-sm-2 list-unstyled">
+                  <h3>Laporan</h3>
+                  <li>
+                    <a href="kolom-2.html">Laporan Keuangan Tahunan</a>
+                  </li>
+                  <li>
+                    <a href="kolom-2.html">Laporan Akuntabilitas</a>
+                    <li>
+                      <a href="kolom-2.html">LAKIP</a>
+                    </li>
+                </ul>
+                <ul class="col-sm-2 list-unstyled">
+                  <h3>Rencana</h3>
+                  <li>
+                    <a href="kolom-2.html">Rencana Strategis</a>
+                  </li>
+                  <li>
+                    <a href="kolom-2.html">Rencana Kerja</a>
+                  </li>
+                  <li>
+                    <a href="kolom-2.html">Rencana Anggaran</a>
+                  </li>
+                </ul>
+                <ul class="col-sm-2 list-unstyled">
+                  <h3>Hukum</h3>
+                  <li>
+                    <a href="https://jdih.kominfo.go.id/"> Regulasi (JDIH) <span class="glyphicon glyphicon-new-window"></span></a>
+                  </li>
+                </ul>
+                <ul class="download-column col-sm-4 list-unstyled">
+                  <a href="kolom-2.html"><span class="glyphicon glyphicon-download"></span>
+                  <h3>DOWNLOAD</h3>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </ul>
+          </li>
+          <li class="menu-link dropdown yamm">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Kontak<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <div class="yamm-content">
+                <h3>Hubungi Kami</h3>
+                <li>
+                  <a href="https://id-id.facebook.com/Kemkominfo">Facebook</a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/kemkominfo">Twitter</a>
+                </li>
+                <li>
+                  <a href="#">Email</a>
+                </li>
+                <li>
+                  <a href="#">Telepon</a>
+                </li>
+                <li>
+                  <a href="http://kontak.kominfo.go.id/">Kontak Kominfo <span class="glyphicon glyphicon-new-window"></span></a>
+                </li>
+              </div>
+    </div>
+    </ul>
+    </li>
+    </ul>
+    </div>
+  </header>
+  <header id="header-mobile" class="visible-sm-block">
+    <div class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-mobile" data-canvas="body">
+          <!-- <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> -->
+          <label>MENU</label>
+        </button>
+        <img id="logo-kominfo" src="img/logo-kominfo.png">
+        <label class="brand">KOMINFO</label>
+      </div>
+      <div id="menu-mobile" class="collapse navbar-collapse" role="navigation">
+        <ul class="nav  navbar-nav">
+          <li>
+            <a href="index.html">Beranda</a>
+          </li>
+          <li class="dropdown">
+            <a href="kolom-1.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Profil <span class="caret"></span></a>
+            <ul class="dropdown-menu " role="menu">
+              <li>
+                <a href="kolom-1.html">Sejarah Kominfo</a>
+              </li>
+              <li>
+                <a href="kolom-1.html">Visi dan Misi</a>
+              </li>
+              <li>
+                <a href="kolom-1.html">Tugas dan Fungsi</a>
+              </li>
+              <li>
+                <a href="kolom-1.html">Struktur Organisasi</a>
+              </li>
+              <li>
+                <a href="kolom-1.html">Daftar Menteri</a>
+              </li>
+              <li>
+                <a href="kolom-1.html">Unit Kerja</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="berita.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Berita dan Pers <span class="caret"></span></a>
+            <ul class="dropdown-menu " role="menu">
+              <li>
+                <a href="berita.html">Kementerian</a>
+              </li>
+              <li>
+                <a href="berita.html">Pemerintahan</a>
+              </li>
+              <li>
+                <a href="berita.html">Sorotan Media</a>
+              </li>
+              <li>
+                <a href="berita.html">Siaran Pers</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="kolom-3.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Layanan Publik <span class="caret"></span></a>
+            <ul class="dropdown-menu " role="menu">
+              <li>
+                <a href="kolom-3.html">Perizinan</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Sertifikasi</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Lelang (LPSE)</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Pengaduan</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Domain ID</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">e-Government</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">e-Business</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="kolom-3.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Informasi Publik <span class="caret"></span></a>
+            <ul class="dropdown-menu " role="menu">
+              <li>
+                <a href="kolom-3.html">Download</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Statistik</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Hasil Penelitian</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Jurnal Ilmiah</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Streaming</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Sistem Informasi Geografis</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Perjanjian/MoU</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="kolom-3.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Program <span class="caret"></span></a>
+            <ul class="dropdown-menu " role="menu">
+              <li>
+                <a href="kolom-3.html">Pemberdayaan Informatika</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Telematika Pedesaan</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Internet Sehat</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Open Source</a>
+              </li>
+              <li>
+                <a href="kolom-3.html/">TV Digital</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Monumen Pers Nasional</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Pekan Informasi Nasional</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Keamanan Informasi</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Palapa Ring</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Beasiswa</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="kolom-3.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Publikasi <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a href="kolom-3.html">Laporan Keuangan Tahunan</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Laporan Akuntabilitas</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">LAKIP</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Rencana Strategis</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Rencana Kerja</a>
+              </li>
+              <li>
+                <a href="kolom-3.html">Rencana Anggaran</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://jdih.kominfo.go.id/">Regulasi (JDIH) <span class="glyphicon glyphicon-new-window"></span></a>
+          </li>
+          <li>
+            <a href="berita.html">Agenda</a>
+          </li>
+          <li>
+            <a href="galeri.html">Galeri</a>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hubungi Kami <span class="caret"></span></a>
+            <ul class="dropdown-menu " role="menu">
+              <li>
+                <a href="https://id-id.facebook.com/Kemkominfo">Facebook</a>
+              </li>
+              <li>
+                <a href="https://twitter.com/kemkominfo">Twitter</a>
+              </li>
+              <li>
+                <a href="#">Email</a>
+              </li>
+              <li>
+                <a href="#">Telepon</a>
+              </li>
+              <li>
+                <a href="http://kontak.kominfo.go.id/">Kontak Kominfo</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Bantuan <span class="caret"></span></a>
+            <ul class="dropdown-menu " role="menu">
+              <li>
+                <a href="#">Pencarian</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="http://kominfo.go.id/index.php/content/rss">RSS</a>
+              </li>
+              <li>
+                <a href="#">Peta Situs</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="news blue">
+    <span>30 Mei 2015</span>
+    <ul>
+      <li>
+        <a href="kolom-2.html">Penyelenggara Jaringan diwajibkan Modifikasi Aplikasi 4444 di Server</a>
+      </li>
+      <li>
+        <a href="kolom-2.html">Kemkominfo, Kaltim dan Kaltara MoU Bangun BTS Diperbatasan
+        </a>
+      </li>
+      <li>
+        <a href="kolom-2.html">Menkominfo Pimpin Upacara Harkitnas Ke-107 di Balikpapan
+        </a>
+      </li>
+      <li>
+        <a href="kolom-2.html">Menkominfo Ajak Kenang Kembali Semangat Perjuangan The Founding Father Bangsa
+        </a>
+      </li>
+    </ul>
+  </div>
+<script type="text/javascript">
+$(document).on('click', '.yamm .dropdown-menu', function(e) {
+  e.stopPropagation()
+})
+</script>
+<!-- Taroh kode diantara <body></body> dari Pingendo di sini -->
+<div class="error-section section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="error-template">
+          <center>
+            <div class="img-contain">
+              <img src="img/500.png" alt="Error 500" class="img-responsive">
+            </div>
+            <div class="error-details">
+              <h4>Maaf, server mengalami kerusakan dan tidak dapat memproses permintaan Anda!</h4>
+            </div>
+            <div class="error-actions">
+              <h1>
+                    <a href="index.html" class="btn btn-primary btn-lg" style="margin-right: 15px"><span class="glyphicon glyphicon-home"></span>
+                        Kembali ke Beranda </a><a href="index.html" class="btn btn-default btn-lg" style="margin-left: 15px"><span class="glyphicon glyphicon-envelope"></span> Kontak Dukungan </a>
+                </h1>
+            </div>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="hidden-xs section" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="list">
+        <h2>Navigasi</h2>
+        <ol class="list-unstyled">
+          <li>
+            <a href="berita.html">Berita</a>
+          </li>
+          <li>
+            <a href="kolom-3.html">Layanan Publik</a>
+          </li>
+          <li>
+            <a href="kolom-3.html">Program Prioritas</a>
+          </li>
+          <li>
+            <a href="kolom-3.html">Publikasi</a>
+          </li>
+          <li>
+            <a href="kolom-3.html">Regulasi</a>
+          </li>
+          <li>
+            <a href="galeri.html">Galeri Foto</a>
+          </li>
+          <li>
+            <a href="#">F.A.Q.</a>
+          </li>
+          <li>
+            <a href="berita.html">Siaran Pers</a>
+          </li>
+        </ol>
+      </div>
+      <div class="list">
+        <h2>Tentang Kami</h2>
+        <ol class="list-unstyled">
+          <li>
+            <a href="kolom-1.html">Sejarah</a>
+          </li>
+          <li>
+            <a href="kolom-1.html">Visi dan Misi</a>
+          </li>
+          <li>
+            <a href="kolom-1.html">Tugas dan Fungsi</a>
+          </li>
+          <li>
+            <a href="kolom-1.html">Struktur</a>
+          </li>
+          <li>
+            <a href="kolom-1.html">Organisasi</a>
+          </li>
+          <li>
+            <a href="kolom-1.html">Daftar Menteri</a>
+          </li>
+          <li>
+            <a href="kolom-1.html">Unit Kerja</a>
+          </li>
+        </ol>
+      </div>
+      <div class="list">
+        <h2>Tautan</h2>
+        <ol class="list-unstyled">
+          <li>
+            <a href="http://indonesiabergegas.com/">Indonesia Bergegas</a>
+          </li>
+          <li>
+            <a href="http://ppid.kominfo.go.id/">PPID</a>
+          </li>
+          <li>
+            <a href="http://lapor.ukp.go.id/">LAPOR!</a>
+          </li>
+          <li>
+            <a href="http://bp3ti.kominfo.go.id">BP3TI</a>
+          </li>
+          <li>
+            <a href="http://www.inaicta.web.id/">INAICTA</a>
+          </li>
+          <li>
+            <a href="http://satulayanan.net">Satu Layanan</a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="subfooter">
+  <div class="container">
+    <div class="row">
+      <div id="info-kontak">
+        <h3>PUSAT DATA DAN SARANA INFORMATIKA</h3>
+        <ol id="alamat">
+          <li><span class="glyphicon glyphicon-map-marker"></span>Jl. Medan Merdeka Barat No. 9, Jakarta Pusat, 10110</li>
+          <li><span class="glyphicon glyphicon-phone"></span>(021)&nbsp; 38433507</li>
+          <li><span class="glyphicon glyphicon-phone"></span>(021)&nbsp;38433508</li>
+        </ol>
+        <ol id="other-menu">
+          <li>
+            <a href="#">Peta Situs</a>
+          </li>
+          <li>
+            <a href="#">Kebijakan Privasi</a>
+          </li>
+          <li>
+            <a href="#">Syarat dan Ketentuan</a>
+          </li>
+        </ol>
+        <p class="text-left ">Copyright © 2015 Kementerian Teknologi dan Informatika Republik Indonesia</p>
+      </div>
+      <div id="info-kominfo">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo-kominfo.png" class="img-responsive" id="logo-footer"></a>
+        </div>
+        <a href="https://twitter.com/kemkominfo"><i class="fa fa-fw fa-twitter hub "></i></a>
+        <a href="https://id-id.facebook.com/Kemkominfo"><i class="fa fa-facebook fa-fw hub "></i></a>
+        <a href="http://kominfo.go.id/index.php/content/rss"><i class="fa fa-fw fa-rss hub "></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(document).on('click', '.yamm .dropdown-menu', function(e) {
+  e.stopPropagation()
+})
+</script>
+</body>
+
+</html>

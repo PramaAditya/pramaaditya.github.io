@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="id" xml:lang="id" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+    <meta name="google-site-verification" content="eimn4J0fUIwozFUnekd76INZBoHvCCgWuXsx4KfNrRg" />
+    <meta name="google-site-verification" content="hYbRwL_rrcR2C6_EcJ6dDIYJ1WB68JJBXvwFikd03t8" />
+    
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta keywords="blog,komik,vran,vranbor,STI,ITB">
+    <meta author="Prama Aditya Putra">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="
+
+    
+        
+            
+                
+                    KOMINFO Website Redesign
+                    
+                    My First UX Hands On Experience
+                    
+                    
+                    22
+                    November
+                      
+                ...">
+    <meta property="og:title" content="KOMINFO Website Redesign">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Prama Aditya">
+    <meta property="og:locale" content="id_ID">
+
+
+
+    <meta property="og:url" content="http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/">
+
+
+
+    <meta property="og:description" content="
+
+    
+        
+            
+                
+                    KOMINFO Website Redesign
+                    
+                    My First UX Hands On Experience
+                    
+                    
+                    22
+                    November
+                      
+                ...">
+
+    <meta property="og:image" content="http://pramaaditya.com/img/opengraph/rokok-cinta.jpg">
+    
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1000">
+    <meta property="og:image:height" content="667">
+    <meta property="fb:profile_id" content="vranbor">
+    <meta property="fb:admins" content="vranbor">
+
+    
+        <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">    
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/widget.css">
+
+    <title>KOMINFO Website Redesign - Prama Aditya</title>
+
+    <link rel="canonical" href="http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <link rel="stylesheet" href="/css/new.css">
+    
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Economica:700|Libre+Baskerville:400,700,400italic|Abril+Fatface' rel='stylesheet' type='text/css'>
+
+    <!-- JQUERY -->
+    <script type="text/javascript" src="/js/simple-expand.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+<div id="fb-root"></div>
+
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/id_ID/all.js#xfbml=1&appId=489882627741254";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64073120-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Prama Aditya</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                
+                
+                <!-- <li>
+                    <a href="http://orbitcomic.me" target="_blank">Komik Orbit <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a>
+                </li> -->
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/img/kominfo.png')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>KOMINFO Website Redesign</h1>
+                    
+                    <h2 class="subheading">My First UX Hands On Experience</h2>
+                    
+                    <span class="meta">
+                    22
+                    November
+                      
+                    2015
+                    </span>
+                    
+
+                    <div class="share-page">
+    <a href="https://twitter.com/intent/tweet?text=KOMINFO Website Redesign&url=http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/&via=pramaadityap&related=pramaadityap" rel="nofollow" target="_blank" title="Share on Twitter">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+    <a href="https://facebook.com/sharer.php?u=http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/" rel="nofollow" target="_blank" title="Share on Facebook">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+    <a href="https://plus.google.com/share?url=http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/" rel="nofollow" target="_blank" title="Share on Google+">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+    <a href="http://pinterest.com/pin/create/button/?url=http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/&description=KOMINFO Website Redesign " target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</div>
+
+<!-- <div id="social-share" class="share-page">
+        <a href="https://www.facebook.com/sharer.php?s=100&p%5Burl%5D=&p%5Bimages%5D%5B0%5D=http://pramaaditya.com/img/opengraph/rokok-cinta.jpg&p%5Btitle%5D=KOMINFO%20Website%20Redesign&p%5Bsummary%5D=">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+        </span>
+        </a>
+        <a href="https://twitter.com/intent/tweet?url=&text=KOMINFO%20Website%20Redesign&via=okeeblow">
+            <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+            </span>
+        </a>
+        <a href="http://reddit.com/submit?url=&title=KOMINFO%20Website%20Redesign">
+            <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-reddit fa-stack-1x fa-inverse"></i>
+        </span>
+        </a>
+</div> -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 post-container">
+                <div class="post">
+				<p>Last April I participated in a website redesign competition held by Indonesia’s
+Ministry of Communications and Information Technology (Menkominfo). Me and my team
+decided to try using some of UX design process in our work. Because the 2 week
+deadline, we could only realise some of the process as follows:</p>
+
+<h3 id="step-1-research">Step 1: Research</h3>
+
+<p>First we research the initial state of the website. We did it by doing a web
+analytics research via Google Analytics, Alexa and SimilarWeb. We also did a
+user testing in the form of tree testing to validate our information
+architecture redesign.</p>
+
+<h4 id="initial-state">Initial State</h4>
+
+<p>Before the redesign, the website’s information components can be categorized to:</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*PV-Pk1RTYIbLN2q7RC6qIw.png" />
+<span class="image-caption">The initial state of the ministry’s website</span>
+</div>
+
+<ul>
+  <li>Navigation Header</li>
+  <li>News Reel</li>
+  <li>Closable Slider</li>
+  <li>Slider/Carousel</li>
+  <li>Internal Shortcuts</li>
+  <li>Article (News, Press Release, Announcement, dll)</li>
+  <li>Live Twitter Feed</li>
+  <li>The Minister’s Profile</li>
+  <li>External Shortcuts</li>
+  <li>Navigation Footer</li>
+  <li>Footer</li>
+</ul>
+
+<p>The ministry also gave us a set of rules about the content of the website that
+we must account for</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1600/1*mSoD1cx_jCyV-7JnI12u-Q.png" />
+<span class="image-caption">The information that must be included</span>
+</div>
+
+<p>From here, we made assumptions on the <strong>business needs</strong> of Kominfo</p>
+
+<h4 id="web-analytics">Web Analytics</h4>
+
+<p>After discovering the needs of the business, we then look for the user’s needs
+by examining reports from the web analytics. 38,20% of traffics come from Google
+and other search engines, making them the main source of traffic to the
+ministry’s website.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/2000/1*mWwK_2Tss4lIobYRBEbdfw.png" />
+</div>
+<h4 id="keyword-research">Keyword Research</h4>
+
+<p>With search engines being the website’s main traffic source we conduct a keyword
+research to discover the purpose of users visiting the website.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/2000/1*oGIK5Mx8p5p8wjYfVmwLuA.png" />
+</div>
+<p>Based on our findings, we then made assumptions on the user’s needs</p>
+
+<h4 id="user-research">User Research</h4>
+
+<p>To make some user personas, we also looked at the web analytic reports.
+Specifically, the audience interest and the audience demographic</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*sUnC6qHrsZC2qZgbTkpaBw.png" />
+</div>
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*0VqLhMBb1RdXrA4lSoEXtg.png" />
+</div>
+<h4 id="tree-testing">Tree Testing</h4>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*qKCSwtKWdkJ1mhBWWW-wrQ.png" />
+</div>
+<p>To test our assumptions that the initial navigation bar is confusing to users,
+we conducted a <a href="https://www.optimalworkshop.com/treejack">tree testing</a> to 7
+respondents.</p>
+
+<hr />
+
+<p>From this test, we discovered that 43% of the had to redirect themself to choose
+the right answer. This confirms our assumption that the navigation bar need
+reorganization.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1600/1*prc6N6TfPMg0iF4591cgnw.png" />
+<span class="image-caption">Results from our tree testing</span>
+</div>
+
+<h3 id="step-2-design">Step 2: Design</h3>
+
+<h4 id="information-design">Information Design</h4>
+
+<p>We start by designing the information architecture of the navigation bar.
+Following the UX design process, we conducted a <a href="https://www.optimalworkshop.com/optimalsort">card sorting
+test</a> to determine the best way to
+organize the links.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1600/1*wLFvIomGyFJIM2-JNYAbIg.png" />
+</div>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1600/1*jrzR1YlIxaG9yjNWj9kzfg.png" />
+<span class="image-caption">Card Sorting</span>
+</div>
+
+<p>The test‘s output is a Dendrogram that we use to determine the grouping of links
+in the navigation bar.</p>
+
+<p>To meet both the business and user needs we decided to use 3 big groups and
+making them mega menus.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/2000/1*M1UiFiAjAifORC_F8LEv6A.png" />
+<span class="image-caption">Information architecture for the navigation bar</span>
+</div>
+
+<p>We also designed the information architecture for the home page based on the
+business needs and the user needs.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/2000/1*vT9jy-o9GsENEZaQ3nnmYg.png" />
+<span class="image-caption">Information architecture for the home page</span>
+</div>
+
+<h4 id="interaction-design">Interaction Design</h4>
+
+<p>We sketched our layout ideas for the mega menus and the home page.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*kBscQPomflJGWoVhaRfsLw.jpeg" />
+</div>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*RRdbbYrXdLpI4dgEa1Xu0w.jpeg" />
+</div>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*Y1l2De_75ok0u2c79Lg1-w.jpeg" />
+</div>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*OlhjEpMvX5a7eirCX4YgyQ.jpeg" />
+<span class="image-caption">Sketching rancangan mega menu</span>
+</div>
+
+<p>From the information architecture that we made, we designed 2 variations of the
+home page. The designs differs in the placement of the ministry’s profile, which
+is part of the business needs. Both of the designs were tested with A/B Testing
+to 35 respondents. We ended up choosing the second (right) design with 54,3%
+votes.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*04Q1ZFw7JMkF-Groivtb1Q.png" />
+</div>
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*jjGVnhw56Jnq0foNF7pgCQ.png" />
+<span class="image-caption">2 home page design for A/B Testing</span>
+</div>
+
+<h4 id="konsiderasi-usability-dari-carousel">Konsiderasi Usability dari Carousel</h4>
+
+<p>After considering the <a href="http://shouldiuseacarousel.com/">usability problems</a> that
+may arise from a carousel, we decided not to use it. Instead we considered some
+alternatives patterns such as overflow, single, equal grid and masonry grid. We
+ended up choosing the masonry grid pattern to replace the main carousel in our
+previous design.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1600/1*VPFxIw8ZSbv2lkfzuwvGpA.png" />
+</div>
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*swwzGMgF3KkN_5l61wY6cA.png" />
+<span class="image-caption">Overflow &amp; Single Pattern</span>
+</div>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*b1xvtq7Wq_vFaEBa1TEH8Q.png" />
+</div>
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*trC76W2O5Ju2U_kOcx3B8w.png" />
+<span class="image-caption">Equal &amp; Masonry Grid Pattern</span>
+</div>
+
+<h3 id="step-3-visual-design">Step 3: Visual Design</h3>
+
+<p>We start by choosing fonts, colors and shapes for the elements in the website.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1600/1*nYKULkLOdwF-NAwJOLp5tg.png" />
+<span class="image-caption">Style Guide</span>
+</div>
+
+<p>We also design the logos for the shortcuts.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1600/1*ubzBxp4JCReLpBVTTXjO-A.png" />
+<span class="image-caption">Shortcut Logos</span>
+</div>
+
+<p>And the navigation menu</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1600/1*HygVsMfR9qirjHq5sp9jdQ.png" />
+<span class="image-caption">Navigation Menu</span>
+</div>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*kBscQPomflJGWoVhaRfsLw.jpeg" />
+</div>
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*as8eUq4LMvggf0u5ttoRBg.png" />
+<span class="image-caption">Mega Menu</span>
+</div>
+
+<p>Here you can see the side by side comparison of the wireframe and the visual
+design.</p>
+
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*jjGVnhw56Jnq0foNF7pgCQ.png" />
+</div>
+<div class="image-wrapper">
+<img class="img-responsive" src="https://cdn-images-1.medium.com/max/1200/1*fvAI5NQmYp1l1oco4hKqjw.jpeg" />
+<span class="image-caption">Home Page</span>
+</div>
+
+<h3 id="final-design">Final Design</h3>
+<p>You can see the live version of the design <a href="/FAPOR">here</a></p>
+
+<h3 id="closing-words">Closing Words…</h3>
+
+<p>Due to time constraint and our inexperience at the time, we ended up not making
+user personas. We also didn’t win the contest. I personally suspect the reason
+is because we violated the rule by using a masonry grid instead of a carousel,
+but we’re not really sure.</p>
+
+<p>But in the end, this was a great experience for us. This is my first hands-on
+experience doing UX design process and it opened my eyes to the wonders of UX
+design. Doing the research was eye opening and it made so much sense to me.</p>
+          
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+</article>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/pramaadityap">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://www.facebook.com/vranbor">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://github.com/pramaaditya">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://id.linkedin.com/in/pramaaditya">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Prama Aditya 2016</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+</body>
+
+</html>

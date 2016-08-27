@@ -1,0 +1,82 @@
+//@import "style.less";
+.gambar {
+	.make-row();
+	background-color:#0098FF;
+	border-bottom:1px solid #E19400;
+}
+
+.gambar-teks {
+	.make-sm-column(4);
+	width: 270px;
+	float: left;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.gambar-gambar {
+	.make-sm-column(8);
+	width: 460px;
+	float: right;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+ 
+    -ms-touch-action: none;
+    touch-action: none;
+}
+
+.album-container{
+	.make-md-column(6);
+	.make-lg-column(4);
+	padding-bottom: @baseline;
+	.album{
+	position: relative;
+	outline-offset: 30px;
+	min-height: 20em;
+	background-size: cover;
+	.judul-album, .label{
+		position: absolute;
+	}
+	img{
+		size: cover;
+		position: relative;
+		width: 300px;
+		height: 350px;
+	}
+	.judul-album, .judul-album>a{
+		color: white;
+	}
+	.label {
+		right: 0;
+		background: @warna-2;
+		padding: 5px;
+		margin-right: 10px;
+		margin-top: 10px;
+		color: white;
+		font-weight: 700; 
+		border-radius: 0;
+	}
+}
+}
+
+.judul-album {
+	position: relative;
+	background: @warna-2;
+	padding: 10px;
+	margin-left: @grid-gutter-width/2;
+	margin-right: 15px;
+	bottom: 0; 
+	letter-spacing: 0px;
+	word-spacing: 0px;
+	line-height: @baseline;
+	display: inline;
+	color: white;
+	margin-bottom: @baseline/2;
+	font-weight: 700;
+	left: 0;
+}	

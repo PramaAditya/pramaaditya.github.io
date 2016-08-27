@@ -1,0 +1,68 @@
+@warna-tanggal: @warna-3; 
+
+
+#latest-section .tab-pane{
+}
+.bas-tanggal-section {
+	.make-row();
+    padding: 0px;
+    margin: 0px;
+}
+.bas-tanggal-container {
+    .make-row();
+    padding-top: 5px!important;
+    padding-bottom: 3px!important;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px;
+    border-bottom: 1px solid #CCCCFF;
+}
+.bas-tanggal-kotak {
+    .make-xs-column(2);
+    .make-sm-column(2);
+    float: left!important;
+    &::before,&::after{
+        content: "";
+    }
+    padding: 0;
+    height: 100px;
+    display: block;
+    float: center;
+    background-color: @warna-tanggal;
+}
+.bas-tanggal-angka {
+    position: center;
+    padding-top: 0px;
+    font-size: 36px;
+    text-align: center;
+    line-height: @baseline*2.5;
+    color: white;
+    font-family: "Oswald","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.bas-tanggal-bulan {
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    float: center;
+    font-size: x-large;
+    text-align: center;
+    color: white;
+    line-height: @baseline;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.bas-berita-container {
+    .make-xs-column(10);
+    .make-sm-column(10);
+    float:left!important;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    h4 {
+        margin-bottom: 0px;
+        font-weight: 700;
+    }
+        &::before,&::after{
+        content: "";
+    }
+}

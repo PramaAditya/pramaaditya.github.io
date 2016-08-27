@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/PramaAditya/Inbox/Working/FAPOR",
+			"folder_exclude_patterns": ["assets"],
+			"file_exclude_patterns": ["*.codekit","*.sublime-project","*.txt"]
+		}
+	]
+}

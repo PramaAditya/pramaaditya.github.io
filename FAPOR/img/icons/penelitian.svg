@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X6 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="8.26772in" height="11.6929in" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8268 11693"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str4 {stroke:#373435;stroke-width:3}
+    .str0 {stroke:#010080;stroke-width:3}
+    .str2 {stroke:#010080;stroke-width:13.8898}
+    .str1 {stroke:#010080;stroke-width:27.7795}
+    .str3 {stroke:#010080;stroke-width:41.6654;stroke-linejoin:round}
+    .fil1 {fill:none}
+    .fil0 {fill:#FEFEFE}
+    .fil3 {fill:#010080}
+    .fil2 {fill:#010080;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_229365240">
+   <path class="fil0 str0" d="M1114 1979l3805 0c314,0 571,257 571,571l0 4043c0,314 -257,571 -571,571l-3805 0c-314,0 -571,-257 -571,-571l0 -4043c0,-314 257,-571 571,-571z"/>
+   <rect class="fil1 str1" x="1309" y="2609" width="3448" height="3924"/>
+   <rect class="fil1 str2" x="1586" y="3492" width="650" height="650"/>
+   <rect class="fil1 str2" x="1587" y="4395" width="650" height="650"/>
+   <rect class="fil1 str2" x="1586" y="5306" width="650" height="650"/>
+   <g>
+    <path class="fil2" d="M2206 4056l-274 -274 21 -33 274 274 2 30 -23 3zm0 0l21 -33 1 1 1 1 1 1 1 1 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 1 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 0 -1 -1 -1 -1 -1 -1zm335 -448l-312 445 -25 -27 312 -445 25 27z"/>
+   </g>
+   <polyline class="fil1 str3" points="1942,5579 2216,5853 2528,5408 "/>
+   <g id="_229363656">
+    <line class="fil1 str3" x1="2011" y1="4470" x2="2463" y2= "4969" />
+    <line class="fil1 str3" x1="2463" y1="4470" x2="2011" y2= "4969" />
+   </g>
+   <g id="_229365312">
+    <path class="fil0 str1" d="M5434 3454l0 0c76,62 103,156 60,209l-2173 2676c-19,24 -49,35 -83,36l-86 30 -156 54 20 -164 11 -87c-8,-35 -3,-68 17,-93l2173 -2676c43,-53 141,-46 217,16z"/>
+    <rect class="fil0 str1" transform="matrix(3.64399 2.95823 -2.17716 2.68185 4910.38 3712.03)" width="104.055" height="84.685"/>
+    <rect class="fil0 str1" transform="matrix(3.20426 2.60126 -2.88259 3.55082 4849.13 3631.76)" width="23.4252" height="243.24" rx="12" ry="12"/>
+   </g>
+   <rect class="fil3 str4" x="1697" y="2216" width="2687" height="571" rx="143" ry="114"/>
+  </g>
+ </g>
+</svg>

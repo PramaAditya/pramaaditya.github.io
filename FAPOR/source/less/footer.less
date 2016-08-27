@@ -1,0 +1,104 @@
+#footer {
+	//margin-top: @baseline*2;
+    &.at-home{
+        margin-top: 0;
+    }
+    background-color: @warna-2;
+    * {
+        color: white;
+    }
+    padding-top: @baseline;
+    padding-bottom: @baseline*2;
+    .row {
+        margin: 0;
+    }
+    h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: @baseline*3/2;
+        font-size: 25px;
+        margin-bottom: @baseline/2;
+    }
+    ul,
+    ol {
+        margin: 0;
+        li a {
+            font-weight: 300;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            line-height: @baseline;
+            font-size: 14px;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .list {
+        .make-sm-column(4);
+        .make-md-column(3);
+        .make-md-column-offset(1);
+    }
+}
+
+#subfooter a,
+#subfooter a:hover,
+#subfooter a:focus {
+    text-decoration: underline;
+}
+
+img#logo-footer {
+    margin-bottom: 1em;
+}
+
+#subfooter {
+    background-color: @warna-3;
+    padding-top: @baseline;
+    #info-kontak {
+        .make-sm-column(8);
+        .make-md-column-offset(1);
+        * {
+            color: white;
+        }
+        h3 {
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: @baseline*2;
+            //font-size: 25px;
+            margin-bottom: 0;
+        }
+        #alamat {
+            list-style: none;
+            li {
+                line-height: @baseline;
+            }
+            .glyphicon{
+            	margin-left: 0;
+            }
+            margin-bottom: @baseline*2;
+        }
+        #other-menu {
+            .list-inline;
+            .text-left;
+            margin-bottom: 0;
+            a:hover{
+				color:@warna-2;
+            }
+        }
+    }
+    #info-kominfo {
+    	.hidden-xs;
+        .text-center;
+        .make-sm-column(3);
+        .make-md-column(2);
+        a{
+        	color: white;
+        	font-size: @font-size-h3;
+        	& + a{
+        		border-left: 1px solid white;
+        	}
+        }
+    }
+    @media (max-width: @screen-xs) {
+		margin-top: @baseline*2 !important;
+	}
+}

@@ -1,0 +1,31 @@
+.btn {
+    @button-largest-radius: @border-largest-radius;
+    @button-smallest-radius: @border-smallest-radius;
+    //background-image: url(http://www.transparenttextures.com/patterns/diagonal-striped-brick.png);
+    //background-color: red !important;
+    border-radius: @button-largest-radius @button-smallest-radius;
+    border-style: none;
+    font-family: "Offside", @font-family-sans-serif;
+    &.btn-sm {
+        border-radius: 10px @button-smallest-radius;
+        font-size: 12px;
+    }
+    // .grow;
+     .prefixed(transition, all .1s ease-in-out);
+    // &:active,&:focus {
+    //     .prefixed(transform, scale(1));
+    // }
+    .glyphicon{
+        margin-left: .3em;
+    }
+}
+
+.btn-accent {
+    color: white;
+    background-color: @warna-4;
+    border-width: 0;
+}
+
+.btn-hollow{
+    border:2px solid;
+}

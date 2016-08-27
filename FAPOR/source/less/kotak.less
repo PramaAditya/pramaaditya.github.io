@@ -1,0 +1,193 @@
+@tinggi-kotak: @box-height; //variables.less
+@warna-overlay-kotak: black; //@warna-1;
+@warna-kotak-kecil: darken(@brand-primary, 10%); //darken(@warna-3,30%);
+@warna-title: white;
+@warna-subtitle: lighten(@warna-3, 20%); //@warna-3;
+.kotak {
+    background-size: cover;
+    //.hidden-xs;
+}
+
+.overlay {
+    .prefixed(transition, opacity .25s ease-in-out);
+}
+
+#grid-section{
+    padding:0;
+}
+
+// Untuk Animasi
+.kotak-section {
+    //.animated;
+    //.fadeInUp;
+    .kotak-utama {
+        .animated;
+        .fadeInLeft;
+    }
+    .kotak-small {
+        .animated;
+        .fadeInRight;
+    }
+}
+
+.kotak-section {
+    .make-row();
+    padding: 0px;
+    margin: 0px;
+    margin-top: @line-height-computed;
+    .kotak-container {
+        .make-row();
+        margin-right: auto;
+        margin-left: auto;
+        .kotak-big {
+            .make-md-column(6);
+            .make-xs-column(12);
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            height: @tinggi-kotak;
+            display: block;
+            float: left;
+            .kotak-row {
+                .make-row(0);
+                margin-left: 0px;
+                margin-right: 0px;
+                .kotak-small {
+                    .make-sm-column(6, 0);
+                    position: relative;
+                    min-height: 1px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    height: @tinggi-kotak/2;
+                    //background-color: @warna-4;
+                }
+            }
+        }
+    }
+}
+
+.kotak-big {
+    .kotak;
+    text-align: center;
+    a.overlay {
+        width: 100%;
+        height: 100%;
+        background-color: @warna-overlay-kotak!important;
+        z-index: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .kotak-content {
+        //padding-top: @line-height-computed*6; //pindah jadi paddingnya kotak-utama 
+        * {
+            position: relative;
+        }
+        .title {
+            line-height: @line-height-computed+@font-size-h1+(@line-height-computed/5);
+            margin-bottom: @line-height-computed*8;
+            margin-top: -(@line-height-computed/2);
+            color: @warna-title;
+            font-family: @font-family-sans-serif;
+            font-weight: 700;
+
+        }
+        .subtitle {
+            font-size: @font-size-h6;
+            line-height: @line-height-base+1;
+            margin-bottom: 0;
+            color: white;
+            font-family: @font-family-sans-serif;
+            font-weight: 300;
+            font-style: italic;
+        }
+        .cta {
+            padding: 0.8em 2em;
+            &:hover {
+                color: @warna-1;
+            }
+        }
+    }
+    a {
+        color: white;
+    }
+}
+
+.kotak-utama {
+    .overlay {
+        opacity: 0.3;
+    }
+    &:hover {
+        .overlay {
+            opacity: 0.5;
+        }
+    }
+    padding-top: @line-height-computed*6;
+    .title {
+        line-height: 1!important;
+        margin-top: 0!important;
+        text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+        font-family: @headings-font-family !important;
+        text-transform: uppercase;
+    }
+}
+
+.kotak-small {
+    .kotak;
+    a.overlay {
+        opacity: 0.4;
+    }
+    &:hover {
+        .overlay {
+            opacity: 0.1;
+        }
+    }
+    .kotak-content {
+        background-color: @warna-kotak-kecil;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-top: 16px;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        height: @line-height-computed*4;
+        .title {
+            margin: 0;
+            font-size: @font-size-h6;
+            line-height: @line-height-base;
+        }
+        .subtitle {
+            a {
+                color: @warna-subtitle;
+            }
+            line-height: @line-height-base*1.5;
+        }
+    }
+}
+
+@media (max-width: @screen-xl) {
+    .full-md {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        .kotak-section {
+            margin-top: 0;
+            .kotak-content {
+                padding-left: 1em;
+                padding-right: 1em;
+            }
+        }
+    }
+}
+
+@media (max-width: @screen-md) {
+    .kotak-utama {
+        height: @tinggi-kotak/2 !important;
+        padding-top: @baseline*2;
+        .title {
+            margin-bottom: 1.5em!important;
+        }
+    }
+}

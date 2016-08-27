@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+        rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand"><span>Kementerian Komunikasi dan Informatika RI</span></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <ul class="nav navbar-left navbar-nav">
+                        <li>
+                            <a href="#">Beranda</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-expanded="false">Profil <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">Tentang Kominfo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sejarah Kominfo</a>
+                                </li>
+                                <li>
+                                    <a href="#">Visi dan Misi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Daftar Menteri</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tugas dan Fungsi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Struktur Organisasi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Unit Kerja</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-expanded="false">Berita dan Pers <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">Kementerian</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pemerintahan</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sorotan Media</a>
+                                </li>
+                                <li>
+                                    <a href="#">Siaran Pers</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Galeri</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-expanded="false">Layanan Publik <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">Perizinan</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sertifikasi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Lelang (LPSE)</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pengaduan</a>
+                                </li>
+                                <li>
+                                    <a href="#">Domain ID</a>
+                                </li>
+                                <li>
+                                    <a href="#">e-Government</a>
+                                </li>
+                                <li>
+                                    <a href="#">e-Business</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-expanded="false">Informasi Publik <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">Download</a>
+                                </li>
+                                <li>
+                                    <a href="#">Statistik</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hasil Penelitian</a>
+                                </li>
+                                <li>
+                                    <a href="#">Jurnal Ilmiah</a>
+                                </li>
+                                <li>
+                                    <a href="#">Streaming</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sistem Informasi Geografis</a>
+                                </li>
+                                <li>
+                                    <a href="#">Perjanjian / MoU</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-expanded="false">Program <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">Pemberdayaan Informatika</a>
+                                </li>
+                                <li>
+                                    <a href="#">Telematika Pedesaan</a>
+                                </li>
+                                <li>
+                                    <a href="#">Internet Sehat</a>
+                                </li>
+                                <li>
+                                    <a href="#">Open Source</a>
+                                </li>
+                                <li>
+                                    <a href="#">TV Digital</a>
+                                </li>
+                                <li>
+                                    <a href="#">Monumen Pers Nasional</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pekan Informasi Nasional</a>
+                                </li>
+                                <li>
+                                    <a href="#">Keamanan Informasi</a>
+                                </li>
+                                <li>
+                                    <a href="#">Palapa Ring</a>
+                                </li>
+                                <li>
+                                    <a href="#">Beasiswa</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-expanded="false">Publikasi <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">Laporan Keuangan Tahunan</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Laporan Akuntabilitas</a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">LAKIP</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="#">Rencana Strategis</a>
+                                </li>
+                                <ul>
+                                    <li>
+                                        <a href="#">Rencana Kerja</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Rencana Anggaran</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Regulasi (JDIH)</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-expanded="false">Hubungi Kami<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="#">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="#">Twitter</a>
+                                </li>
+                                <li>
+                                    <a href="#">Email</a>
+                                </li>
+                                <li>
+                                    <a href="#">Telepon</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kotak Saran</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-dismissable alert-info">
+                            <strong>News Ticker!</strong>Selamat datang di website kominfo.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cover ">
+            <div class="cover-image " style="background-image: url(https://unsplash.imgix.net/photo-1418065460487-3e41a6c84dc5?q=75&amp;fm=jpg&amp;s=127f3a3ccf4356b7f79594e05f6c840e); "></div>
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 text-center ">
+                        <h1 class="text-inverse ">Ini Website Kominfo</h1>
+                        <p class="text-inverse ">Kontribusi Anda sangat berharga bagi kami.</p>
+                        <br>
+                        <br>
+                        <ul class="pagination">
+                            <li>
+                                <a href="#">Prev</a>
+                            </li>
+                            <li>
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li>
+                                <a href="#">5</a>
+                            </li>
+                            <li>
+                                <a href="#">Next</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="img\domain .go.id.png.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 class="text-center">Domain ID</h3>
+                                <p class="text-center">Daftarkan domain ID Anda melalui tautan ini</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="img\Netdating-er-blevet-meget-almindeligt.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 class="text-center">Statistik</h3>
+                                <p class="text-center">Data dan informasi mengenai teknologi informasi dan komunikasi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="img\tvdigital-300x173.png" class="img-responsive">
+                            <div class="caption">
+                                <h3 class="text-center">TV Digital</h3>
+                                <p class="text-center">Informasi mengenai TV Digital</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="img\beasiswa.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 class="text-center">Beasiswa</h3>
+                                <p class="text-center">Cari Informasi Beasiswa Kominfo di sini</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="img\Contoh-Penelitian-Kualitatif.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 class="text-center">Hasil Penelitian</h3>
+                                <p class="text-center">Publikasi penelitian Kominfo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="img\200px-Icon_law.svg.png" class="img-responsive">
+                            <div class="caption">
+                                <h3 class="text-center">Hukum dan Regulasi</h3>
+                                <p class="text-center">Hukum dan regulasi teknologi informasi dan komunikasi di Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="img\TRUST.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 class="text-center">Aduan Konten</h3>
+                                <p class="text-center">Adukan konten digital yang tidak sehat ke tautan ini</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="thumbnail">
+                            <img src="img\75LPSE.jpg" class="img-responsive">
+                            <div class="caption">
+                                <h3 class="text-center">Lelang</h3>
+                                <p class="text-center">Layanan Pengadaan Secara Elektronik</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="nav nav-tabs">
+                            <li class="active">
+                                <a href="#">Berita</a>
+                            </li>
+                            <li>
+                                <a href="#">Agenda</a>
+                            </li>
+                            <li>
+                                <a href="#">Siaran Pers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="col-md-12">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <a class="pull-left" href="#"><img class="media-object" src="img\PhotoFancie_2015_05_18_21_26_39.jpeg" height="64" width="64"></a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Kemkominfo</h4>
+                                        <p>Kemkominfo berikan sanksi administrasi Penyelenggara Premium Call yang
+                                            melanggar aturan Penyelenggaraan Premium Call</p>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <a class="pull-left" href="#"><img class="media-object" src="img\clickbd_logo.png" height="64" width="64"></a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Click BDG</h4>
+                                        <p>Jalan Soekarno-Hatta ramai lancar.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center text-primary">Menteri Komunikasi dan Informatika
+                            <br>Republik Indonesia</h1>
+                    </div>
+                </div>
+                <center>
+                    <div class="row text-center">
+                        <div class="col-md">
+                            <img src="img\menteri-2014.png" class="center-block img-circle img-responsive">
+                            <h3 class="text-center">Rudiantara</h3>
+                            <p class="text-center">Lihat Profil</p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <footer class="hidden-xs section section-primary" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h2>Navigasi</h2>
+                        <ol class="list-unstyled">
+                            <li>
+                                <a href="#"><font color="white">Berita</font>&gt;
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Layanan Publik</font>&gt;
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Program Prioritas</font>&gt;
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Publikasi</font>&gt;
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Regulasi</font>&gt;
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Galeri Foto</font>&gt;
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">F.A.Q.</font>&gt;
+                                    </a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Siaran Pers</font>&gt;</a>
+                            </li>
+                            <li>
+                                <br>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Tentang Kami</h2>
+                        <ol class="list-unstyled">
+                            <li>
+                                <a href="#"><font color="white">Sejarah</font></a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Visi dan Misi</font></a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Tugas dan Fungsi</font></a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Struktur</font>&gt;</a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Organisasi</font>&gt;</a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Daftar Menteri</font>&gt;</a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Unit Kerja</font>&gt;</a>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-4">
+                        <h2>Tautan</h2>
+                        <ol class="list-unstyled">
+                            <li>
+                                <a href="#"><font color="white">Indonesia Bergegas</font>&gt;</a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">PPID</font>&gt;</a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">LAPOR!</font>&gt;</a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">BP3TI</font>&gt;</a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">INAICTA</font>&gt;</a>
+                            </li>
+                            <li>
+                                <a href="#"><font color="white">Satu Layanan</font>&gt;</a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="section section-info" id="subfooter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-sm-9 bottom-column">
+                        <h4 class="text-primary">PUSAT DATA DAN SARANA INFORMATIKA</h4>
+                        <ol class="list-unstyled text-primary">
+                            <li>Jl. Medan Merdeka Barat No. 9, Jakarta Pusat, 10110</li>
+                            <li>(021) 38433507</li>
+                            <li>(021)&nbsp;38433508</li>
+                        </ol>
+                        <br>
+                        <ol class="list-inline text-left text-primary">
+                            <li>
+                                <a href="#">Peta Situs</a>
+                            </li>
+                            <li>
+                                <a href="#">Kebijakan Privasi</a>
+                            </li>
+                            <li>
+                                <a href="#">Syarat dan Ketentuan</a>
+                            </li>
+                        </ol>
+                        <p class="text-left text-primary">Copyright © 2015 Kementrian Teknologi dan Informatika Republik Indonesia</p>
+                    </div>
+                    <div class="col-md-2 col-sm-3 text-center">
+                        <a href="#"><img src="img\PhotoFancie_2015_05_18_21_26_39.jpeg" class="img-responsive" id="logo-footer"></a>
+                        <a href="#"><i class="fa fa-2x fa-fw fa-twitter hub text-primary"></i></a>
+                        <a href="#"><i class="fa fa-2x fa-facebook fa-fw hub text-primary"></i></a>
+                        <a href="#"><i class="fa fa-2x fa-fw fa-rss hub text-primary"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

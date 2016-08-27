@@ -1,0 +1,71 @@
+// .breadcrumb-section{
+    
+//     background-color: @warna-5;
+//     background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+//     border-radius: 0;
+//     padding-top: 10em!important;
+//     .breadcrumb{
+//         display: inline-block;
+//         background-color: white;
+//         border-radius: @border-tab;
+//         margin-bottom: 0;
+//         padding-bottom: 0.5em;
+//     }
+// }
+
+// .breadcrumb-section-alternate{
+//     padding-top: 0;
+//     .breadcrumb{
+//         //display: inline-block;
+//         //background-color: @warna-3;
+//         //border-radius: 0 0 @border-largest-radius 0;
+//         background-color: rgba(255, 255, 255, 0);
+//         margin-bottom: 0;
+//         padding-bottom: 0.5em;
+//         li:not(.active){
+//             a{
+//            //     color:white;
+//             }
+//         }
+//     }
+// }
+
+
+.breadcrumb-section{
+    .section;
+    padding-top: 0;
+}
+.breadcrumb-container{
+    .make-xs-column(12);
+    &.single{
+        .make-xs-column(12);
+        .make-lg-column(8);
+        .make-lg-column-offset(2);
+    }
+    padding-top: @baseline;
+    min-height: @baseline*3 !important;
+    margin-bottom: @baseline;
+    .breadcrumb{
+        padding: 0;
+        margin:0;
+        display: inline-block;
+        background-color: white;
+        li + li::before{
+            content:"";
+            padding:0;
+        }
+        li{
+            display: inline-table;
+            a,&.active{color:white;}
+            background-color: @warna-2;
+            padding:0.2em 0.4em;
+            &.active{
+                background-color: @warna-4;
+            }
+            .glyphicon{
+                margin: 0;
+            }
+        }
+    }
+    
+}

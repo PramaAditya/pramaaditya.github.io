@@ -1,0 +1,210 @@
+.section{
+//    background-color:#F2F2F2;//lighten(@warna-3, 40%);
+}
+.twitter-follow-button{
+    border: 0!important;
+    float: right;
+    padding-top: 13px;
+}
+
+#to-galeri{
+    a{
+        // .icon-forward;
+    a:hover{
+        background: none!important;
+        color: @warna-4;
+    }
+    }
+}
+.menteri-column{
+    border-left: 1px solid white;
+    padding-left: @grid-gutter-width*2;
+    padding-right: @grid-gutter-width;
+    text-align: center;
+    *{
+        text-align: center;
+    }
+    .nama-menteri,.jabatan-menteri{
+        margin: 0;
+    }
+    .profil-lengkap{
+        .icon-forward;
+        
+        margin-top: @baseline;
+        padding-left: 10px;
+    }
+
+}
+
+.link-unstyled{
+    a:hover{
+        text-decoration: none!important;
+        background: none!important;
+    }
+}
+.album .judul-album, .album .label{
+.grow;
+}
+
+.img-contain{
+    .make-row();
+    img{
+        .make-lg-column(8);
+        .make-lg-column-offset(2);
+    }
+    margin-bottom: @baseline*2;
+}
+.modal-content{
+    border-radius:0;
+    .modal-header{
+        background-color: @brand-primary;
+        .modal-title{
+            color:white;
+        }
+    }
+    .modal-footer{
+        border:0px;
+    }
+    .modal-body{
+        padding:@baseline;
+        p{
+            // margin: 0;
+        }
+        ul,ol{
+            padding-left: @baseline;
+        }
+        a{
+            background-color: @warna-4;
+            padding-left: 4px;
+            padding-right: 4px;
+            color: white;
+            .icon-forward;
+        }
+    }
+}
+
+.glyphicon{
+    margin-left: .3em;
+    margin-right: .3em;
+}
+
+
+@media (max-width: @screen-lg) {
+    .page-tabs {
+        .nav-tabs {
+            margin-bottom: 1em;
+            li {
+            	margin-top: 0.5em;
+                a {
+                    border-radius: @border-leaf!important;
+                }
+            }
+        }
+    }
+}
+
+.section{
+    padding-top: @baseline;
+    padding-bottom: @baseline;
+    h1.section-name{
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        line-height: @baseline*2;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        text-align: center;
+        margin-bottom: @baseline;
+        border-bottom: 1px solid @headings-color;
+        display: inline-block;
+    }
+    &.inline-center{
+        text-align: center;
+    }
+}
+#shortcut-section{
+    //background-color: green;
+    padding-top: @baseline*2;
+    padding-bottom: 4px+@baseline;
+    .icon-container{
+        //.animated;
+        //.rotateIn;
+    }
+}
+
+#latest-section{
+    //background-color: red;//@odd-section-bg;
+    .row{
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+    .nav-tabs{
+        margin-left: 0;
+        li.active a{
+            background-color: white;//@odd-section-bg;
+            font-weight: 700;
+            color: @headings-color;
+        }
+        li a{
+            padding-top: 0;
+            padding-bottom: 0;
+            line-height: (@baseline*2)-3; //kurangi border;
+            font-size: @font-size-h5;
+            text-transform: uppercase;
+            font-family: @headings-font-family;
+            letter-spacing: 1.5px;
+            color: @text-color;
+            @media (max-width:@screen-xs) {
+              padding-left: 5px;
+              padding-right: 5px; 
+              font-size: 13px;
+              letter-spacing: 0; 
+            }
+        }
+    }
+}
+
+.twitter-header{
+    *{
+        margin-bottom: 0;
+        line-height: (@baseline*2)-2;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-bottom: 2px solid @warna-3;
+    }
+}
+
+#links-section{
+    padding-top: @baseline*2;
+    padding-bottom: @baseline*2;
+    .hidden-xs;
+    .container{
+        //padding: 0;
+    }
+    background-color: @odd-section-bg;
+    .links{
+        margin: 0;
+        //padding: 0;
+        float: none;
+        .make-row(0);
+        .list-unstyled;
+        .text-center;
+        .link{
+            .grow;
+            .make-sm-column(2);
+            text-align: center;
+            float: none;
+            height: 100px;
+            @media (min-width:@screen-sm) {
+                width: 20%!important;
+            }
+            img{
+                display: inline;
+            }
+            #bp3ti{
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+<h1 id="overview">Overview</h1>
+<ol>
+<li>Chatting: <a href="http://hipchat.com/"><strong>HipChat</strong></a> (<a href="https://www.hipchat.com/invite/359399/97b94aaff8cbceb9bfd9bfc667a47de2">link masuk room</a>)</li>
+<li>Menejemen Proyek: <a href="https://trello.com/b/RtH95iLd/favor"><strong>Trello</strong></a></li>
+<li>Sinkronisasi Lain-Lain: <a href="https://www.getsync.com/"><strong>Bittorent Sync</strong></a>(<a href="https://link.getsync.com/#f=lain-lain&amp;sz=16E7&amp;t=2&amp;s=DDVONTRXK475QL3AGTHFBQJIR54ZBLAA4LF3U4EONJHRPA65D73Q&amp;i=CLZ6HYNAFPHBPYGWTYCBW5VGDN4N2VA4J&amp;v=2.0">link folder lain-lain(sebelumnya <em>other-assets</em>)</a>)(<a href="https://link.getsync.com/#f=web-assets&amp;sz=0&amp;t=2&amp;s=LU5ZZ7SJSSNBTK434QSRB4LREP3EVHSKMKP3P27N4KUMVIKWT4BQ&amp;i=CM5PXDRVWAIJ4WZM325KRKVCNAEHKCWOH&amp;e=1432189836&amp;v=2.0">link folder web-assets</a>)</li>
+<li>Sinkronisasi Kode: <a href="http://https://github.com/ningenis/FAPOR"><strong>Github</strong></a></li>
+</ol>
+<h2 id="aplikasi-lain">Aplikasi lain</h2>
+<ul>
+<li><a href="https://prepos.io">Prepos</a> </li>
+<li><a href="https://pingendo.com">Pingendo</a></li>
+</ul>
+<h1 id="coding">Coding</h1>
+<h2 id="struktur">Struktur</h2>
+<pre><code>├── README.md
+├── WORKFLOW.md 
+├── prepros.cfg        //File Konfigurasi Prepros
+│
+├── lain-lain
+├── prototype
+├── public
+│   ├── template.html        //Template &lt;head&gt; untuk javascript, css dsb.
+│   ├── custom-1.html 
+│   ├── ... 
+│   ├── custom-n.html
+│   │
+│   ├── css
+│   │   ├── bootstrap-theme.css
+│   │   ├── bootstrap-theme.css.map
+│   │   ├── bootstrap.css 
+│   │   ├── bootstrap.css.map
+│   │   ├── pingendo-theme.css
+│   │   └── pingendo-theme.css.map
+│   ├── fonts
+│    │   ├── glyphicons-halflings-regular.eot
+│    │   ├── glyphicons-halflings-regular.svg
+│    │   ├── glyphicons-halflings-regular.ttf
+│    │   ├── glyphicons-halflings-regular.woff
+│    │   └── glyphicons-halflings-regular.woff2
+│   ├── js
+│   │   ├── bootstrap.js
+│   │   ├── bootstrap.min.js
+│   │   ├── jasny-bootstrap.js
+│   │   ├── jasny-bootstrap.min.js
+│   │   └── jquery
+│   └── web-assets
+│
+└── source
+    ├── js
+    │   ├── bootstrap
+    │   └── jasny-bootstrap
+    └── less
+        ├── bootstrap
+        ├── pingendo
+        ├── jasny-bootstrap
+        │
+        ├── custom-bootstrap-variables.less
+        ├── custom-jasny-bootstrap-variables.less
+        ├── custom-jasny-navmenu.less
+        ├── mixins.less
+        ├── style.less         //File LESS utama untuk @import .less yang lain        
+        ├── variables.less
+        │
+        ├── custom-1.less
+        ├── ...
+        └── custom-n.less
+</code></pre><ol>
+<li><code>prepos.cfg</code>: File konfigurasi untuk <a href="https://prepros.io/">Prepos</a> yang bakal nge-compile file .less jadi bootstrap.css, pingendo.css dan bootstrap-theme.css</li>
+<li><code>template.html</code>: Template untuk memakai kode dari prototipe Pingendo</li>
+</ol>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+ &lt;meta charset=&quot;utf-8&quot;&gt;
+ &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+ &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+ &lt;title&gt;Title&lt;/title&gt;
+ &lt;!-- Bootstrap --&gt;
+ &lt;link href=&quot;css/bootstrap.css&quot; rel=&quot;stylesheet&quot;&gt;
+ &lt;!-- &lt;link href=&quot;css/bootstrap-theme.css&quot; rel=&quot;stylesheet&quot;&gt; --&gt;
+ &lt;!-- Pingendo --&gt;
+ &lt;link href=&quot;css/pingendo-theme.css&quot; rel=&quot;stylesheet&quot;&gt;
+ &lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery/dist/jquery.min.js&quot;&gt;&lt;/script&gt;
+
+ &lt;script type=&quot;text/javascript&quot; src=&quot;js/bootstrap.js&quot;&gt;&lt;/script&gt;
+ &lt;script type=&quot;text/javascript&quot; src=&quot;js/jasny-bootstrap.js&quot;&gt;&lt;/script&gt;
+ &lt;link href=&quot;http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+ &lt;!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --&gt;
+ &lt;!-- WARNING: Respond.js doesn&#39;t work if you view the page via file:// --&gt;
+ &lt;!--[if lt IE 9]&gt;
+      &lt;script src=&quot;https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js&quot;&gt;&lt;/script&gt;
+      &lt;script src=&quot;https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js&quot;&gt;&lt;/script&gt;
+    &lt;![endif]--&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+ &lt;!-- Taroh kode diantara &lt;body&gt;&lt;/body&gt; dari Pingendo di sini --&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre><ol>
+<li><code>style.less</code>: Kalo mau nambah file .less atau <strong>.css</strong> buat dipake, taroh di folder /source/less dan tambahin <code>@import custom-1.less</code> atau <code>@import custom-1.css</code> </li>
+</ol>
