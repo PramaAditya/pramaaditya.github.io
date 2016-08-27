@@ -1,5 +1,6 @@
 * {
-  transition: all .25s;
+  -webkit-transition: all .25s;
+          transition: all .25s;
 }
 .post-heading h1,
 .post-heading .subheading,
@@ -156,6 +157,7 @@ a:focus {
 }
 a img:hover,
 a img:focus {
+  cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
 blockquote {
@@ -211,13 +213,10 @@ hr.small {
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
-    -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -229,7 +228,6 @@ hr.small {
     background-color: rgba(255, 255, 255, 0.9);
     border-bottom: 1px solid #f2f2f2;
     -webkit-transition: -webkit-transform 0.3s;
-    -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
@@ -249,9 +247,7 @@ hr.small {
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
-    -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
-    -o-transform: translate3d(0, 100%, 0);
     transform: translate3d(0, 100%, 0);
   }
 }
@@ -260,8 +256,6 @@ hr.small {
   background-color: #808080;
   background-attachment: scroll;
   height: 100vh;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 0;
@@ -479,8 +473,6 @@ footer .copyright {
   vertical-align: baseline;
   opacity: 0;
   -webkit-transition: top 0.3s ease, opacity 0.3s ease;
-  -moz-transition: top 0.3s ease, opacity 0.3s ease;
-  -ms-transition: top 0.3s ease, opacity 0.3s ease;
   transition: top 0.3s ease, opacity 0.3s ease;
 }
 .floating-label-form-group::not(:first-child) {
@@ -561,6 +553,10 @@ form .row:first-child .floating-label-form-group {
   text-shadow: none;
   background: #d95b43;
 }
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
 img::selection {
   color: white;
   background: transparent;
@@ -572,3 +568,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #d95b43;
 }
+#portofolio-container {
+  width: 100%!important;
+}
+/*# sourceMappingURL=clean-blog.css.map */

@@ -5,9 +5,641 @@
     <description>I solve business problems by designing great User Experience</description>
     <link>http://pramaaditya.com/</link>
     <atom:link href="http://pramaaditya.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Mar 2016 23:33:38 +0700</pubDate>
-    <lastBuildDate>Fri, 18 Mar 2016 23:33:38 +0700</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Sat, 27 Aug 2016 23:41:11 +0700</pubDate>
+    <lastBuildDate>Sat, 27 Aug 2016 23:41:11 +0700</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>KOMINFO Website Redesign</title>
+        <description>&lt;p&gt;Last April I participated in a website redesign competition held by Indonesia’s
+Ministry of Communications and Information Technology (Menkominfo). Me and my team
+decided to try using some of UX design process in our work. Because the 2 week
+deadline, we could only realise some of the process as follows:&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-research&quot;&gt;Step 1: Research&lt;/h3&gt;
+
+&lt;p&gt;First we research the initial state of the website. We did it by doing a web
+analytics research via Google Analytics, Alexa and SimilarWeb. We also did a
+user testing in the form of tree testing to validate our information
+architecture redesign.&lt;/p&gt;
+
+&lt;h4 id=&quot;initial-state&quot;&gt;Initial State&lt;/h4&gt;
+
+&lt;p&gt;Before the redesign, the website’s information components can be categorized to:&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*PV-Pk1RTYIbLN2q7RC6qIw.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;The initial state of the ministry’s website&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Navigation Header&lt;/li&gt;
+  &lt;li&gt;News Reel&lt;/li&gt;
+  &lt;li&gt;Closable Slider&lt;/li&gt;
+  &lt;li&gt;Slider/Carousel&lt;/li&gt;
+  &lt;li&gt;Internal Shortcuts&lt;/li&gt;
+  &lt;li&gt;Article (News, Press Release, Announcement, dll)&lt;/li&gt;
+  &lt;li&gt;Live Twitter Feed&lt;/li&gt;
+  &lt;li&gt;The Minister’s Profile&lt;/li&gt;
+  &lt;li&gt;External Shortcuts&lt;/li&gt;
+  &lt;li&gt;Navigation Footer&lt;/li&gt;
+  &lt;li&gt;Footer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The ministry also gave us a set of rules about the content of the website that
+we must account for&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*mSoD1cx_jCyV-7JnI12u-Q.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;The information that must be included&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;From here, we made assumptions on the &lt;strong&gt;business needs&lt;/strong&gt; of Kominfo&lt;/p&gt;
+
+&lt;h4 id=&quot;web-analytics&quot;&gt;Web Analytics&lt;/h4&gt;
+
+&lt;p&gt;After discovering the needs of the business, we then look for the user’s needs
+by examining reports from the web analytics. 38,20% of traffics come from Google
+and other search engines, making them the main source of traffic to the
+ministry’s website.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*mWwK_2Tss4lIobYRBEbdfw.png&quot; /&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;keyword-research&quot;&gt;Keyword Research&lt;/h4&gt;
+
+&lt;p&gt;With search engines being the website’s main traffic source we conduct a keyword
+research to discover the purpose of users visiting the website.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*oGIK5Mx8p5p8wjYfVmwLuA.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;Based on our findings, we then made assumptions on the user’s needs&lt;/p&gt;
+
+&lt;h4 id=&quot;user-research&quot;&gt;User Research&lt;/h4&gt;
+
+&lt;p&gt;To make some user personas, we also looked at the web analytic reports.
+Specifically, the audience interest and the audience demographic&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*sUnC6qHrsZC2qZgbTkpaBw.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*0VqLhMBb1RdXrA4lSoEXtg.png&quot; /&gt;
+&lt;/div&gt;
+&lt;h4 id=&quot;tree-testing&quot;&gt;Tree Testing&lt;/h4&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*qKCSwtKWdkJ1mhBWWW-wrQ.png&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;To test our assumptions that the initial navigation bar is confusing to users,
+we conducted a &lt;a href=&quot;https://www.optimalworkshop.com/treejack&quot;&gt;tree testing&lt;/a&gt; to 7
+respondents.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;From this test, we discovered that 43% of the had to redirect themself to choose
+the right answer. This confirms our assumption that the navigation bar need
+reorganization.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*prc6N6TfPMg0iF4591cgnw.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Results from our tree testing&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;step-2-design&quot;&gt;Step 2: Design&lt;/h3&gt;
+
+&lt;h4 id=&quot;information-design&quot;&gt;Information Design&lt;/h4&gt;
+
+&lt;p&gt;We start by designing the information architecture of the navigation bar.
+Following the UX design process, we conducted a &lt;a href=&quot;https://www.optimalworkshop.com/optimalsort&quot;&gt;card sorting
+test&lt;/a&gt; to determine the best way to
+organize the links.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*wLFvIomGyFJIM2-JNYAbIg.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*jrzR1YlIxaG9yjNWj9kzfg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Card Sorting&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The test‘s output is a Dendrogram that we use to determine the grouping of links
+in the navigation bar.&lt;/p&gt;
+
+&lt;p&gt;To meet both the business and user needs we decided to use 3 big groups and
+making them mega menus.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*M1UiFiAjAifORC_F8LEv6A.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Information architecture for the navigation bar&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We also designed the information architecture for the home page based on the
+business needs and the user needs.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*vT9jy-o9GsENEZaQ3nnmYg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Information architecture for the home page&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;interaction-design&quot;&gt;Interaction Design&lt;/h4&gt;
+
+&lt;p&gt;We sketched our layout ideas for the mega menus and the home page.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*kBscQPomflJGWoVhaRfsLw.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*RRdbbYrXdLpI4dgEa1Xu0w.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*Y1l2De_75ok0u2c79Lg1-w.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*OlhjEpMvX5a7eirCX4YgyQ.jpeg&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Sketching rancangan mega menu&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;From the information architecture that we made, we designed 2 variations of the
+home page. The designs differs in the placement of the ministry’s profile, which
+is part of the business needs. Both of the designs were tested with A/B Testing
+to 35 respondents. We ended up choosing the second (right) design with 54,3%
+votes.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*04Q1ZFw7JMkF-Groivtb1Q.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*jjGVnhw56Jnq0foNF7pgCQ.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;2 home page design for A/B Testing&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;konsiderasi-usability-dari-carousel&quot;&gt;Konsiderasi Usability dari Carousel&lt;/h4&gt;
+
+&lt;p&gt;After considering the &lt;a href=&quot;http://shouldiuseacarousel.com/&quot;&gt;usability problems&lt;/a&gt; that
+may arise from a carousel, we decided not to use it. Instead we considered some
+alternatives patterns such as overflow, single, equal grid and masonry grid. We
+ended up choosing the masonry grid pattern to replace the main carousel in our
+previous design.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*VPFxIw8ZSbv2lkfzuwvGpA.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*swwzGMgF3KkN_5l61wY6cA.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Overflow &amp;amp; Single Pattern&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*b1xvtq7Wq_vFaEBa1TEH8Q.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*trC76W2O5Ju2U_kOcx3B8w.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Equal &amp;amp; Masonry Grid Pattern&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;step-3-visual-design&quot;&gt;Step 3: Visual Design&lt;/h3&gt;
+
+&lt;p&gt;We start by choosing fonts, colors and shapes for the elements in the website.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*nYKULkLOdwF-NAwJOLp5tg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Style Guide&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We also design the logos for the shortcuts.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*ubzBxp4JCReLpBVTTXjO-A.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Shortcut Logos&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And the navigation menu&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*HygVsMfR9qirjHq5sp9jdQ.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Navigation Menu&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*kBscQPomflJGWoVhaRfsLw.jpeg&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*as8eUq4LMvggf0u5ttoRBg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Mega Menu&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Here you can see the side by side comparison of the wireframe and the visual
+design.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*jjGVnhw56Jnq0foNF7pgCQ.png&quot; /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*fvAI5NQmYp1l1oco4hKqjw.jpeg&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Home Page&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;final-design&quot;&gt;Final Design&lt;/h3&gt;
+&lt;p&gt;You can see the live version of the design &lt;a href=&quot;/FAPOR&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;closing-words&quot;&gt;Closing Words…&lt;/h3&gt;
+
+&lt;p&gt;Due to time constraint and our inexperience at the time, we ended up not making
+user personas. We also didn’t win the contest. I personally suspect the reason
+is because we violated the rule by using a masonry grid instead of a carousel,
+but we’re not really sure.&lt;/p&gt;
+
+&lt;p&gt;But in the end, this was a great experience for us. This is my first hands-on
+experience doing UX design process and it opened my eyes to the wonders of UX
+design. Doing the research was eye opening and it made so much sense to me.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Nov 2015 00:00:00 +0700</pubDate>
+        <link>http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/</link>
+        <guid isPermaLink="true">http://pramaaditya.com/2015/11/22/menkominfo-ux-redesign/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Usability Test on Veritrans’ VT-LINK</title>
+        <description>&lt;p&gt;This is an english translation of the same article I wrote in Indonesia
+&lt;a href=&quot;https://medium.com/@vranbor/usability-testing-pada-layanan-vt-link-milik-veritrans-6a547e793dc5&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Veritrans burst the scene in Indonesia with the vision to be the pioneer of UX
+Payment in Indonesia. But a quick usability test shows that people run into some
+critical issues with Veritrans VT-Link feature.&lt;/p&gt;
+
+&lt;h3 id=&quot;objective&quot;&gt;Objective&lt;/h3&gt;
+
+&lt;p&gt;Identify the pain points that users encounter in making a VT-Link.&lt;/p&gt;
+
+&lt;h3 id=&quot;test-parameters&quot;&gt;Test Parameters&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;What:&lt;/strong&gt; Veritrans’ Website and Merchant Administration Portal (MAP)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Who:&lt;/strong&gt; 4 Social media (Facebook, Instagram and LINE) merchants aged 22–50&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tasks&quot;&gt;Tasks&lt;/h3&gt;
+
+&lt;p&gt;Users were asked to the these tasks that’s been made into scenarios:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Find the name and information of VT-Link service (the name won’t be mentioned
+beforehand)&lt;/li&gt;
+  &lt;li&gt;Fill the required information to start using VT-Link for real&lt;/li&gt;
+  &lt;li&gt;Make 1 VT-Link for an item and another VT-Link for a bundle (multiple items)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Example of the scenario:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A new supply of Ghosty Comic Vol. 1 just arrived, and you just saw a link for an
+online payment, powered by Veritrans.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*In0Xm95iA_WXzHjVmL_JVQ.jpeg&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*CyoL0tu1rIK1hVIIZb_aig.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Example of a VT-Link in an Instagram post&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You want to use the same service to sell the new batch of comic in your Facebook
+Page. Find the name and information about that service in Veritrans’ website.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;processing&quot;&gt;Processing&lt;/h3&gt;
+
+&lt;p&gt;I documented every complain and feedback in Trello, I also marked complains and
+feedback that came from multiple users.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*RbJaxZp2HgayA5lxqb-R0g.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Issues are categorised by similarities. In each category, the issues are sorted
+by frequency. Categories are also sorted by frequency&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;issues-found&quot;&gt;Issues Found&lt;/h3&gt;
+
+&lt;h4 id=&quot;website&quot;&gt;Website&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Users don’t know the requirement to start using VT-Link for receiving
+payment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;After browsing the website for several minutes to gain informations, users
+assumed they only need their ID Card to start receiving payment via Veritrans.
+Only a couple users felt that they need NPWP (Tax) and SIUP. This happens
+because users can’t find the information about it while browsing the website.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The requirement should be put up front, when I was signing up.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No user read the “how to integrate with Veritrans” section in Products and
+Pricing page&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*xHD5MxGd-EprXWgQLiM-nw.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;No user read this part in detail&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Veritrans actually specify the said requirements in their support page. But
+unfortunately there’s no obvious link for user to get to that page. The only
+link I found is the FAQ link in the footer.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*VPez4Nea7S9cMjAf9ju6Eg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;The FAQ/Support page that contain crucial informations can only be accessed
+in the footer (Help section)&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I assume Veritrans is reluctant to put the requirements in the home page in fear
+it would discourage new user to try using Veritrans. But making users navigate
+their way to these requirements in MAP only makes them frustrated and some even
+felt cheated, because of the promise of ease of use.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RECOMMENDATION:&lt;/strong&gt; Add a link to the support page in the Navigation Bar and
+somewhere in the homepage. A page as important as that should be easily accessed
+by users&lt;/p&gt;
+
+&lt;h4 id=&quot;sandbox&quot;&gt;Sandbox&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Users were confused by the presence of sample data in MAP, users also had a
+hard time to change the environment to Production&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I’m confused. What’s the different between Sandbox and Production?” said a user
+even after he successfully change environment back and forth&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After users signed up and opened the MAP, users were put in the Sandbox
+environment. With Sandbox, users are expected to try features that’s made
+available by Veritrans.&lt;/p&gt;
+
+&lt;p&gt;But the sample data didn’t immediately show up. Only after users open other
+pages, the data suddenly appears. It seems that there’re some sort of delay.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*y8EVB16s83fHUoFavrTd2A.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;When new users first logged in to MAP, there was no sample data&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*tg-KbVe85RPvLZjXlgX2YA.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*Fl_NONKtL9vBZccnaReH5Q.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;But after opening another page, the sample data appeared out of nowhere. This
+made the users confused&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Even until the end of test, users were still unsure what do Sandbox and
+Production mean. Some suggested to change the names.&lt;/p&gt;
+
+&lt;p&gt;The lack of onboarding tutorial and more importantly a delay in sample data
+emergence make the users confused. Users failed to make a connection between
+Sandbox = Testing because of the delay in sample data. This may also contributed
+to why users were unsure what’s the meaning of Sandbox and Production, even
+after they successfully changed environment.&lt;/p&gt;
+
+&lt;p&gt;Some users were aware of the colour scheme change when they switch environments
+(Sandbox = light blue, Production = dark blue). But some users thought the
+colour change was due to somethings else.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*ppmITjzf2XN4BX3_aTgK4w.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;This dropdown to switch environment isn’t visible enough for the users&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;After I told the users that Sandbox means they were in testing mode, users were
+asked to change the environment to Production. Some users looked in Settings
+menu. Only one user intuitively choose the dropdown next to the merchant’s name.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*ByPx_L9xTqys8dg1OyPJYQ.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;No users switched environment this way&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;No users switched environment via the dropdown menu in the upper right hand side
+(User logo).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RECOMMENDATION:&lt;/strong&gt; Users need to know that they’re currently in sandbox
+environment that is intended to be tinkered with. Make a more aggressive
+signifier. Try to change the name of the environments to something that’d be
+more intuitive for the user. The sample data must also appears instantaneously,
+with no delay.&lt;/p&gt;
+
+&lt;h4 id=&quot;vt-link&quot;&gt;VT-Link&lt;/h4&gt;
+
+&lt;p&gt;Most users didn’t encounter any problem while making VT-Links. But when they
+open the URL they just made, users were confused what page were they seeing.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*PCMCSMwSjhD--G-9CQ_LLA.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Most users were confused by this page functionality&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;They didn’t realize that the page they opened was a payment page, they also
+didn’t realize that payment methods were missing.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*bHPTx1vqHQ-DC59h2pPZjg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Users didn’t realize the absence of payment methods in the VT-Link they made.&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Users felt the need of an indicator that states the function of the page, and an
+indicator about the absence of payment methods.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RECOMMENDATION:&lt;/strong&gt; Users need to know that the URL they just opened is a
+live/active payment page, users must also know that there’s no payment method
+available yet, and why.&lt;/p&gt;
+
+&lt;h4 id=&quot;complete-merchant-registration&quot;&gt;Complete Merchant Registration&lt;/h4&gt;
+
+&lt;p&gt;Even After knowing there was no available payment methods yet, user had no idea
+why. Only after I told them it was because their data was incomplete they start
+looking where they can fill it.&lt;/p&gt;
+
+&lt;p&gt;Every user went and looked in the Settings sub-menus. Only after several minutes
+of searching that they clicked on the notification button in the upper left
+corner.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*UkPxUQLEqjdyg0HLRJRXUQ.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Users didn’t realise the notification “Please complete your registration here”
+was clickable&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Although user saw the notification that their registration is not complete, no
+user immediately clicked on the text. Only after they hovered their cursor on
+the text that they realized it was clickable. There’s no signifier that the
+notification can be clicked.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*hm5dSFMrZ2X3S6nU1wQcCg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Default notification in the Sandbox environment&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Some users said that they don’t bother to open the notification (in Production
+environment) because there was also a (different) notification in the Sandbox.
+They thought it was just the same notification so they don’t try to open it.&lt;/p&gt;
+
+&lt;p&gt;After clicking the notification, a pop up title “Complete Merchant Registration
+appeared.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*nRhZVjBQ-z-5f7ETdBNuNQ.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Complete Merchant Registration pop up&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;There’s 3 sections that users said they can’t find anywhere else. Those were
+Corporate Information, Business Detail and IT Information.&lt;/p&gt;
+
+&lt;p&gt;After filling every information, users were shown the list of documents that’s
+needed to be sent (by email) to Veritrans for them to start selling:&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*UFdpxaOjCrMElzuIr8QHPA.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;List of the required documents, shown after users filled their informations in
+the pop up&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Every user assumed that every single one of the document have to be sent for
+them to start using Veritrans. Therefore every user felt the requirements was
+too demanding for them.&lt;/p&gt;
+
+&lt;p&gt;One user felt irritated that they only know these requirements after they went
+to so much trouble to navigate the MAP, he felt that those requirements should
+be told to him much earlier in the process, as early as he was signing up.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;RECOMMENDATION:&lt;/strong&gt; No user intuitively open the notification in the top-right
+corner to complete their registration, most users try to look in the Settings
+sub-menus. Hence make the Corporate Information, Business Detail and IT
+Information form available in the Settings sub menus. It’d even better to group
+all of the form together in Settings. Also, separate the required documents for
+individuals and corporate, don’t join them together, so individuals don’t feel
+discouraged by the requirements.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-suggestion&quot;&gt;Design Suggestion&lt;/h3&gt;
+
+&lt;p&gt;Because many users were confused with the term environment and Sandbox, I
+propose to change their name to &lt;strong&gt;Testing Mode&lt;/strong&gt; (and &lt;strong&gt;Production Mode&lt;/strong&gt;). I’d
+refrain from also changing the Production name, so the current users don’t get
+confused by the names.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*Wj3bm9RS51uOJ-6vI89r-g.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I’d also propose a change from dropdown to toggle buttons. This has 2 effects.
+First, it let current users notice that Sandbox have been changed to Testing.
+Second, it let new users see the available modes right away.&lt;/p&gt;
+
+&lt;p&gt;There’s also a warning bar that acts as a signifier that the user is currently
+navigating in Testing mode. This warning bar will keep appearing as long as the
+user is in the Testing mode.&lt;/p&gt;
+
+&lt;p&gt;There were no signifier that the notification can be clicked in the sidebar,
+hence some visual hierarchy and borders can be used to signify that it’s
+clickable&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*DNUPWPschhJoHJutC2jeAQ.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;make-boundaries&quot;&gt;Make Boundaries&lt;/h4&gt;
+
+&lt;p&gt;Sandbox is a step to a right direction for Veritrans, it enables users to tinker
+with MAP while making sure no real data is being used. But MAP doesn’t have any
+anti-affordance to prevent user from using the Production environment without
+first completing their registration. Without this boundary it was possible for
+user making a VT-Link with no payment methods.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*PCMCSMwSjhD--G-9CQ_LLA.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Anti affordance is used to prevent user making a blank VT-Link/VT-Web like this&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This boundary should also be made to prevent users feeling overwhelmed when they
+first used MAP. With user restricted to Testing Mode, they can explore the
+features freely without accidentally switching to Production.&lt;/p&gt;
+
+&lt;p&gt;I propose a modal informing the user that they’ve switched to Production Mode
+and to proceed they must complete their registration. In the modal there’s 2
+buttons, the first button leads to the Complete Merchant Registration page while
+the other buttons will switch the environment back to Testing mode. The latter
+button is useful if the user switched to Production accidentally.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*4oduJ-fA4ckSLcnKTwrsTQ.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Modal as both an anti-affordance and signifier when user try using the
+Production Mode&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This modal functions as an anti-affordance that prevent the user from using
+Production Mode while their information aren’t complete and as a signifier that
+their information aren’t complete.&lt;/p&gt;
+
+&lt;p&gt;This modal can’t be closed and will always appear as long as their registration
+and required documents aren’t completed. Only after Veritrans received the
+required documents and activated their account, can the user start using
+Production Mode.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*NFCZuIgQn22fI2bjpcYr8Q.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;User will receive notification when their account is activated, enabling them to
+use Production Mode&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;vt-link--vt-web&quot;&gt;VT-Link / VT-Web&lt;/h4&gt;
+
+&lt;p&gt;Lastly, I’d also suggest adding some more clarity in the VT-Link (and/or VT-Web)
+page by adding a “Payment Details” title and and indicator about the lack of
+payment method activated by the merchant&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*UchCfTAy-5TIBv-O9e-g0w.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Title and indicator to clarify the function of the page&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;closing-notes&quot;&gt;Closing Notes&lt;/h3&gt;
+
+&lt;p&gt;Veritrans has a vision to be the number 1 UX payment company in Indonesia. By
+implementing my suggestions hopefully the user experience, especially the
+merchants can be enhanced furthermore.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;*I don’t work for or am affiliated with Veritrans. I’a a UX Designer trying to
+learn my trades. Veritrans is a company I wish to grow even more so online
+payment in Indonesia could be made much easier ☺&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Nov 2015 00:00:00 +0700</pubDate>
+        <link>http://pramaaditya.com/2015/11/07/veritrans-usability-testing/</link>
+        <guid isPermaLink="true">http://pramaaditya.com/2015/11/07/veritrans-usability-testing/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Ngerokok = Cinta Buta</title>

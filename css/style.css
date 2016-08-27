@@ -1,7 +1,16 @@
 #myModal .modal-body{
     text-align: center;
 }
+.navbar{
+    padding-top: 10px;
+}
 
+.figcaption_hack{
+    color: #aeaeae;
+    margin-top: 0.2em;
+    margin-bottom: 0;
+    text-align: center;
+}
 .col-centered{
     float: none;
     margin: auto auto;
