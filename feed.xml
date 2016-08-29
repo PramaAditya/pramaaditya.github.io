@@ -5,8 +5,8 @@
     <description>I solve business problems by designing great User Experience</description>
     <link>http://pramaaditya.com/</link>
     <atom:link href="http://pramaaditya.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 29 Aug 2016 20:38:54 +0700</pubDate>
-    <lastBuildDate>Mon, 29 Aug 2016 20:38:54 +0700</lastBuildDate>
+    <pubDate>Mon, 29 Aug 2016 21:51:50 +0700</pubDate>
+    <lastBuildDate>Mon, 29 Aug 2016 21:51:50 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -163,7 +163,7 @@ email and phone number)&lt;/p&gt;
 &lt;/div&gt;
 
 &lt;p&gt;The customer have already put enough faith on SaleStock to buy something. Any
-error after their payment is** the responsibility of SaleStock**. The worst
+error after their payment is &lt;strong&gt;the responsibility of SaleStock&lt;/strong&gt;. The worst
 SaleStock can do is to ask her to remember (or copy-paste) their Order ID and
 put it in Facebook Messenger chat. That’s just rubbing salt on their wound.&lt;/p&gt;
 
