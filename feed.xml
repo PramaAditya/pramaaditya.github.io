@@ -5,9 +5,302 @@
     <description>I solve business problems by designing great User Experience</description>
     <link>http://pramaaditya.com/</link>
     <atom:link href="http://pramaaditya.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 Aug 2016 00:12:02 +0700</pubDate>
-    <lastBuildDate>Sun, 28 Aug 2016 00:12:02 +0700</lastBuildDate>
+    <pubDate>Mon, 29 Aug 2016 20:38:54 +0700</pubDate>
+    <lastBuildDate>Mon, 29 Aug 2016 20:38:54 +0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Salestock UX Recommendation</title>
+        <description>&lt;p&gt;Shopping app SaleStock by Soraya is making its mark. It’s currently ranked
+number 10 shopping app in Indonesia’s Play Store — nose-to-nose with ecommerce
+incumbents like OLX, Lazada, Tokopedia, and Bukalapak. And I had the privilege
+to do a UX exercise of their app a few months ago.&lt;/p&gt;
+
+&lt;p&gt;The Business Objective of this UX exercise is to improve Customer Lifetime Value
+(CLV). CLV can be calculated as:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CLV&lt;/strong&gt; = (&lt;strong&gt;annual profit from the customer&lt;/strong&gt; x &lt;strong&gt;customer lifetime period&lt;/strong&gt;) \
+&lt;strong&gt;acquisition cost per customer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;So this is what we need to do:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Increase Profit&lt;/li&gt;
+  &lt;li&gt;Increase Customer Lifetime Period&lt;/li&gt;
+  &lt;li&gt;Decrease Acquisition Cost&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;increasing-profit&quot;&gt;1. Increasing Profit&lt;/h1&gt;
+
+&lt;p&gt;Increasing profit means increasing the conversion rate. One way to do this is to
+make sure there are as little friction as possible during the &lt;strong&gt;browsing&lt;/strong&gt;
+process.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*OhzWT93m0BXwlSYMiTHKgQ.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;As mentioned by Asha, with thousand of clothes offered by Sale Stock, it is hard
+to find clothes that she actually want to buy. Granted, users can actually
+filter sizes using the search bar, as mentioned by the costumer rep. that
+answered Asha’s complaint&lt;/p&gt;
+
+&lt;p&gt;But this method is clearly not obvious enough for Asha and not for me either. If
+someone like me who’s been scrutinizing the app for one whole day can’t find it
+by myself, how can we expect first time user to be able to filter sizes using
+the search bar?&lt;/p&gt;
+
+&lt;p&gt;It’s the same case with color. Users can only filter color using search bar.
+Oddly this isn’t mentioned by the customer rep to Asha. Color is one of the main
+consideration for women to buy clothes. There can even be occasions where women
+want to buy clothes because they have nothing in red.&lt;/p&gt;
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/3y-_B3o2jYI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;span class=&quot;image-caption&quot;&gt;User Experience of using the search bar&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So the design decision to remove the color and size filter and instead use the
+search bar instead is hurting the customer.&lt;/p&gt;
+
+&lt;p&gt;Besides, the search itself lack one crucial functionality: &lt;strong&gt;Search Refinement&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Say if Asha wants to buy a blue skirt, she can’t search for “biru” then refine
+the search result to include only “Bawahan” in the result . Nor can Asha go to
+the “Bawahan” category page and search “biru” in that page. The search result
+still shows other categories . Even if she search for “Rok Biru”, the result
+still includes dresses instead of skirts only&lt;/p&gt;
+
+&lt;h2 id=&quot;recommendation-better-browsing--searching-experience&quot;&gt;Recommendation: Better Browsing &amp;amp; Searching Experience&lt;/h2&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*C4rYGof4ApHNEDX7ekzodA.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Filter Bar Recommendation&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Fit and Color are important considerations to costumers, and they need to be
+able to find what clothes that they want to buy in Sale Stock app.&lt;/p&gt;
+
+&lt;p&gt;My recommendation is to add Size, Color and Material filter for these
+categories: (Why add Material too? I’ll explain in the later section):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Baju Muslim&lt;/li&gt;
+  &lt;li&gt;Dress&lt;/li&gt;
+  &lt;li&gt;Bawahan&lt;/li&gt;
+  &lt;li&gt;Atasan&lt;/li&gt;
+  &lt;li&gt;Jumpsuit&lt;/li&gt;
+  &lt;li&gt;Couple .&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also add category-specific filters for these categories:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tas&lt;/li&gt;
+  &lt;li&gt;Jam Tangan&lt;/li&gt;
+  &lt;li&gt;Aksesoris&lt;/li&gt;
+  &lt;li&gt;Sepatu&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*QHLWG7SQIIxhMDcRlUJ40g.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Filter bar also functions as search refinement&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The filter should also work for refining search results&lt;/p&gt;
+
+&lt;h2 id=&quot;metric-of-success-better-browsing--searching-experience&quot;&gt;Metric of Success: Better Browsing &amp;amp; Searching Experience&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;The Business Objective&lt;/strong&gt; of this recommendation is to increase profit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Goal&lt;/strong&gt; is to help the user find what they want to buy.&lt;/p&gt;
+
+&lt;p&gt;So, the Metric to measure this recommendation would be:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How many items from filter result added to cart&lt;/li&gt;
+  &lt;li&gt;How many items from search result added to cart&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;increasing-customer-retention--decrease-customer-acquisition-cost&quot;&gt;2. Increasing Customer Retention &amp;amp; Decrease Customer Acquisition Cost&lt;/h1&gt;
+
+&lt;p&gt;Both of these business objective are the side of the same coins. . Increasing
+Customer Retention rate means making sure existing customers don’t leave . And
+one way to decrease the cost of customer acquisition, is to make sure the
+customers acquired don’t leave . In short: &lt;strong&gt;how can we make customers not
+leave?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;recommendation-1-advanced-costumer-service-in-app-chat&quot;&gt;Recommendation 1: Advanced Costumer Service In-App Chat&lt;/h2&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*2IIkkv4dNxdi_1icAz8Ysg.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*Q-Wd-OX7cV5Diz-IoRggeg.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;SaleStock costumer reps. recommending customers to use Facebook Massage to
+contact them with her Order ID&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In the Google Play feedback section I noticed that the costumer reps would
+recommend users to report order-related complaints via Facebook Massage and ask
+her to remember her Order ID. Why didn’t the customer reps recommend using the
+in-app chat?&lt;/p&gt;
+
+&lt;p&gt;The Chat that SaleStock uses is Zipom, and in Zipom there’s an API to get the
+email and phone number of the user currently chatting.&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*O6TyiSiRexRqNc1-2qZFkw.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Zipom’s API&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;SaleStock should be able to develop a tool for Customer Service that can fetch
+all or latest orders from the customer chatting (from the database using their
+email and phone number)&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*QwyqTlpdYzww3w7znYYeZA.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The customer have already put enough faith on SaleStock to buy something. Any
+error after their payment is** the responsibility of SaleStock**. The worst
+SaleStock can do is to ask her to remember (or copy-paste) their Order ID and
+put it in Facebook Messenger chat. That’s just rubbing salt on their wound.&lt;/p&gt;
+
+&lt;p&gt;Instead SaleStock can make a more delightful chat experience, where the CS can
+predict which order the customer is referring to. Like magic&lt;/p&gt;
+
+&lt;h2 id=&quot;metric-of-success-1-advanced-costumer-service-in-app-chat&quot;&gt;Metric of Success 1: Advanced Costumer Service In-App Chat&lt;/h2&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*qyLTC_uQC3_vJ_Ze2wXssQ.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;The Business Objective&lt;/strong&gt; of this recommendation is to Retain Customer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Goal&lt;/strong&gt; is to make the user feel errors and complaints are easy and fast to
+resolve.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Goal&lt;/strong&gt; is to make the user feel that Soraya cares about them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Goal&lt;/strong&gt; is to make the user feel that Soraya is honest.&lt;/p&gt;
+
+&lt;p&gt;So, &lt;strong&gt;the Metric&lt;/strong&gt; would be results from survey at the end of chat and overall
+Net Promoter Score survey&lt;/p&gt;
+
+&lt;h2 id=&quot;recommendation-2-fitting-tools--personalisation&quot;&gt;Recommendation 2: Fitting Tools &amp;amp; Personalisation&lt;/h2&gt;
+
+&lt;p&gt;As mentioned before, fit/size is very important when buying clothing&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*x_9swZZ7i_5W9F1vJiDKWQ.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1600/1*ZV80ANxL6J6xJpJSpHKifQ.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;A proper fit make big difference&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To make sure customer have the greatest satisfaction and does not leave after
+their first purchase (and come back again), SaleStock should &lt;strong&gt;make it easy for
+customer to find the clothes that fits.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/1200/1*nvifmCNJhAx5WddK3zxp-Q.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;The current “Cek Ukuran Baju Yuk Sis!” section&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The current “Cek Ukuran Baju Yuk Sis!” section can help the customer to get
+their measurement. But the customer still needs to write down their measurement
+in a piece of paper, then cross reference their measurement with SaleStock’s
+measurement table. Not to mention, they have to remember their size. So, I
+recommend SaleStock to have a fitting tool that not only help customer to
+measure their body, &lt;strong&gt;but also save them.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*83DOh_HGbE9s96BDhk4syw.png&quot; /&gt;
+&lt;span class=&quot;image-caption&quot;&gt;Fitting tools &amp;amp; personalisation recommendation wireframe&lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;By saving the customer’s measurement, SaleStock can personalised the homepage to
+only show the customer’s measurement as default. For repeat customers, this will
+streamline their buying experience and erase any doubt that the item they added
+to cart will fit their measurement&lt;/p&gt;
+
+&lt;h2 id=&quot;metric-2-fitting-tools--personalisation&quot;&gt;Metric 2: Fitting Tools &amp;amp; Personalisation&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;The Business Objective&lt;/strong&gt; of this recommendation is to retain customer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Goal&lt;/strong&gt; is to make it easy for customer to find the clothes that fits.&lt;/p&gt;
+
+&lt;p&gt;So, &lt;strong&gt;the Metric&lt;/strong&gt; would be the number of fit-related returns for users that has
+saved their measurement in the app.&lt;/p&gt;
+
+&lt;h1 id=&quot;ux-beyond-the-app&quot;&gt;UX Beyond the App&lt;/h1&gt;
+
+&lt;p&gt;Aside from designing a better User Experience (UX) inside the SaleStock app and
+website, SaleStock can also design a better experience outside the app and
+website by making returns painless&lt;/p&gt;
+
+&lt;h2 id=&quot;case-study-amazon&quot;&gt;Case Study: Amazon&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you have ever had to return a product you have purchased online you know it
+is not always easy. You have to print a return label, go to the post office and
+wait days for the funds to appear in your account. On top of which there is
+always the nagging concern that they won’t refund your money.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In contrast I recently had a different experience returning a purchase. On
+letting the company know I wanted to return an item they told me** the money
+would be immediately returned to my account.** No waiting for them to receive
+the return and check it over.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Next they asked me when I would like the package collected. I didn’t have to
+pack it, label it or even take it to the post office. Somebody turned up at my
+door with a box ready to go. I dropped the item in the box and he took it away.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;— Paul Boag&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;other-concerns&quot;&gt;Other Concerns&lt;/h1&gt;
+
+&lt;p&gt;That concludes my UX recommendations for SaleStock. But there’s something that’s
+been making customers leave, and no amount of UX design work will help them
+stay. It’s the quality of the items:&lt;/p&gt;
+
+&lt;div class=&quot;image-wrapper&quot;&gt;
+&lt;img class=&quot;img-responsive&quot; src=&quot;https://cdn-images-1.medium.com/max/2000/1*6qQe0XoIOoxESEtK6P9Auw.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Actually, there’s one way UX design can help, remember the material filter
+earlier on?. Fortunately in the case of Merry, her fans recommend her to try
+buying other items that’s made of Crepe, Twistcone and Chosibo.&lt;/p&gt;
+
+&lt;p&gt;A disappointed customer giving SaleStock a second chance is quite rare, so Merry
+must be treated with &lt;strong&gt;absolute&lt;/strong&gt; care. But with the current app, Merry can’t
+filter the items for Crepe/Twistcone/Chosibo only. Sure, she can use the search
+bar (with it’s shortcomings), but is it the right way to treat someone that’s
+giving a second chance? &lt;strong&gt;of course not&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s why I recommend to add a material filter earlier&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;I don’t work for or am affiliated with SaleStock. I’a a UX Designer trying to
+learn my trades☺&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 29 Aug 2016 00:00:00 +0700</pubDate>
+        <link>http://pramaaditya.com/2016/08/29/salestock-ux-recommendation/</link>
+        <guid isPermaLink="true">http://pramaaditya.com/2016/08/29/salestock-ux-recommendation/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Usability Test on Veritrans’ VT-LINK</title>
