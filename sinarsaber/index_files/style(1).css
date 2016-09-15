@@ -1,0 +1,170 @@
+/*
+Theme Name: Sinar Saber
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+.saber-box>.vc_column-inner>.wpb_wrapper {
+	border-top: solid #8c171f 3px;
+	
+}
+
+.saber-in-action .video-button-wrapper{
+	position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+}
+
+.saber-box .box-title{
+	padding-top: 10px;
+    font-size: 39px;
+    padding-bottom: 11px;
+    margin-bottom: 0;
+}
+
+.saber-box.saber-custom .box-title{
+	padding-left: 19px;
+    color: white;
+}
+
+
+.saber-custom .fpd-mainbar{
+	background: black!important;
+}
+
+.saber-custom .wpb_wrapper{
+	background: #8c171f!important;
+
+}
+
+.saber-custom .fpd-product-designer-wrapper{
+	border-top: white solid 1px;
+	border-bottom: white solid 1px;
+}
+
+.saber-box .woocommerce-Price-currencySymbol:before{
+	content: "+ "
+}
+
+.saber-box .single_add_to_cart_button{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.woocommerce-message{
+        margin-top: 16px;
+    border-radius: 39px;
+}
+
+.woocommerce-message.success-color{
+        background: green;
+    color: whitesmoke;
+}
+
+.single_add_to_cart_button{
+	background-color: darkcyan!important;
+}
+
+.shop-container .woocommerce-breadcrumb{
+	margin-top: 30px!important;
+    margin-left: 15px!important;
+
+}
+.saber-box .product-addon .form-row label{
+	font-size:13px!important;
+	margin-bottom: 0!important;
+}
+
+.saber-buy{
+    background: white;
+}
+
+.saber-title h1{
+	margin-bottom: 15px!important;
+    font-size: 60px!important;
+
+}
+.saber-title .is-divider.small{
+	display: none!important;
+}
+.saber-box .product-addon-totals .amount{
+	font-size:20px!important;
+}
+
+.quantity:before{
+	content: "Jumlah";
+    display: inline-block;
+    padding-top: 3px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.saber-box .product-addon .form-row{
+	margin-bottom: 0!important;
+}
+
+.harga-label{
+	margin-bottom: 0px;
+}
+.harga{
+	font-size: 30px;
+}
+.harga .price{
+	margin-bottom: 20px;
+}
+.grid-depan{
+	margin-bottom: -60px!important;
+}
+.builder-header{
+
+    text-align: center;
+    background: black;
+    z-index: 100;
+    color: white;
+    top: 12px;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    left: 19px;
+
+}
+h1.builder-header{
+	    font-size: -webkit-xxx-large;
+
+}
+
+.urjed{
+	cursor: pointer!important;
+    text-align: center!important;
+    margin-top: -20px;
+
+}
+#section_1712128409{
+	margin-bottom: 0px!important;
+}
+.urjed p{
+	margin:0;
+}
+
+
+.urjed-logo{
+	content: "";
+	background: url(/wp-content/uploads/2016/09/urjed-logo-white.png);
+	background-size: cover;
+    width: 85px;
+    height: 100px;
+    display: inline-block;
+}
+@media only screen and (max-width: 48em) {
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+
+}
