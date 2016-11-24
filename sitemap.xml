@@ -3,6 +3,21 @@
   
     
     <url>
+      <loc>http://pramaaditya.com/2016/11/13/traveloka/</loc>
+      
+        <lastmod>2016-11-13T00:00:00+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://pramaaditya.com/2016/08/29/salestock-ux-recommendation/</loc>
       
         <lastmod>2016-08-29T00:00:00+07:00</lastmod>
@@ -156,7 +171,7 @@
     <url>
       <loc>http://pramaaditya.com/feed.xml</loc>
       
-        <lastmod>2016-09-16T08:43:03+07:00</lastmod>
+        <lastmod>2016-11-24T22:07:26+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -171,7 +186,7 @@
     <url>
       <loc>http://pramaaditya.com/</loc>
       
-        <lastmod>2016-09-16T08:43:03+07:00</lastmod>
+        <lastmod>2016-11-24T22:07:26+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -186,7 +201,7 @@
     <url>
       <loc>http://pramaaditya.com/signup/</loc>
       
-        <lastmod>2016-09-16T08:43:03+07:00</lastmod>
+        <lastmod>2016-11-24T22:07:26+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -203,7 +218,22 @@
     <url>
       <loc>http://pramaaditya.com/thankyou/</loc>
       
-        <lastmod>2016-09-16T08:43:03+07:00</lastmod>
+        <lastmod>2016-11-24T22:07:26+07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://pramaaditya.com/page2/</loc>
+      
+        <lastmod>2016-11-24T22:07:26+07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
